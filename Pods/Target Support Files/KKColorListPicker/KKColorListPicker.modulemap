@@ -1,0 +1,6 @@
+framework module KKColorListPicker {
+  umbrella header "KKColorListPicker-umbrella.h"
+
+  export *
+  module * { export * }
+}
