@@ -9,7 +9,8 @@
 import UIKit
 import CoreData
 
-class AddNewTaskViewController: UIViewController {
+
+class AddNewTaskViewController: BaseViewController {
     
     //MARK: - Variables
     lazy var dataSource: AddNewTastTableViewDataSource = {
@@ -27,6 +28,7 @@ class AddNewTaskViewController: UIViewController {
            self.tableView.register(SwitchTableViewCell.self)
            self.tableView.delegate = self
            self.tableView.separatorStyle = .none
+       
         }
     }
     //MARK: - Lifecycle
@@ -43,7 +45,6 @@ class AddNewTaskViewController: UIViewController {
             UserSettings.sharedSettings.currentTask = Task(context: CoreDataFetcher.shared.context)
         }
     }
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -64,6 +65,7 @@ class AddNewTaskViewController: UIViewController {
     //MARK: - Setup
     func setup() {
         navigationController?.delegate = self
+        addTap()
     }
     
     //MARK: - Saving

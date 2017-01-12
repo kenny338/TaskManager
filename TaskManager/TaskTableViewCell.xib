@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -55,6 +55,7 @@
                     <constraint firstItem="WUH-2D-X0Q" firstAttribute="leading" secondItem="Ox6-n8-a4m" secondAttribute="leadingMargin" id="KDP-pJ-CbD"/>
                     <constraint firstItem="gx6-FS-xgf" firstAttribute="top" secondItem="jv4-db-vxS" secondAttribute="bottom" priority="750" constant="12" id="VzB-FO-1fa"/>
                     <constraint firstItem="XB4-LP-Eis" firstAttribute="leading" secondItem="jv4-db-vxS" secondAttribute="trailing" constant="5" id="W8F-kH-uVd"/>
+                    <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="XB4-LP-Eis" secondAttribute="trailing" constant="8" id="cIg-dP-hIL"/>
                     <constraint firstItem="XB4-LP-Eis" firstAttribute="centerY" secondItem="jv4-db-vxS" secondAttribute="centerY" id="tfT-ej-Mlm"/>
                     <constraint firstItem="gx6-FS-xgf" firstAttribute="leading" secondItem="WUH-2D-X0Q" secondAttribute="trailing" constant="5" id="uOT-MC-yAJ"/>
                 </constraints>
