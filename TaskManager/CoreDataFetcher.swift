@@ -25,27 +25,23 @@ class CoreDataFetcher {
 
     }()
     
-    
-  /*  func fetch<T: NSManagedObject>(_ type : T.Type, completionBlock:([T]) -> ()) {
-       let request = T.fetchRequest()
-        do {
-            let fetched = try context.fetch(request)
-            completionBlock(fetched as! [T])
-        }
-        catch {
-           print("Error performing fetch \(error.localizedDescription)")
-        }
-        
-    }
- 
- */
-    
-
     func fetchTasks(sorting: PreferedSorting, completionBlock:([Task]?) -> ()) {
         let request: NSFetchRequest<Task> = Task.fetchRequest()
+        var sortDescriptor = NSSortDescriptor()
+        switch sorting {
+        case .date:
+            sortDescriptor = NSSortDescriptor(key: "date", ascending: true)
+            
+        case .name:
+            sortDescriptor = NSSortDescriptor(key: "name", ascending: true)
+        }
+        request.sortDescriptors = [sortDescriptor]
+        
         do {
             let fetched = try context.fetch(request)
-            completionBlock(fetched)
+            completionBlock(fetched.filter({ (task) -> Bool in
+                return !(task.name?.isEmpty ?? true)
+            }))
         }
         catch {
             print("Error performing fetch \(error.localizedDescription)")
@@ -67,7 +63,7 @@ class CoreDataFetcher {
     
     
     func removeTask(task:Task) {
-        
+        context.delete(task)
     }
     
     func addOrEditCategory(category:Category) {
@@ -93,9 +89,9 @@ class CoreDataFetcher {
         if let plist = Bundle.main.path(forResource: "DefaultCategories", ofType: "plist") {
             if let dict = NSDictionary(contentsOfFile: plist) {
                 for (key, value) in dict {
-                   let category = Category(context: context)
-                    category.name = key as! String
-                    category.hexColor = value as! String
+                    let category = Category(context: context)
+                    category.name = key as? String
+                    category.hexColor = value as? String
                 }
                 save()
             }

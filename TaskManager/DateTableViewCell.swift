@@ -11,4 +11,11 @@ import UIKit
 class DateTableViewCell : UITableViewCell, ReusableView, NibLoadableView {
     @IBOutlet weak var datePicker: UIDatePicker!
     
+    override func awakeFromNib() {
+        datePicker.addTarget(self, action: #selector(DateTableViewCell.dateChanged), for: .valueChanged)
+    }
+    func dateChanged() {
+        UserSettings.sharedSettings.currentTask?.date = datePicker.date as NSDate?
+    }
+    
 }

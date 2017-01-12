@@ -20,11 +20,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TaskManager/CoreDataFetcher.swift"
-            timestampString = "500130258.780562"
+            timestampString = "500768159.482076"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "94"
-            endingLineNumber = "94"
+            startingLineNumber = "106"
+            endingLineNumber = "106"
             landmarkName = "loadDefaultCategories()"
             landmarkType = "7">
          </BreakpointContent>

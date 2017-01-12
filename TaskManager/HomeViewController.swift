@@ -8,9 +8,14 @@
 
 import UIKit
 
-class HomeViewController: UIViewController {
+class HomeViewController: UIViewController, SavingDelegate {
+    
     let headerHeight: CGFloat = 91
     
+    //MARK: - Variables
+    
+    var shouldPerformFetch = true
+    @IBOutlet weak var segmentControl: UISegmentedControl!
     lazy var dataSource: TasksDataSource = {
         return TasksDataSource(tableView: self.tableView)
     }()
@@ -29,6 +34,13 @@ class HomeViewController: UIViewController {
         super.viewDidLoad()
         configure()
     }
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        if shouldPerformFetch {
+            dataSource.fetchData()
+            shouldPerformFetch = false
+        }
+    }
 
     //MARK: - UI
     
@@ -38,16 +50,28 @@ class HomeViewController: UIViewController {
         
         navigationController?.navigationBar.topItem?.title = "tasks".loc().uppercased()
         navigationItem.setRightBarButtonItems([newTask, settings], animated: true)
+        segmentControl.addTarget(self, action: #selector(segmentChanged), for: .valueChanged)
     }
     
     
     //MARK: - Action
     func newTaskTapped() {
-        ApplicationNavigator.sharedInstance.navigate(to: .newTask)
+        ApplicationNavigator.sharedInstance.navigate(to: .newTask(withDelegate: self))
+    }
+    
+    func segmentChanged() {
+        dataSource.filterData(onlyNotCompleted: segmentControl.selectedSegmentIndex == 0 ? false : true)
     }
     
     func settingsTapped() {
         ApplicationNavigator.sharedInstance.navigate(to: .settings)
+        shouldPerformFetch = true
+    }
+    
+    //MARK: - Saving delegate
+    
+    func finishedSaving() {
+        dataSource.fetchData()
     }
 
 }
@@ -59,6 +83,10 @@ extension HomeViewController : UITableViewDelegate {
     }
     func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
         return 0
+    }
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let task = dataSource.tasks[indexPath.row]
+        ApplicationNavigator.sharedInstance.navigate(to: .taskDetail(withDelegate: self, task: task))
     }
     
 }

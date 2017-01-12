@@ -16,11 +16,11 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="77"/>
             <autoresizingMask key="autoresizingMask"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="xAK-NV-2VO" id="Ox6-n8-a4m">
-                <rect key="frame" x="0.0" y="0.0" width="341" height="76.5"/>
+                <rect key="frame" x="0.0" y="0.0" width="342" height="76"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="femegmeognelgnelkgnewlkgnewlkgnewklgegnregkle4" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jv4-db-vxS">
-                        <rect key="frame" x="33" y="15" width="266" height="21"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="woof" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jv4-db-vxS">
+                        <rect key="frame" x="33" y="15" width="38" height="21"/>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
@@ -38,8 +38,9 @@
                         <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="notChecked" translatesAutoresizingMaskIntoConstraints="NO" id="XB4-LP-Eis">
-                        <rect key="frame" x="304" y="10.5" width="30" height="30"/>
+                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="notChecked" translatesAutoresizingMaskIntoConstraints="NO" id="XB4-LP-Eis">
+                        <rect key="frame" x="76" y="10.5" width="30" height="30"/>
+                        <gestureRecognizers/>
                         <constraints>
                             <constraint firstAttribute="width" constant="30" id="Bi9-ao-TH0"/>
                             <constraint firstAttribute="height" constant="30" id="DHz-mC-fYP"/>
@@ -52,7 +53,6 @@
                     <constraint firstItem="WUH-2D-X0Q" firstAttribute="centerY" secondItem="Ox6-n8-a4m" secondAttribute="centerY" id="6WO-0x-Nm7"/>
                     <constraint firstItem="jv4-db-vxS" firstAttribute="top" secondItem="Ox6-n8-a4m" secondAttribute="topMargin" constant="7" id="8ym-9p-dmd"/>
                     <constraint firstItem="WUH-2D-X0Q" firstAttribute="leading" secondItem="Ox6-n8-a4m" secondAttribute="leadingMargin" id="KDP-pJ-CbD"/>
-                    <constraint firstAttribute="trailingMargin" secondItem="XB4-LP-Eis" secondAttribute="trailing" id="O6t-2b-jiG"/>
                     <constraint firstItem="gx6-FS-xgf" firstAttribute="top" secondItem="jv4-db-vxS" secondAttribute="bottom" priority="750" constant="12" id="VzB-FO-1fa"/>
                     <constraint firstItem="XB4-LP-Eis" firstAttribute="leading" secondItem="jv4-db-vxS" secondAttribute="trailing" constant="5" id="W8F-kH-uVd"/>
                     <constraint firstItem="XB4-LP-Eis" firstAttribute="centerY" secondItem="jv4-db-vxS" secondAttribute="centerY" id="tfT-ej-Mlm"/>

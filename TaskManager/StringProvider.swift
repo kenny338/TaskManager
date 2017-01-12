@@ -15,13 +15,10 @@ class StringProvider {
     }
     
     static func newTaskTitles() -> [String] {
-        return mapped(toMap: ["description", "finish until", "category"])
+        return mapped(toMap: ["description", "finish until", "category", ""])
     }
     static func sortingtitles() -> [String] {
         return mapped(toMap: ["by date", "by name"])
-    }
-    static func segmentTitles() -> [String] {
-        return mapped(toMap: ["Unfinished", "Completed", "Missed"])
     }
     
     static func mapped(toMap: [String]) -> [String] {

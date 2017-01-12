@@ -1,12 +1,12 @@
 PODS:
-  - KKColorListPicker (0.2.4)
+  - RappleColorPicker (2.0.3)
 
 DEPENDENCIES:
-  - KKColorListPicker
+  - RappleColorPicker
 
 SPEC CHECKSUMS:
-  KKColorListPicker: afe1dd36a5a1c57a34289db114f84bbce60a826e
+  RappleColorPicker: 260eee37fab780eb5f7d51365470b50dcdddee1c
 
-PODFILE CHECKSUM: 11ab421c11bb254e133a0721d09e75609520851c
+PODFILE CHECKSUM: 748d327fcf609b60af513cf86e70289bd2e18041
 
 COCOAPODS: 1.0.1

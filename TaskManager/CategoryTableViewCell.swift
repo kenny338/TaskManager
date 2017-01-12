@@ -12,6 +12,11 @@ class CategoryTableViewCell : UITableViewCell, ReusableView, NibLoadableView {
     @IBOutlet weak var categoryView: UIView!
     @IBOutlet weak var categoryName: UILabel!
     
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        selectionStyle = .none
+    }
+    
     func configure(with category: Category) {
         categoryName.text = category.name
         categoryView.backgroundColor = UIColor.hexStringToUIColor(hex: category.hexColor ?? "")

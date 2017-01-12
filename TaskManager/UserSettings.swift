@@ -24,9 +24,7 @@ class UserSettings {
     private init() {}
     let defaults = UserDefaults.standard
     
-    var currentTaskDescription: String?
-    var currentTaskDate: Date?
-    var currentCategory: Category?
+    var currentTask: Task?
     
     
     func notificationsEnabled() -> Bool {
@@ -48,6 +46,10 @@ class UserSettings {
         defer {
             defaults.synchronize()
         }
+    }
+    func cleanCurrentTask() -> Void {
+        currentTask = .none
+        
     }
     
     func preferedSorting() -> PreferedSorting {

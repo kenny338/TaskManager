@@ -4,12 +4,12 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>KKColorListPicker.xcscheme</key>
+		<key>Pods-TaskManager.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-TaskManager.xcscheme</key>
+		<key>RappleColorPicker.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -17,12 +17,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>115F9267B56AFC2B00947772D922E732</key>
+		<key>A77CD17669643B31F38400D70581DDF7</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>2EBA2590DF72C679ECED9FF733A3EB77</key>
+		<key>CB8ED883B85BC1A69B03AC1A2D472166</key>
 		<dict>
 			<key>primary</key>
 			<true/>

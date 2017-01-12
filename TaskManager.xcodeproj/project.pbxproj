@@ -20,11 +20,14 @@
 		B90841B11DC88D7B00A2F3D3 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B90841AF1DC88D7B00A2F3D3 /* HomeViewController.xib */; };
 		B90841B41DC88DE300A2F3D3 /* AddNewTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90841B21DC88DE300A2F3D3 /* AddNewTaskViewController.swift */; };
 		B90841B51DC88DE300A2F3D3 /* AddNewTaskViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B90841B31DC88DE300A2F3D3 /* AddNewTaskViewController.xib */; };
-		B90841B81DC88E0700A2F3D3 /* TaskDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90841B61DC88E0700A2F3D3 /* TaskDetailViewController.swift */; };
 		B90841B91DC88E0700A2F3D3 /* TaskDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B90841B71DC88E0700A2F3D3 /* TaskDetailViewController.xib */; };
 		B90841BC1DC88E1F00A2F3D3 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90841BA1DC88E1F00A2F3D3 /* SettingsViewController.swift */; };
 		B90841BD1DC88E1F00A2F3D3 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B90841BB1DC88E1F00A2F3D3 /* SettingsViewController.xib */; };
 		B91AA54B1DC89069000B89A8 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91AA54A1DC89069000B89A8 /* UIImage.swift */; };
+		B9815D481DD3F77D00B842C6 /* Fetchable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9815D471DD3F77D00B842C6 /* Fetchable.swift */; };
+		B98EB4E31DD3FB9800441914 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98EB4E21DD3FB9800441914 /* Date.swift */; };
+		B98EB4E51DD4029900441914 /* SavingDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98EB4E41DD4029900441914 /* SavingDelegate.swift */; };
+		B98EB4E71DD5407000441914 /* NotificationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98EB4E61DD5407000441914 /* NotificationHelper.swift */; };
 		B9B4AD1A1DC8BD5F001CBF6E /* ReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B4AD181DC8BD5F001CBF6E /* ReusableView.swift */; };
 		B9B4AD1B1DC8BD5F001CBF6E /* NibLoadableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B4AD191DC8BD5F001CBF6E /* NibLoadableView.swift */; };
 		B9B4AD1E1DC8BD79001CBF6E /* TaskTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9B4AD1D1DC8BD79001CBF6E /* TaskTableViewCell.xib */; };
@@ -97,11 +100,14 @@
 		B90841AF1DC88D7B00A2F3D3 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		B90841B21DC88DE300A2F3D3 /* AddNewTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNewTaskViewController.swift; sourceTree = "<group>"; };
 		B90841B31DC88DE300A2F3D3 /* AddNewTaskViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddNewTaskViewController.xib; sourceTree = "<group>"; };
-		B90841B61DC88E0700A2F3D3 /* TaskDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskDetailViewController.swift; sourceTree = "<group>"; };
 		B90841B71DC88E0700A2F3D3 /* TaskDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TaskDetailViewController.xib; sourceTree = "<group>"; };
 		B90841BA1DC88E1F00A2F3D3 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		B90841BB1DC88E1F00A2F3D3 /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
 		B91AA54A1DC89069000B89A8 /* UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
+		B9815D471DD3F77D00B842C6 /* Fetchable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fetchable.swift; sourceTree = "<group>"; };
+		B98EB4E21DD3FB9800441914 /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		B98EB4E41DD4029900441914 /* SavingDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavingDelegate.swift; sourceTree = "<group>"; };
+		B98EB4E61DD5407000441914 /* NotificationHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationHelper.swift; sourceTree = "<group>"; };
 		B9B4AD181DC8BD5F001CBF6E /* ReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReusableView.swift; sourceTree = "<group>"; };
 		B9B4AD191DC8BD5F001CBF6E /* NibLoadableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibLoadableView.swift; sourceTree = "<group>"; };
 		B9B4AD1D1DC8BD79001CBF6E /* TaskTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TaskTableViewCell.xib; sourceTree = "<group>"; };
@@ -247,6 +253,7 @@
 				B908416F1DC887E800A2F3D3 /* AppDelegate.swift */,
 				B908417E1DC887E800A2F3D3 /* Info.plist */,
 				B9CCF2AC1DC8F0F300AF16B9 /* StringProvider.swift */,
+				B98EB4E61DD5407000441914 /* NotificationHelper.swift */,
 			);
 			name = "Supporting files";
 			sourceTree = "<group>";
@@ -258,6 +265,7 @@
 				B9DEF45B1DD148A20065B709 /* AddNewCategoryView.swift */,
 				B9B4AD1C1DC8BD6F001CBF6E /* Cells */,
 				B90841AF1DC88D7B00A2F3D3 /* HomeViewController.xib */,
+				B9DEF44E1DD12C880065B709 /* CategoryListViewController.xib */,
 				B908417B1DC887E800A2F3D3 /* LaunchScreen.storyboard */,
 				B90841B31DC88DE300A2F3D3 /* AddNewTaskViewController.xib */,
 				B90841B71DC88E0700A2F3D3 /* TaskDetailViewController.xib */,
@@ -270,6 +278,7 @@
 		B90841A31DC88A4B00A2F3D3 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				B98EB4E21DD3FB9800441914 /* Date.swift */,
 				B90841AC1DC88CE900A2F3D3 /* String.swift */,
 				B91AA54A1DC89069000B89A8 /* UIImage.swift */,
 				B9B4AD2E1DC8D183001CBF6E /* UITableView.swift */,
@@ -284,6 +293,8 @@
 			children = (
 				B9B4AD181DC8BD5F001CBF6E /* ReusableView.swift */,
 				B9B4AD191DC8BD5F001CBF6E /* NibLoadableView.swift */,
+				B9815D471DD3F77D00B842C6 /* Fetchable.swift */,
+				B98EB4E41DD4029900441914 /* SavingDelegate.swift */,
 			);
 			name = Protocols;
 			sourceTree = "<group>";
@@ -307,7 +318,6 @@
 				B90841AA1DC88C8100A2F3D3 /* TaskManagerNavigationController.swift */,
 				B90841AE1DC88D7B00A2F3D3 /* HomeViewController.swift */,
 				B90841B21DC88DE300A2F3D3 /* AddNewTaskViewController.swift */,
-				B90841B61DC88E0700A2F3D3 /* TaskDetailViewController.swift */,
 				B90841BA1DC88E1F00A2F3D3 /* SettingsViewController.swift */,
 				B9DEF44D1DD12C880065B709 /* CategoryListViewController.swift */,
 			);
@@ -317,7 +327,6 @@
 		B9B4AD1C1DC8BD6F001CBF6E /* Cells */ = {
 			isa = PBXGroup;
 			children = (
-				B9DEF44E1DD12C880065B709 /* CategoryListViewController.xib */,
 				B9CCF2B41DC8FC8200AF16B9 /* BasicTableViewCell.xib */,
 				B9CCF2B61DC8FCD600AF16B9 /* BasicTableViewCell.swift */,
 				B9CCF2AE1DC8F21F00AF16B9 /* SwitchTableViewCell.xib */,
@@ -429,12 +438,14 @@
 					B90841821DC887E800A2F3D3 = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = A523P26V9N;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 						TestTargetID = B908416B1DC887E800A2F3D3;
 					};
 					B908418D1DC887E800A2F3D3 = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = A523P26V9N;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 						TestTargetID = B908416B1DC887E800A2F3D3;
 					};
@@ -558,8 +569,10 @@
 				B9CCF2B31DC8F5EA00AF16B9 /* SwitchTableViewCell.swift in Sources */,
 				B9DEF4581DD141580065B709 /* UIColor.swift in Sources */,
 				B91AA54B1DC89069000B89A8 /* UIImage.swift in Sources */,
+				B98EB4E71DD5407000441914 /* NotificationHelper.swift in Sources */,
 				B9B4AD2C1DC8CF87001CBF6E /* DateTableViewCell.swift in Sources */,
 				B90841A81DC88B1D00A2F3D3 /* ApplicationNavigator.swift in Sources */,
+				B9815D481DD3F77D00B842C6 /* Fetchable.swift in Sources */,
 				B90841AB1DC88C8100A2F3D3 /* TaskManagerNavigationController.swift in Sources */,
 				B9CCF2BB1DCA9BC700AF16B9 /* TaskTableViewCell.swift in Sources */,
 				B9CCF2B11DC8F3AA00AF16B9 /* TaskManagerTableView.swift in Sources */,
@@ -570,12 +583,13 @@
 				B9CCF2AD1DC8F0F300AF16B9 /* StringProvider.swift in Sources */,
 				B90841781DC887E800A2F3D3 /* TaskManager.xcdatamodeld in Sources */,
 				B9DEF4601DD1498B0065B709 /* UIView.swift in Sources */,
+				B98EB4E31DD3FB9800441914 /* Date.swift in Sources */,
 				B90841701DC887E800A2F3D3 /* AppDelegate.swift in Sources */,
 				B9CCF2B91DCA92E600AF16B9 /* UserSettings.swift in Sources */,
 				B9B4AD2F1DC8D183001CBF6E /* UITableView.swift in Sources */,
 				B9BFB8961DCC04CE00F900E2 /* CoreDataFetcher.swift in Sources */,
+				B98EB4E51DD4029900441914 /* SavingDelegate.swift in Sources */,
 				B90841B41DC88DE300A2F3D3 /* AddNewTaskViewController.swift in Sources */,
-				B90841B81DC88E0700A2F3D3 /* TaskDetailViewController.swift in Sources */,
 				B9DEF45C1DD148A20065B709 /* AddNewCategoryView.swift in Sources */,
 				B9CCF2BD1DCA9EB300AF16B9 /* TasksDataSource.swift in Sources */,
 				B9B4AD261DC8CDA0001CBF6E /* TextTableViewCell.swift in Sources */,
@@ -670,7 +684,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -715,7 +729,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -728,6 +742,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1AF16E7A7B405C2833CA5690 /* Pods-TaskManager.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = "";
@@ -745,6 +760,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C3F221159FC5D284DBD5B096 /* Pods-TaskManager.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = "";

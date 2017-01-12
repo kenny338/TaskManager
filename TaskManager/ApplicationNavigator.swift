@@ -11,8 +11,8 @@ import UIKit
 enum NavigatorPath {
     case home
     case settings
-    case newTask
-    case taskDetail(task: Task)
+    case newTask(withDelegate: SavingDelegate)
+    case taskDetail(withDelegate: SavingDelegate, task: Task)
     case newCategory
 }
 
@@ -24,8 +24,8 @@ class ApplicationNavigator {
     }
     
     
-    func getRootController() -> TaskManagerNavigationController? {
-        if let rootVC = UIApplication.shared.keyWindow?.rootViewController as? TaskManagerNavigationController {
+    func getRootController() -> UINavigationController? {
+        if let rootVC = UIApplication.shared.keyWindow?.rootViewController as? UINavigationController {
             return rootVC
         }
         return nil
@@ -58,6 +58,7 @@ class ApplicationNavigator {
     }
     
     func navigate(to path: NavigatorPath) {
+        let animated = true
         if let rootController = getRootController() {
             switch path {
             case .home:
@@ -66,20 +67,20 @@ class ApplicationNavigator {
                 
             case .settings:
                 let settingsVC = SettingsViewController()
-                rootController.pushViewController(settingsVC, animated: true)
+                rootController.pushViewController(settingsVC, animated: animated)
                 
-            case .newTask:
-                let newTaskVC = AddNewTaskViewController()
-                rootController.pushViewController(newTaskVC, animated: true)
+            case .newTask(let delegate):
+                let newTaskVC = AddNewTaskViewController(withDelegate: delegate)
+                rootController.pushViewController(newTaskVC, animated: animated)
                 
             case .newCategory:
                 let newCategoryVC = CategoryListViewController()
-                rootController.pushViewController(newCategoryVC, animated: true)
+                rootController.pushViewController(newCategoryVC, animated: animated)
                 
                 
-            case .taskDetail(let task):
-                let taskDetailVC = TaskDetailViewController()
-                rootController.pushViewController(taskDetailVC, animated: true)
+            case .taskDetail(let delegate, let task):
+                let editVC = AddNewTaskViewController(withDelegate: delegate, editableTask: task)
+                rootController.pushViewController(editVC, animated: animated)
                 
             }
         }

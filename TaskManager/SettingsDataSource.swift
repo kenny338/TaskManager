@@ -9,6 +9,7 @@
 import UIKit
 
 class SettingsDataSource: NSObject, UITableViewDataSource {
+    //TODO: More generic datasource? 4 almost same datasources
     
     let titles = StringProvider.settingsTitles()
     let sortingTitles = StringProvider.sortingtitles()
@@ -42,7 +43,7 @@ class SettingsDataSource: NSObject, UITableViewDataSource {
         switch indexPath.section {
         case 0:
             let cell: SwitchTableViewCell = tableView.dequeueReusableCell(forIndexPath: indexPath)
-            cell.configure(withString:"notification")
+            cell.configure(withString:"notification", mode: .Settings)
             cell.settingsSwitch.isOn = UserSettings.sharedSettings.notificationsEnabled()
             return cell
         case 1:

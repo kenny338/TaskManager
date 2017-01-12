@@ -5,7 +5,7 @@ use_frameworks!
 
 
 target ‘TaskManager’ do
-    pod 'KKColorListPicker'        #Used for picking colors
+pod "RappleColorPicker"       #Used for picking colors
   
 end
 

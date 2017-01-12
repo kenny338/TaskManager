@@ -7,107 +7,80 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		10158263BC3C6FB6CA67AA9978B5A281 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		1B905BF758798889F35EC07C63302F92 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		47AD34713CB2456B9C91DD0803901428 /* KKColorListPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A75390B5812840E6A7A7BC278D98633 /* KKColorListPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5902505DB1B11348E9617703D8EDBC3C /* UIView+KKToolKitAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A483B1AE2FABA5334BB73CA7AA5A48C /* UIView+KKToolKitAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5B3F1197F3C387613EA1D5E53E6125A8 /* KKColorCell.h in Headers */ = {isa = PBXBuildFile; fileRef = A9AA7FC87DE5479E5CC2C470E6FFDBA9 /* KKColorCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5CD8C57299356CE0DC182026E5AE254A /* KKColorListPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1338D155D81127299F6B5094BEE49207 /* KKColorListPicker-dummy.m */; };
-		5E36C0493C8E0471A5DC6E82157C369A /* KKColorsHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED5AC50F6265A1E6A2C446320EE004C0 /* KKColorsHeaderView.xib */; };
-		60B5F16E19699338BCA20266006C4CC3 /* UIColor+CustomColors.m in Sources */ = {isa = PBXBuildFile; fileRef = F070419FC138E5485F7AEA4F4633E381 /* UIColor+CustomColors.m */; };
-		6B171C0B76C508087A68C2B19CAE1165 /* colors_pantone.plist in Sources */ = {isa = PBXBuildFile; fileRef = 6D83ADF960EF3D2AF57014636FE0999E /* colors_pantone.plist */; };
-		6CFE8F86D184BFC274B51583E2CF7B4B /* KKColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 3014FA2CC8D1DC4A07057DE91FCDF8BA /* KKColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		763688F8622B1B96703AD6F57062A813 /* KKColorsHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DBFC23F95F05A3F6302B31221094798 /* KKColorsHeaderView.m */; };
-		865B564CD469C98A6F0C4CCF095E090F /* KKColorsSchemeType.h in Headers */ = {isa = PBXBuildFile; fileRef = AC5E874B7329F64FF15193ADFC4BDFED /* KKColorsSchemeType.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8719DFEE02BD5F37F38D150700C5B6FD /* KKColorsHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = DFFE6069AFE6C85748EFDE46E6664BDB /* KKColorsHeaderView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		899C1AA3BC23DF86B87C9CFF5C62045D /* Pods-TaskManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C5BBCFCC9F45B4C5861F90EEC915EDF4 /* Pods-TaskManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		938B84A8A3D1928E4ECCF616FA0A084E /* KKColorListPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = C2BB713BEA25EA69AEC8672712FEA5F0 /* KKColorListPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9A4B26D97DAB9E698EB7329C4D2CE3A2 /* KKColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AC4860E16769A93FB4A5E71A12AE48F /* KKColor.m */; };
-		A47942DDCC9385C074D66ED3575E0181 /* KKColorListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E78F0D01B1FE69AA545D4E987B592D3A /* KKColorListViewController.m */; };
-		AFCEA2F39BA6DE5926B6E4528CD36343 /* colors_crayola.plist in Sources */ = {isa = PBXBuildFile; fileRef = 1087A700516FA6A028E700081A634B7F /* colors_crayola.plist */; };
-		B77C4793055AD418D07A8080E566B3AB /* UIColor+CustomColors.h in Headers */ = {isa = PBXBuildFile; fileRef = 21298AE32814A13496A82D9E556BD3F2 /* UIColor+CustomColors.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BA1F6B2212985AED53FDF94BC51F8B71 /* KKColorsLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FA2C5D8757B3247410E8525CAB881AD /* KKColorsLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C59F29279DEDFDAAEFDDDF75F9953475 /* KKColorCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4560DA2E0A8E834078DD9F0BAB09F54 /* KKColorCell.xib */; };
-		C71A62DA8E08022B9A6FD5D00DB51187 /* KKColorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC078B4384EED6A29C48C3846A340B3 /* KKColorCell.m */; };
-		D67843FBF2A4304EF1F0BCC6764335C0 /* UIView+KKToolKitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0623EA1B4C5091E10F1F9BAFE34212D5 /* UIView+KKToolKitAdditions.m */; };
-		D914DD67CBDC0964DE607CB921241FCC /* KKColorsLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 042F9D0A43F1AE3B7D7A132E4078C967 /* KKColorsLoader.m */; };
-		DF3AAD7791F81F9A11F2AA95F4BB875D /* Pods-TaskManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 918485D0A5F654147BFB743568F19C80 /* Pods-TaskManager-dummy.m */; };
-		DF3E326396221276BDC8F0A7D68D5FC1 /* KKColorListViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = FF3F44A6154382A902DF01C37C462E50 /* KKColorListViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A2C156D4325C7DD7C28A5A121B6580E /* Pods-TaskManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C5BBCFCC9F45B4C5861F90EEC915EDF4 /* Pods-TaskManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23725DFAB4B738267882202F16D11250 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		543A759B704322648C4529C7E6952C12 /* RappleColorPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47998FBB3D7D606F747CA93A5C47C42 /* RappleColorPickerViewController.swift */; };
+		6B8A2B57EC81E38F989CFB0F8A0AF78B /* Pods-TaskManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 918485D0A5F654147BFB743568F19C80 /* Pods-TaskManager-dummy.m */; };
+		925BFB0AD0CFFF1483F476D61A567150 /* RappleColorPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 76416E78FA7D9156A26C062422AAD77A /* RappleColorPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92C464B7AB4E1297F7C01DDC4F8A9277 /* RappleColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D392A73F6B57B389D345879BA1F5A6 /* RappleColorPicker.swift */; };
+		9A6B86A467FDA43322A8979C055749BD /* RappleColorPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC32695EC537D7BE22A739A711C40E5 /* RappleColorPicker-dummy.m */; };
+		EAADEF082BDB23D97CC5E68FB802191B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		11685CDBA4687D82C9BFC6F54F4E8467 /* PBXContainerItemProxy */ = {
+		498741E7ACBEA211F2C5E8A5381E3AFD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 115F9267B56AFC2B00947772D922E732;
-			remoteInfo = KKColorListPicker;
+			remoteGlobalIDString = CB8ED883B85BC1A69B03AC1A2D472166;
+			remoteInfo = RappleColorPicker;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		042F9D0A43F1AE3B7D7A132E4078C967 /* KKColorsLoader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KKColorsLoader.m; path = src/KKColorListPicker/Classes/KKColorsLoader.m; sourceTree = "<group>"; };
-		0623EA1B4C5091E10F1F9BAFE34212D5 /* UIView+KKToolKitAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+KKToolKitAdditions.m"; path = "src/KKColorListPicker/Categories/UIView/UIView+KKToolKitAdditions.m"; sourceTree = "<group>"; };
 		0812DCC33110E7B84F98EAEBB8E53B59 /* Pods-TaskManager-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TaskManager-acknowledgements.markdown"; sourceTree = "<group>"; };
-		0A7A683DAB8AFB6A04BBC78EBAAE8BDF /* KKColorListPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KKColorListPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1087A700516FA6A028E700081A634B7F /* colors_crayola.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = colors_crayola.plist; path = src/KKColorListPicker/Schemes/colors_crayola.plist; sourceTree = "<group>"; };
-		1338D155D81127299F6B5094BEE49207 /* KKColorListPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KKColorListPicker-dummy.m"; sourceTree = "<group>"; };
-		1C43BEB342197660642436AFC7D64EC9 /* Pods_TaskManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TaskManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		21298AE32814A13496A82D9E556BD3F2 /* UIColor+CustomColors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+CustomColors.h"; path = "src/KKColorListPicker/Categories/UIColor/UIColor+CustomColors.h"; sourceTree = "<group>"; };
-		2A483B1AE2FABA5334BB73CA7AA5A48C /* UIView+KKToolKitAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+KKToolKitAdditions.h"; path = "src/KKColorListPicker/Categories/UIView/UIView+KKToolKitAdditions.h"; sourceTree = "<group>"; };
-		2FA2C5D8757B3247410E8525CAB881AD /* KKColorsLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KKColorsLoader.h; path = src/KKColorListPicker/Classes/KKColorsLoader.h; sourceTree = "<group>"; };
-		3014FA2CC8D1DC4A07057DE91FCDF8BA /* KKColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KKColor.h; path = src/KKColorListPicker/Classes/KKColor.h; sourceTree = "<group>"; };
-		5CC078B4384EED6A29C48C3846A340B3 /* KKColorCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KKColorCell.m; path = src/KKColorListPicker/Cells/KKColorCell.m; sourceTree = "<group>"; };
+		0BAB3DF83E38C48BA23651F26B923A52 /* RappleColorPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RappleColorPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D0F476FE9EEC42D35C5F8465C7E1191 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2606037036AB9EDBE7D4DBAEA9694EA8 /* RappleColorPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RappleColorPicker.xcconfig; sourceTree = "<group>"; };
+		3B89F74B23870A729C8643E3389CD95D /* RappleColorPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RappleColorPicker-prefix.pch"; sourceTree = "<group>"; };
 		6227CB9FDF22B1DF86C7C9DB7E4A3AD8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6D83ADF960EF3D2AF57014636FE0999E /* colors_pantone.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = colors_pantone.plist; path = src/KKColorListPicker/Schemes/colors_pantone.plist; sourceTree = "<group>"; };
+		76416E78FA7D9156A26C062422AAD77A /* RappleColorPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RappleColorPicker-umbrella.h"; sourceTree = "<group>"; };
 		79EFEAD5448517FDDAC69E05804A00BF /* Pods-TaskManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TaskManager.debug.xcconfig"; sourceTree = "<group>"; };
-		7AC4860E16769A93FB4A5E71A12AE48F /* KKColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KKColor.m; path = src/KKColorListPicker/Classes/KKColor.m; sourceTree = "<group>"; };
-		7DBFC23F95F05A3F6302B31221094798 /* KKColorsHeaderView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KKColorsHeaderView.m; path = src/KKColorListPicker/Cells/KKColorsHeaderView.m; sourceTree = "<group>"; };
-		8A75390B5812840E6A7A7BC278D98633 /* KKColorListPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KKColorListPicker-umbrella.h"; sourceTree = "<group>"; };
+		84D392A73F6B57B389D345879BA1F5A6 /* RappleColorPicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RappleColorPicker.swift; path = Pod/Classes/RappleColorPicker.swift; sourceTree = "<group>"; };
+		8AC32695EC537D7BE22A739A711C40E5 /* RappleColorPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RappleColorPicker-dummy.m"; sourceTree = "<group>"; };
 		8E5D7E58EEACDA0750723F575FF9AABB /* Pods-TaskManager-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TaskManager-resources.sh"; sourceTree = "<group>"; };
 		918485D0A5F654147BFB743568F19C80 /* Pods-TaskManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TaskManager-dummy.m"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		98A5FD37B988924089E9C342A0CDDB11 /* KKColorListPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = KKColorListPicker.modulemap; sourceTree = "<group>"; };
+		98498C587045DD5EEB4C345F4C193C55 /* Pods_TaskManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TaskManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4D7A089AEE3FD4E8721E3F02C27B7EE /* Pods-TaskManager-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TaskManager-acknowledgements.plist"; sourceTree = "<group>"; };
 		A5B77772A9AEABB2633F99ED044AFE85 /* Pods-TaskManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TaskManager.release.xcconfig"; sourceTree = "<group>"; };
-		A9AA7FC87DE5479E5CC2C470E6FFDBA9 /* KKColorCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KKColorCell.h; path = src/KKColorListPicker/Cells/KKColorCell.h; sourceTree = "<group>"; };
-		AC5E874B7329F64FF15193ADFC4BDFED /* KKColorsSchemeType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KKColorsSchemeType.h; path = src/KKColorListPicker/Classes/KKColorsSchemeType.h; sourceTree = "<group>"; };
-		BBF7C5F2DD9B2E1117900D9614CDD1D7 /* KKColorListPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KKColorListPicker.xcconfig; sourceTree = "<group>"; };
 		BEE324A3DD96739E81D10A3BA175D01C /* Pods-TaskManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TaskManager.modulemap"; sourceTree = "<group>"; };
-		C2BB713BEA25EA69AEC8672712FEA5F0 /* KKColorListPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KKColorListPicker.h; path = src/KKColorListPicker/Classes/KKColorListPicker.h; sourceTree = "<group>"; };
 		C5BBCFCC9F45B4C5861F90EEC915EDF4 /* Pods-TaskManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TaskManager-umbrella.h"; sourceTree = "<group>"; };
 		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D3098B5CDF8887A7BDC8D34E5DC5B7B4 /* KKColorListPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KKColorListPicker-prefix.pch"; sourceTree = "<group>"; };
-		D4560DA2E0A8E834078DD9F0BAB09F54 /* KKColorCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = KKColorCell.xib; path = src/KKColorListPicker/Cells/KKColorCell.xib; sourceTree = "<group>"; };
-		D6230D8222A2E670FEAC30C194C9D85E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DFFE6069AFE6C85748EFDE46E6664BDB /* KKColorsHeaderView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KKColorsHeaderView.h; path = src/KKColorListPicker/Cells/KKColorsHeaderView.h; sourceTree = "<group>"; };
-		E78F0D01B1FE69AA545D4E987B592D3A /* KKColorListViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KKColorListViewController.m; path = src/KKColorListPicker/Controllers/KKColorListViewController.m; sourceTree = "<group>"; };
-		ED5AC50F6265A1E6A2C446320EE004C0 /* KKColorsHeaderView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = KKColorsHeaderView.xib; path = src/KKColorListPicker/Cells/KKColorsHeaderView.xib; sourceTree = "<group>"; };
-		F070419FC138E5485F7AEA4F4633E381 /* UIColor+CustomColors.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+CustomColors.m"; path = "src/KKColorListPicker/Categories/UIColor/UIColor+CustomColors.m"; sourceTree = "<group>"; };
+		E47998FBB3D7D606F747CA93A5C47C42 /* RappleColorPickerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RappleColorPickerViewController.swift; path = Pod/Classes/RappleColorPickerViewController.swift; sourceTree = "<group>"; };
+		ED2ECE788318CD6A5C13F6399903BFF2 /* RappleColorPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = RappleColorPicker.modulemap; sourceTree = "<group>"; };
 		F396563A7DC7D31BB8FAA5D2AA9FAF11 /* Pods-TaskManager-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TaskManager-frameworks.sh"; sourceTree = "<group>"; };
-		FF3F44A6154382A902DF01C37C462E50 /* KKColorListViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KKColorListViewController.h; path = src/KKColorListPicker/Controllers/KKColorListViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0E8CDADEC7076421A3498F8E748910FA /* Frameworks */ = {
+		5A6032DB672A3B9A38DB0125AB951F0E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B905BF758798889F35EC07C63302F92 /* Foundation.framework in Frameworks */,
+				23725DFAB4B738267882202F16D11250 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C4D6A7379F380CB78AE92F6317FF0845 /* Frameworks */ = {
+		E82C57CE41C89E50FFD072E19ED34631 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				10158263BC3C6FB6CA67AA9978B5A281 /* Foundation.framework in Frameworks */,
+				EAADEF082BDB23D97CC5E68FB802191B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A999D79A2B25C05C638DA837A87A981 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98498C587045DD5EEB4C345F4C193C55 /* Pods_TaskManager.framework */,
+				0BAB3DF83E38C48BA23651F26B923A52 /* RappleColorPicker.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -116,73 +89,29 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		4CC21B78A1DCB29726DF16C92BCABDF5 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				B1C6009793AC694F4BA7F9724D34BDC1 /* KKColorListPicker */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				4CC21B78A1DCB29726DF16C92BCABDF5 /* Pods */,
-				902D2194DE3944BD477D63BD8C0116CB /* Products */,
+				EBF38D0D64519C3CE392592E345AE434 /* Pods */,
+				1A999D79A2B25C05C638DA837A87A981 /* Products */,
 				DB3667DCD4445F8FB1B3B0114D97754F /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		80A86357186B198795C268AE05C46B42 /* Support Files */ = {
+		B04E4D4922F8E72AC1CB9F3F3B7DDB7A /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D6230D8222A2E670FEAC30C194C9D85E /* Info.plist */,
-				98A5FD37B988924089E9C342A0CDDB11 /* KKColorListPicker.modulemap */,
-				BBF7C5F2DD9B2E1117900D9614CDD1D7 /* KKColorListPicker.xcconfig */,
-				1338D155D81127299F6B5094BEE49207 /* KKColorListPicker-dummy.m */,
-				D3098B5CDF8887A7BDC8D34E5DC5B7B4 /* KKColorListPicker-prefix.pch */,
-				8A75390B5812840E6A7A7BC278D98633 /* KKColorListPicker-umbrella.h */,
+				1D0F476FE9EEC42D35C5F8465C7E1191 /* Info.plist */,
+				ED2ECE788318CD6A5C13F6399903BFF2 /* RappleColorPicker.modulemap */,
+				2606037036AB9EDBE7D4DBAEA9694EA8 /* RappleColorPicker.xcconfig */,
+				8AC32695EC537D7BE22A739A711C40E5 /* RappleColorPicker-dummy.m */,
+				3B89F74B23870A729C8643E3389CD95D /* RappleColorPicker-prefix.pch */,
+				76416E78FA7D9156A26C062422AAD77A /* RappleColorPicker-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/KKColorListPicker";
-			sourceTree = "<group>";
-		};
-		902D2194DE3944BD477D63BD8C0116CB /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				0A7A683DAB8AFB6A04BBC78EBAAE8BDF /* KKColorListPicker.framework */,
-				1C43BEB342197660642436AFC7D64EC9 /* Pods_TaskManager.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		B1C6009793AC694F4BA7F9724D34BDC1 /* KKColorListPicker */ = {
-			isa = PBXGroup;
-			children = (
-				1087A700516FA6A028E700081A634B7F /* colors_crayola.plist */,
-				6D83ADF960EF3D2AF57014636FE0999E /* colors_pantone.plist */,
-				3014FA2CC8D1DC4A07057DE91FCDF8BA /* KKColor.h */,
-				7AC4860E16769A93FB4A5E71A12AE48F /* KKColor.m */,
-				A9AA7FC87DE5479E5CC2C470E6FFDBA9 /* KKColorCell.h */,
-				5CC078B4384EED6A29C48C3846A340B3 /* KKColorCell.m */,
-				C2BB713BEA25EA69AEC8672712FEA5F0 /* KKColorListPicker.h */,
-				FF3F44A6154382A902DF01C37C462E50 /* KKColorListViewController.h */,
-				E78F0D01B1FE69AA545D4E987B592D3A /* KKColorListViewController.m */,
-				DFFE6069AFE6C85748EFDE46E6664BDB /* KKColorsHeaderView.h */,
-				7DBFC23F95F05A3F6302B31221094798 /* KKColorsHeaderView.m */,
-				2FA2C5D8757B3247410E8525CAB881AD /* KKColorsLoader.h */,
-				042F9D0A43F1AE3B7D7A132E4078C967 /* KKColorsLoader.m */,
-				AC5E874B7329F64FF15193ADFC4BDFED /* KKColorsSchemeType.h */,
-				21298AE32814A13496A82D9E556BD3F2 /* UIColor+CustomColors.h */,
-				F070419FC138E5485F7AEA4F4633E381 /* UIColor+CustomColors.m */,
-				2A483B1AE2FABA5334BB73CA7AA5A48C /* UIView+KKToolKitAdditions.h */,
-				0623EA1B4C5091E10F1F9BAFE34212D5 /* UIView+KKToolKitAdditions.m */,
-				C569C60E09EC9275A5EA8E0559103C58 /* Resources */,
-				80A86357186B198795C268AE05C46B42 /* Support Files */,
-			);
-			path = KKColorListPicker;
+			path = "../Target Support Files/RappleColorPicker";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -211,15 +140,6 @@
 			path = "Target Support Files/Pods-TaskManager";
 			sourceTree = "<group>";
 		};
-		C569C60E09EC9275A5EA8E0559103C58 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				D4560DA2E0A8E834078DD9F0BAB09F54 /* KKColorCell.xib */,
-				ED5AC50F6265A1E6A2C446320EE004C0 /* KKColorsHeaderView.xib */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
 		DB3667DCD4445F8FB1B3B0114D97754F /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -228,71 +148,79 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		E7119FEC132BD49DF148E554CCB9E5C5 /* RappleColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				84D392A73F6B57B389D345879BA1F5A6 /* RappleColorPicker.swift */,
+				E47998FBB3D7D606F747CA93A5C47C42 /* RappleColorPickerViewController.swift */,
+				B04E4D4922F8E72AC1CB9F3F3B7DDB7A /* Support Files */,
+			);
+			path = RappleColorPicker;
+			sourceTree = "<group>";
+		};
+		EBF38D0D64519C3CE392592E345AE434 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E7119FEC132BD49DF148E554CCB9E5C5 /* RappleColorPicker */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		4D1438E311A0ED085EFCD13E2C1E5437 /* Headers */ = {
+		904A59705738502D147FB776B5BEEF64 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				899C1AA3BC23DF86B87C9CFF5C62045D /* Pods-TaskManager-umbrella.h in Headers */,
+				925BFB0AD0CFFF1483F476D61A567150 /* RappleColorPicker-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E718CE77D6AF70F8328017F5D68A7AB3 /* Headers */ = {
+		EC78C91B9862546355661E0CC789DA3D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6CFE8F86D184BFC274B51583E2CF7B4B /* KKColor.h in Headers */,
-				5B3F1197F3C387613EA1D5E53E6125A8 /* KKColorCell.h in Headers */,
-				47AD34713CB2456B9C91DD0803901428 /* KKColorListPicker-umbrella.h in Headers */,
-				938B84A8A3D1928E4ECCF616FA0A084E /* KKColorListPicker.h in Headers */,
-				DF3E326396221276BDC8F0A7D68D5FC1 /* KKColorListViewController.h in Headers */,
-				8719DFEE02BD5F37F38D150700C5B6FD /* KKColorsHeaderView.h in Headers */,
-				BA1F6B2212985AED53FDF94BC51F8B71 /* KKColorsLoader.h in Headers */,
-				865B564CD469C98A6F0C4CCF095E090F /* KKColorsSchemeType.h in Headers */,
-				B77C4793055AD418D07A8080E566B3AB /* UIColor+CustomColors.h in Headers */,
-				5902505DB1B11348E9617703D8EDBC3C /* UIView+KKToolKitAdditions.h in Headers */,
+				0A2C156D4325C7DD7C28A5A121B6580E /* Pods-TaskManager-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		115F9267B56AFC2B00947772D922E732 /* KKColorListPicker */ = {
+		A77CD17669643B31F38400D70581DDF7 /* Pods-TaskManager */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4F326A35DA2B7E4C5103871D64703AC8 /* Build configuration list for PBXNativeTarget "KKColorListPicker" */;
+			buildConfigurationList = 9B7E80C8CF2D7521946A49640191A45B /* Build configuration list for PBXNativeTarget "Pods-TaskManager" */;
 			buildPhases = (
-				4ED1DBFACB782E8883D3199AA6F99D58 /* Sources */,
-				C4D6A7379F380CB78AE92F6317FF0845 /* Frameworks */,
-				E718CE77D6AF70F8328017F5D68A7AB3 /* Headers */,
-				5A52758F0BB40AB9E61EDB38E7B569C5 /* Resources */,
+				C5ABE73341EF08D99C822C523C900107 /* Sources */,
+				E82C57CE41C89E50FFD072E19ED34631 /* Frameworks */,
+				EC78C91B9862546355661E0CC789DA3D /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			name = KKColorListPicker;
-			productName = KKColorListPicker;
-			productReference = 0A7A683DAB8AFB6A04BBC78EBAAE8BDF /* KKColorListPicker.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		2EBA2590DF72C679ECED9FF733A3EB77 /* Pods-TaskManager */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 82D79CF47C85B3FD1467FE3EA72A3F86 /* Build configuration list for PBXNativeTarget "Pods-TaskManager" */;
-			buildPhases = (
-				9EECAE2DA0F2D2F520F5581A66EA8584 /* Sources */,
-				0E8CDADEC7076421A3498F8E748910FA /* Frameworks */,
-				4D1438E311A0ED085EFCD13E2C1E5437 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				09E2199D3A448888806166473FB45CC6 /* PBXTargetDependency */,
+				B14A8B86B54F433ED08A0BB5E5CCA9DC /* PBXTargetDependency */,
 			);
 			name = "Pods-TaskManager";
 			productName = "Pods-TaskManager";
-			productReference = 1C43BEB342197660642436AFC7D64EC9 /* Pods_TaskManager.framework */;
+			productReference = 98498C587045DD5EEB4C345F4C193C55 /* Pods_TaskManager.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CB8ED883B85BC1A69B03AC1A2D472166 /* RappleColorPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 362711A937F05B3C26C88B23FFFEA334 /* Build configuration list for PBXNativeTarget "RappleColorPicker" */;
+			buildPhases = (
+				477CF3C284C9C7DCA1BB6852D771B7B3 /* Sources */,
+				5A6032DB672A3B9A38DB0125AB951F0E /* Frameworks */,
+				904A59705738502D147FB776B5BEEF64 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RappleColorPicker;
+			productName = RappleColorPicker;
+			productReference = 0BAB3DF83E38C48BA23651F26B923A52 /* RappleColorPicker.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -303,6 +231,14 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					A77CD17669643B31F38400D70581DDF7 = {
+						LastSwiftMigration = 0810;
+					};
+					CB8ED883B85BC1A69B03AC1A2D472166 = {
+						LastSwiftMigration = 0810;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -312,62 +248,43 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 902D2194DE3944BD477D63BD8C0116CB /* Products */;
+			productRefGroup = 1A999D79A2B25C05C638DA837A87A981 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				115F9267B56AFC2B00947772D922E732 /* KKColorListPicker */,
-				2EBA2590DF72C679ECED9FF733A3EB77 /* Pods-TaskManager */,
+				A77CD17669643B31F38400D70581DDF7 /* Pods-TaskManager */,
+				CB8ED883B85BC1A69B03AC1A2D472166 /* RappleColorPicker */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		5A52758F0BB40AB9E61EDB38E7B569C5 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C59F29279DEDFDAAEFDDDF75F9953475 /* KKColorCell.xib in Resources */,
-				5E36C0493C8E0471A5DC6E82157C369A /* KKColorsHeaderView.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		4ED1DBFACB782E8883D3199AA6F99D58 /* Sources */ = {
+		477CF3C284C9C7DCA1BB6852D771B7B3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFCEA2F39BA6DE5926B6E4528CD36343 /* colors_crayola.plist in Sources */,
-				6B171C0B76C508087A68C2B19CAE1165 /* colors_pantone.plist in Sources */,
-				9A4B26D97DAB9E698EB7329C4D2CE3A2 /* KKColor.m in Sources */,
-				C71A62DA8E08022B9A6FD5D00DB51187 /* KKColorCell.m in Sources */,
-				5CD8C57299356CE0DC182026E5AE254A /* KKColorListPicker-dummy.m in Sources */,
-				A47942DDCC9385C074D66ED3575E0181 /* KKColorListViewController.m in Sources */,
-				763688F8622B1B96703AD6F57062A813 /* KKColorsHeaderView.m in Sources */,
-				D914DD67CBDC0964DE607CB921241FCC /* KKColorsLoader.m in Sources */,
-				60B5F16E19699338BCA20266006C4CC3 /* UIColor+CustomColors.m in Sources */,
-				D67843FBF2A4304EF1F0BCC6764335C0 /* UIView+KKToolKitAdditions.m in Sources */,
+				9A6B86A467FDA43322A8979C055749BD /* RappleColorPicker-dummy.m in Sources */,
+				92C464B7AB4E1297F7C01DDC4F8A9277 /* RappleColorPicker.swift in Sources */,
+				543A759B704322648C4529C7E6952C12 /* RappleColorPickerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9EECAE2DA0F2D2F520F5581A66EA8584 /* Sources */ = {
+		C5ABE73341EF08D99C822C523C900107 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF3AAD7791F81F9A11F2AA95F4BB875D /* Pods-TaskManager-dummy.m in Sources */,
+				6B8A2B57EC81E38F989CFB0F8A0AF78B /* Pods-TaskManager-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		09E2199D3A448888806166473FB45CC6 /* PBXTargetDependency */ = {
+		B14A8B86B54F433ED08A0BB5E5CCA9DC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = KKColorListPicker;
-			target = 115F9267B56AFC2B00947772D922E732 /* KKColorListPicker */;
-			targetProxy = 11685CDBA4687D82C9BFC6F54F4E8467 /* PBXContainerItemProxy */;
+			name = RappleColorPicker;
+			target = CB8ED883B85BC1A69B03AC1A2D472166 /* RappleColorPicker */;
+			targetProxy = 498741E7ACBEA211F2C5E8A5381E3AFD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -414,9 +331,9 @@
 			};
 			name = Debug;
 		};
-		47B72103E299617A964088791EF555A0 /* Release */ = {
+		65A641A447E5DABEDF93A4FB55AB1897 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BBF7C5F2DD9B2E1117900D9614CDD1D7 /* KKColorListPicker.xcconfig */;
+			baseConfigurationReference = 2606037036AB9EDBE7D4DBAEA9694EA8 /* RappleColorPicker.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -427,82 +344,17 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/KKColorListPicker/KKColorListPicker-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/KKColorListPicker/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/RappleColorPicker/RappleColorPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RappleColorPicker/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/KKColorListPicker/KKColorListPicker.modulemap";
+				MODULEMAP_FILE = "Target Support Files/RappleColorPicker/RappleColorPicker.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = KKColorListPicker;
+				PRODUCT_NAME = RappleColorPicker;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		86F75475F4281F327C40D7E970587DE3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 79EFEAD5448517FDDAC69E05804A00BF /* Pods-TaskManager.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-TaskManager/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TaskManager/Pods-TaskManager.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_TaskManager;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B97FD64B2468DED76BAD51B196AF373D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A5B77772A9AEABB2633F99ED044AFE85 /* Pods-TaskManager.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-TaskManager/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TaskManager/Pods-TaskManager.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_TaskManager;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -547,9 +399,9 @@
 			};
 			name = Release;
 		};
-		F222DDAB05F5331923F84751B80B433D /* Debug */ = {
+		DD231CF7FF06EAA10DA61B18F7D5EB68 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BBF7C5F2DD9B2E1117900D9614CDD1D7 /* KKColorListPicker.xcconfig */;
+			baseConfigurationReference = 2606037036AB9EDBE7D4DBAEA9694EA8 /* RappleColorPicker.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -560,21 +412,92 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/KKColorListPicker/KKColorListPicker-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/KKColorListPicker/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/RappleColorPicker/RappleColorPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RappleColorPicker/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/KKColorListPicker/KKColorListPicker.modulemap";
+				MODULEMAP_FILE = "Target Support Files/RappleColorPicker/RappleColorPicker.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = KKColorListPicker;
+				PRODUCT_NAME = RappleColorPicker;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		EC4AE3849D5C28C5DD39E8ABA728022B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79EFEAD5448517FDDAC69E05804A00BF /* Pods-TaskManager.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TaskManager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TaskManager/Pods-TaskManager.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TaskManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F55A759E49E72F90155F0CA52053E460 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5B77772A9AEABB2633F99ED044AFE85 /* Pods-TaskManager.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TaskManager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TaskManager/Pods-TaskManager.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TaskManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -588,20 +511,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4F326A35DA2B7E4C5103871D64703AC8 /* Build configuration list for PBXNativeTarget "KKColorListPicker" */ = {
+		362711A937F05B3C26C88B23FFFEA334 /* Build configuration list for PBXNativeTarget "RappleColorPicker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F222DDAB05F5331923F84751B80B433D /* Debug */,
-				47B72103E299617A964088791EF555A0 /* Release */,
+				DD231CF7FF06EAA10DA61B18F7D5EB68 /* Debug */,
+				65A641A447E5DABEDF93A4FB55AB1897 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		82D79CF47C85B3FD1467FE3EA72A3F86 /* Build configuration list for PBXNativeTarget "Pods-TaskManager" */ = {
+		9B7E80C8CF2D7521946A49640191A45B /* Build configuration list for PBXNativeTarget "Pods-TaskManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				86F75475F4281F327C40D7E970587DE3 /* Debug */,
-				B97FD64B2468DED76BAD51B196AF373D /* Release */,
+				EC4AE3849D5C28C5DD39E8ABA728022B /* Debug */,
+				F55A759E49E72F90155F0CA52053E460 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

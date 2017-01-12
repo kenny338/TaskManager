@@ -12,21 +12,20 @@ class TextTableViewCell : UITableViewCell, ReusableView, NibLoadableView, UIText
     @IBOutlet weak var textView: UITextView!
     @IBOutlet weak var hintLabel: UILabel!
     
-    func hideHintLabel() {
-          hintLabel.isHidden = textView.text.isEmpty ? false : true
-    }
     
     override func awakeFromNib() {
         super.awakeFromNib()
         textView.delegate = self
-        hideHintLabel()
+        hintLabel.isHidden = !(UserSettings.sharedSettings.currentTask?.name?.isEmpty ?? true)
+        selectionStyle = .none
     }
     
     func textViewDidBeginEditing(_ textView: UITextView) {
         hintLabel.isHidden = true
     }
     func textViewDidEndEditing(_ textView: UITextView) {
-        hideHintLabel()
+        hintLabel.isHidden = textView.text.isEmpty ? false : true
+        UserSettings.sharedSettings.currentTask?.name = textView.text
     }
     
 }

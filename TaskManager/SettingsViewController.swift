@@ -9,6 +9,7 @@
 import UIKit
 
 class SettingsViewController: UIViewController {
+    //MARK: - Variables
     
     lazy var dataSource: SettingsDataSource = {
         return SettingsDataSource(tableView: self.tableView)
@@ -23,7 +24,7 @@ class SettingsViewController: UIViewController {
             
         }
     }
-
+    //MARK: - Lifecycle
 
     override func viewDidLoad() {
         super.viewDidLoad()
