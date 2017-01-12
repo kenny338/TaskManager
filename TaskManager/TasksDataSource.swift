@@ -13,6 +13,7 @@ class TasksDataSource: NSObject, UITableViewDataSource, Fetchable {
     private var tableView: UITableView
     var tasks: [Task] = [] {
         didSet {
+            showNoTasksView(show: tasks.isEmpty)
             tableView.reloadData()
         }
     }
@@ -39,6 +40,18 @@ class TasksDataSource: NSObject, UITableViewDataSource, Fetchable {
         }
         else {
             fetchData()
+        }
+    }
+    
+    //MARK: - Helper method's
+    
+    func showNoTasksView(show: Bool) {
+        if show {
+            let view: NoTasksView = UIView.load()
+            tableView.backgroundView = view
+        }
+        else {
+            tableView.backgroundView = nil
         }
     }
     

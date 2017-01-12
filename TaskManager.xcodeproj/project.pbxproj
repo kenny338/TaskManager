@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		35FFEF7D1E27787600ED4574 /* NoTasksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FFEF7C1E27787600ED4574 /* NoTasksView.swift */; };
+		35FFEF7F1E27788400ED4574 /* NoTasksView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35FFEF7E1E27788400ED4574 /* NoTasksView.xib */; };
 		B90841701DC887E800A2F3D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B908416F1DC887E800A2F3D3 /* AppDelegate.swift */; };
 		B90841781DC887E800A2F3D3 /* TaskManager.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B90841761DC887E800A2F3D3 /* TaskManager.xcdatamodeld */; };
 		B908417A1DC887E800A2F3D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B90841791DC887E800A2F3D3 /* Assets.xcassets */; };
@@ -80,6 +82,8 @@
 
 /* Begin PBXFileReference section */
 		1AF16E7A7B405C2833CA5690 /* Pods-TaskManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskManager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TaskManager/Pods-TaskManager.debug.xcconfig"; sourceTree = "<group>"; };
+		35FFEF7C1E27787600ED4574 /* NoTasksView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoTasksView.swift; sourceTree = "<group>"; };
+		35FFEF7E1E27788400ED4574 /* NoTasksView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NoTasksView.xib; sourceTree = "<group>"; };
 		45867E97C216830EBE654DA3 /* Pods_TaskManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TaskManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B908416C1DC887E800A2F3D3 /* TaskManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B908416F1DC887E800A2F3D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -271,6 +275,8 @@
 				B90841B71DC88E0700A2F3D3 /* TaskDetailViewController.xib */,
 				B90841BB1DC88E1F00A2F3D3 /* SettingsViewController.xib */,
 				B9DEF45D1DD148B80065B709 /* AddNewCategoryView.xib */,
+				35FFEF7C1E27787600ED4574 /* NoTasksView.swift */,
+				35FFEF7E1E27788400ED4574 /* NoTasksView.xib */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -490,6 +496,7 @@
 				B9B4AD1E1DC8BD79001CBF6E /* TaskTableViewCell.xib in Resources */,
 				B908417A1DC887E800A2F3D3 /* Assets.xcassets in Resources */,
 				B90841B51DC88DE300A2F3D3 /* AddNewTaskViewController.xib in Resources */,
+				35FFEF7F1E27788400ED4574 /* NoTasksView.xib in Resources */,
 				B90841B11DC88D7B00A2F3D3 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -585,6 +592,7 @@
 				B9DEF4601DD1498B0065B709 /* UIView.swift in Sources */,
 				B98EB4E31DD3FB9800441914 /* Date.swift in Sources */,
 				B90841701DC887E800A2F3D3 /* AppDelegate.swift in Sources */,
+				35FFEF7D1E27787600ED4574 /* NoTasksView.swift in Sources */,
 				B9CCF2B91DCA92E600AF16B9 /* UserSettings.swift in Sources */,
 				B9B4AD2F1DC8D183001CBF6E /* UITableView.swift in Sources */,
 				B9BFB8961DCC04CE00F900E2 /* CoreDataFetcher.swift in Sources */,
