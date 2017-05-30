@@ -7,10 +7,9 @@
 //
 
 import UIKit
-import DTTableViewManager
-import DTModelStorage
 
-class TaskTableViewCell : UITableViewCell, ReusableView, NibLoadableView, ModelTransfer {
+
+class TaskTableViewCell : UITableViewCell, ReusableView, NibLoadableView {
 
     @IBOutlet weak var categoryView: UIView!
     @IBOutlet weak var title: UILabel!

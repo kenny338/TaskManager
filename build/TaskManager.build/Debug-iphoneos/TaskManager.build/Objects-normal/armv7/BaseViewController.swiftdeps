@@ -1,0 +1,296 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "BaseViewController"
+provides-nominal:
+- "C11TaskManager18BaseViewController"
+provides-member:
+- ["C11TaskManager18BaseViewController", ""]
+provides-dynamic-lookup:
+- "addTap"
+- "tapped"
+depends-top-level:
+- "AssignmentPrecedence"
+- "BaseViewController"
+- !private "BooleanLiteralType"
+- "UIGestureRecognizer"
+- "UIGestureRecognizerDelegate"
+- !private "UITapGestureRecognizer"
+- "UIViewController"
+depends-member:
+- !private ["Ps9AnyObject", "UITapGestureRecognizer"]
+- !private ["Ps9AnyObject", "addGestureRecognizer"]
+- !private ["Ps9AnyObject", "cancelsTouchesInView"]
+- !private ["Ps9AnyObject", "delegate"]
+- !private ["Ps9AnyObject", "endEditing"]
+- ["Ps9AnyObject", "gestureRecognizer"]
+- ["Ps9AnyObject", "gestureRecognizerShouldBegin"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "tapped"]
+- !private ["Ps9AnyObject", "view"]
+- ["Ps9AnyObject", ""]
+- ["C11TaskManager18BaseViewController", "UIGestureRecognizer"]
+- !private ["C11TaskManager18BaseViewController", "UITapGestureRecognizer"]
+- ["C11TaskManager18BaseViewController", "addTap"]
+- ["C11TaskManager18BaseViewController", "deinit"]
+- ["C11TaskManager18BaseViewController", "gestureRecognizer"]
+- ["C11TaskManager18BaseViewController", "gestureRecognizerShouldBegin"]
+- ["C11TaskManager18BaseViewController", "init"]
+- ["C11TaskManager18BaseViewController", "tapped"]
+- !private ["C11TaskManager18BaseViewController", "view"]
+- !private ["PSo15CALayerDelegate", "addGestureRecognizer"]
+- !private ["PSo15CALayerDelegate", "endEditing"]
+- !private ["Ps7CVarArg", "UITapGestureRecognizer"]
+- !private ["Ps7CVarArg", "addGestureRecognizer"]
+- !private ["Ps7CVarArg", "cancelsTouchesInView"]
+- !private ["Ps7CVarArg", "delegate"]
+- !private ["Ps7CVarArg", "endEditing"]
+- ["Ps7CVarArg", "gestureRecognizer"]
+- ["Ps7CVarArg", "gestureRecognizerShouldBegin"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "tapped"]
+- !private ["Ps7CVarArg", "view"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps28CustomDebugStringConvertible", "UITapGestureRecognizer"]
+- !private ["Ps28CustomDebugStringConvertible", "addGestureRecognizer"]
+- !private ["Ps28CustomDebugStringConvertible", "cancelsTouchesInView"]
+- !private ["Ps28CustomDebugStringConvertible", "delegate"]
+- !private ["Ps28CustomDebugStringConvertible", "endEditing"]
+- ["Ps28CustomDebugStringConvertible", "gestureRecognizer"]
+- ["Ps28CustomDebugStringConvertible", "gestureRecognizerShouldBegin"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "tapped"]
+- !private ["Ps28CustomDebugStringConvertible", "view"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "UITapGestureRecognizer"]
+- !private ["Ps23CustomStringConvertible", "addGestureRecognizer"]
+- !private ["Ps23CustomStringConvertible", "cancelsTouchesInView"]
+- !private ["Ps23CustomStringConvertible", "delegate"]
+- !private ["Ps23CustomStringConvertible", "endEditing"]
+- ["Ps23CustomStringConvertible", "gestureRecognizer"]
+- ["Ps23CustomStringConvertible", "gestureRecognizerShouldBegin"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "tapped"]
+- !private ["Ps23CustomStringConvertible", "view"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "UITapGestureRecognizer"]
+- !private ["Ps9Equatable", "addGestureRecognizer"]
+- !private ["Ps9Equatable", "cancelsTouchesInView"]
+- !private ["Ps9Equatable", "delegate"]
+- !private ["Ps9Equatable", "endEditing"]
+- ["Ps9Equatable", "gestureRecognizer"]
+- ["Ps9Equatable", "gestureRecognizerShouldBegin"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "tapped"]
+- !private ["Ps9Equatable", "view"]
+- ["Ps9Equatable", ""]
+- !private ["Ps8Hashable", "UITapGestureRecognizer"]
+- !private ["Ps8Hashable", "addGestureRecognizer"]
+- !private ["Ps8Hashable", "cancelsTouchesInView"]
+- !private ["Ps8Hashable", "delegate"]
+- !private ["Ps8Hashable", "endEditing"]
+- ["Ps8Hashable", "gestureRecognizer"]
+- ["Ps8Hashable", "gestureRecognizerShouldBegin"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "tapped"]
+- !private ["Ps8Hashable", "view"]
+- ["Ps8Hashable", ""]
+- !private ["PSo8NSCoding", "UITapGestureRecognizer"]
+- !private ["PSo8NSCoding", "addGestureRecognizer"]
+- !private ["PSo8NSCoding", "endEditing"]
+- ["PSo8NSCoding", "gestureRecognizer"]
+- ["PSo8NSCoding", "gestureRecognizerShouldBegin"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "tapped"]
+- !private ["PSo8NSCoding", "view"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo26NSExtensionRequestHandling", "UITapGestureRecognizer"]
+- ["PSo26NSExtensionRequestHandling", "gestureRecognizer"]
+- ["PSo26NSExtensionRequestHandling", "gestureRecognizerShouldBegin"]
+- !private ["PSo26NSExtensionRequestHandling", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "tapped"]
+- !private ["PSo26NSExtensionRequestHandling", "view"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- ["CSo8NSObject", "UIGestureRecognizer"]
+- !private ["CSo8NSObject", "UITapGestureRecognizer"]
+- !private ["CSo8NSObject", "addGestureRecognizer"]
+- ["CSo8NSObject", "addTap"]
+- !private ["CSo8NSObject", "cancelsTouchesInView"]
+- !private ["CSo8NSObject", "delegate"]
+- !private ["CSo8NSObject", "endEditing"]
+- ["CSo8NSObject", "gestureRecognizer"]
+- ["CSo8NSObject", "gestureRecognizerShouldBegin"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "tapped"]
+- !private ["CSo8NSObject", "view"]
+- !private ["PSo16NSObjectProtocol", "UITapGestureRecognizer"]
+- !private ["PSo16NSObjectProtocol", "addGestureRecognizer"]
+- !private ["PSo16NSObjectProtocol", "cancelsTouchesInView"]
+- !private ["PSo16NSObjectProtocol", "delegate"]
+- !private ["PSo16NSObjectProtocol", "endEditing"]
+- ["PSo16NSObjectProtocol", "gestureRecognizer"]
+- ["PSo16NSObjectProtocol", "gestureRecognizerShouldBegin"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "tapped"]
+- !private ["PSo16NSObjectProtocol", "view"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo29UIAccessibilityIdentification", "addGestureRecognizer"]
+- !private ["PSo29UIAccessibilityIdentification", "endEditing"]
+- !private ["PSo12UIAppearance", "addGestureRecognizer"]
+- !private ["PSo12UIAppearance", "endEditing"]
+- !private ["PSo21UIAppearanceContainer", "UITapGestureRecognizer"]
+- !private ["PSo21UIAppearanceContainer", "addGestureRecognizer"]
+- !private ["PSo21UIAppearanceContainer", "endEditing"]
+- ["PSo21UIAppearanceContainer", "gestureRecognizer"]
+- ["PSo21UIAppearanceContainer", "gestureRecognizerShouldBegin"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "tapped"]
+- !private ["PSo21UIAppearanceContainer", "view"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo18UIContentContainer", "UITapGestureRecognizer"]
+- ["PSo18UIContentContainer", "gestureRecognizer"]
+- ["PSo18UIContentContainer", "gestureRecognizerShouldBegin"]
+- !private ["PSo18UIContentContainer", "init"]
+- !private ["PSo18UIContentContainer", "tapped"]
+- !private ["PSo18UIContentContainer", "view"]
+- ["PSo18UIContentContainer", ""]
+- !private ["PSo17UICoordinateSpace", "addGestureRecognizer"]
+- !private ["PSo17UICoordinateSpace", "endEditing"]
+- !private ["PSo13UIDynamicItem", "addGestureRecognizer"]
+- !private ["PSo13UIDynamicItem", "endEditing"]
+- !private ["PSo18UIFocusEnvironment", "UITapGestureRecognizer"]
+- !private ["PSo18UIFocusEnvironment", "addGestureRecognizer"]
+- !private ["PSo18UIFocusEnvironment", "endEditing"]
+- ["PSo18UIFocusEnvironment", "gestureRecognizer"]
+- ["PSo18UIFocusEnvironment", "gestureRecognizerShouldBegin"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "tapped"]
+- !private ["PSo18UIFocusEnvironment", "view"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo11UIFocusItem", "addGestureRecognizer"]
+- !private ["PSo11UIFocusItem", "endEditing"]
+- !private ["CSo19UIGestureRecognizer", "cancelsTouchesInView"]
+- !private ["CSo19UIGestureRecognizer", "delegate"]
+- !private ["CSo19UIGestureRecognizer", "init"]
+- !private ["PSo27UIGestureRecognizerDelegate", "UITapGestureRecognizer"]
+- ["PSo27UIGestureRecognizerDelegate", "gestureRecognizer"]
+- ["PSo27UIGestureRecognizerDelegate", "gestureRecognizerShouldBegin"]
+- !private ["PSo27UIGestureRecognizerDelegate", "tapped"]
+- !private ["PSo27UIGestureRecognizerDelegate", "view"]
+- ["PSo27UIGestureRecognizerDelegate", ""]
+- ["CSo11UIResponder", "UIGestureRecognizer"]
+- !private ["CSo11UIResponder", "UITapGestureRecognizer"]
+- !private ["CSo11UIResponder", "addGestureRecognizer"]
+- ["CSo11UIResponder", "addTap"]
+- !private ["CSo11UIResponder", "endEditing"]
+- ["CSo11UIResponder", "gestureRecognizer"]
+- ["CSo11UIResponder", "gestureRecognizerShouldBegin"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "tapped"]
+- !private ["CSo11UIResponder", "view"]
+- !private ["PSo30UIResponderStandardEditActions", "UITapGestureRecognizer"]
+- !private ["PSo30UIResponderStandardEditActions", "addGestureRecognizer"]
+- !private ["PSo30UIResponderStandardEditActions", "endEditing"]
+- ["PSo30UIResponderStandardEditActions", "gestureRecognizer"]
+- ["PSo30UIResponderStandardEditActions", "gestureRecognizerShouldBegin"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- !private ["PSo30UIResponderStandardEditActions", "tapped"]
+- !private ["PSo30UIResponderStandardEditActions", "view"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- !private ["PSo16UIStateRestoring", "UITapGestureRecognizer"]
+- ["PSo16UIStateRestoring", "gestureRecognizer"]
+- ["PSo16UIStateRestoring", "gestureRecognizerShouldBegin"]
+- !private ["PSo16UIStateRestoring", "init"]
+- !private ["PSo16UIStateRestoring", "tapped"]
+- !private ["PSo16UIStateRestoring", "view"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["CSo22UITapGestureRecognizer", "cancelsTouchesInView"]
+- !private ["CSo22UITapGestureRecognizer", "delegate"]
+- !private ["CSo22UITapGestureRecognizer", "init"]
+- !private ["PSo18UITraitEnvironment", "UITapGestureRecognizer"]
+- !private ["PSo18UITraitEnvironment", "addGestureRecognizer"]
+- !private ["PSo18UITraitEnvironment", "endEditing"]
+- ["PSo18UITraitEnvironment", "gestureRecognizer"]
+- ["PSo18UITraitEnvironment", "gestureRecognizerShouldBegin"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "tapped"]
+- !private ["PSo18UITraitEnvironment", "view"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "addGestureRecognizer"]
+- !private ["CSo6UIView", "endEditing"]
+- ["CSo16UIViewController", "UIGestureRecognizer"]
+- !private ["CSo16UIViewController", "UITapGestureRecognizer"]
+- ["CSo16UIViewController", "addTap"]
+- ["CSo16UIViewController", "gestureRecognizer"]
+- ["CSo16UIViewController", "gestureRecognizerShouldBegin"]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "tapped"]
+- !private ["CSo16UIViewController", "view"]
+- ["CSo16UIViewController", ""]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "addGestureRecognizer"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "endEditing"]
+- !private ["Ps9_Hashable", "UITapGestureRecognizer"]
+- !private ["Ps9_Hashable", "addGestureRecognizer"]
+- !private ["Ps9_Hashable", "cancelsTouchesInView"]
+- !private ["Ps9_Hashable", "delegate"]
+- !private ["Ps9_Hashable", "endEditing"]
+- ["Ps9_Hashable", "gestureRecognizer"]
+- ["Ps9_Hashable", "gestureRecognizerShouldBegin"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "tapped"]
+- !private ["Ps9_Hashable", "view"]
+- ["Ps9_Hashable", ""]
+depends-nominal:
+- "Ps9AnyObject"
+- "C11TaskManager18BaseViewController"
+- !private "PSo15CALayerDelegate"
+- "Ps7CVarArg"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "PSo8NSCoding"
+- "PSo26NSExtensionRequestHandling"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo18UIContentContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "PSo11UIFocusItem"
+- !private "CSo19UIGestureRecognizer"
+- "PSo27UIGestureRecognizerDelegate"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- "PSo16UIStateRestoring"
+- !private "CSo22UITapGestureRecognizer"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- !private "Ps37_DefaultCustomPlaygroundQuickLookable"
+- "Ps9_Hashable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreData.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Metal.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/SwiftOnoneSupport.swiftmodule"
+- "/Users/petr.kopecky/Documents/TaskManager/TaskManager-Bridging-Header.h"
+interface-hash: "67a494cb74b8dc27cfdef270806ca08d"

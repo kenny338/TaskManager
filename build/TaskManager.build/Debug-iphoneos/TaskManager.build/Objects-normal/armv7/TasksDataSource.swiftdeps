@@ -1,0 +1,321 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "TasksDataSource"
+provides-nominal:
+- "C11TaskManager15TasksDataSource"
+provides-member:
+- ["C11TaskManager15TasksDataSource", ""]
+provides-dynamic-lookup:
+- "fetchData"
+- "filterData"
+- "tableView"
+- "tasks"
+depends-top-level:
+- !private "!"
+- !private "=="
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- !private "CoreDataFetcher"
+- "Fetchable"
+- "IndexPath"
+- "NSObject"
+- "Task"
+- "TasksDataSource"
+- "UITableView"
+- "UITableViewCellEditingStyle"
+depends-member:
+- !private ["Ps9AnyObject", "CoreDataFetcher"]
+- !private ["Ps9AnyObject", "completed"]
+- ["Ps9AnyObject", "fetchData"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "reloadData"]
+- !private ["Ps9AnyObject", "removeTask"]
+- !private ["Ps9AnyObject", "save"]
+- !private ["Ps9AnyObject", "shared"]
+- !private ["Ps9AnyObject", "tasks"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "filter"]
+- !private ["Sa", "remove"]
+- !private ["Sa", "subscript"]
+- !private ["Ps23BidirectionalCollection", "filter"]
+- !private ["Ps23BidirectionalCollection", "remove"]
+- !private ["Ps23BidirectionalCollection", "row"]
+- !private ["Ps23BidirectionalCollection", "subscript"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSo15CALayerDelegate", "reloadData"]
+- !private ["Ps7CVarArg", "CoreDataFetcher"]
+- !private ["Ps7CVarArg", "completed"]
+- ["Ps7CVarArg", "fetchData"]
+- !private ["Ps7CVarArg", "filter"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "reloadData"]
+- !private ["Ps7CVarArg", "remove"]
+- !private ["Ps7CVarArg", "subscript"]
+- !private ["Ps7CVarArg", "tasks"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps10Collection", "filter"]
+- !private ["Ps10Collection", "remove"]
+- !private ["Ps10Collection", "row"]
+- !private ["Ps10Collection", "subscript"]
+- !private ["Ps10Comparable", "row"]
+- !private ["C11TaskManager15CoreDataFetcher", "removeTask"]
+- !private ["C11TaskManager15CoreDataFetcher", "save"]
+- !private ["C11TaskManager15CoreDataFetcher", "shared"]
+- !private ["Ps28CustomDebugStringConvertible", "CoreDataFetcher"]
+- !private ["Ps28CustomDebugStringConvertible", "completed"]
+- ["Ps28CustomDebugStringConvertible", "fetchData"]
+- !private ["Ps28CustomDebugStringConvertible", "filter"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "reloadData"]
+- !private ["Ps28CustomDebugStringConvertible", "remove"]
+- !private ["Ps28CustomDebugStringConvertible", "row"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps28CustomDebugStringConvertible", "tasks"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "filter"]
+- !private ["Ps17CustomReflectable", "remove"]
+- !private ["Ps17CustomReflectable", "row"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- !private ["Ps23CustomStringConvertible", "CoreDataFetcher"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "completed"]
+- ["Ps23CustomStringConvertible", "fetchData"]
+- !private ["Ps23CustomStringConvertible", "filter"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "reloadData"]
+- !private ["Ps23CustomStringConvertible", "remove"]
+- !private ["Ps23CustomStringConvertible", "row"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Ps23CustomStringConvertible", "tasks"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "CoreDataFetcher"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "completed"]
+- !private ["Ps9Equatable", "delete"]
+- ["Ps9Equatable", "fetchData"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "reloadData"]
+- !private ["Ps9Equatable", "row"]
+- !private ["Ps9Equatable", "tasks"]
+- ["Ps9Equatable", ""]
+- !private ["Ps25ExpressibleByArrayLiteral", "filter"]
+- !private ["Ps25ExpressibleByArrayLiteral", "remove"]
+- !private ["Ps25ExpressibleByArrayLiteral", "row"]
+- !private ["Ps25ExpressibleByArrayLiteral", "subscript"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["P11TaskManager9Fetchable", "CoreDataFetcher"]
+- ["P11TaskManager9Fetchable", "fetchData"]
+- !private ["P11TaskManager9Fetchable", "tasks"]
+- ["P11TaskManager9Fetchable", ""]
+- !private ["Ps8Hashable", "CoreDataFetcher"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "completed"]
+- !private ["Ps8Hashable", "delete"]
+- ["Ps8Hashable", "fetchData"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "reloadData"]
+- !private ["Ps8Hashable", "row"]
+- !private ["Ps8Hashable", "tasks"]
+- ["Ps8Hashable", ""]
+- !private ["V10Foundation9IndexPath", "row"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps17MutableCollection", "filter"]
+- !private ["Ps17MutableCollection", "remove"]
+- !private ["Ps17MutableCollection", "row"]
+- !private ["Ps17MutableCollection", "subscript"]
+- !private ["PSo8NSCoding", "reloadData"]
+- !private ["PSo20NSFetchRequestResult", "completed"]
+- !private ["CSo15NSManagedObject", "completed"]
+- ["CSo8NSObject", "Bool"]
+- !private ["CSo8NSObject", "CoreDataFetcher"]
+- ["CSo8NSObject", "IndexPath"]
+- ["CSo8NSObject", "Task"]
+- ["CSo8NSObject", "UITableView"]
+- ["CSo8NSObject", "UITableViewCellEditingStyle"]
+- !private ["CSo8NSObject", "completed"]
+- ["CSo8NSObject", "fetchData"]
+- ["CSo8NSObject", "filterData"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "reloadData"]
+- ["CSo8NSObject", "tableView"]
+- ["CSo8NSObject", "tasks"]
+- ["CSo8NSObject", ""]
+- !private ["PSo16NSObjectProtocol", "CoreDataFetcher"]
+- !private ["PSo16NSObjectProtocol", "completed"]
+- ["PSo16NSObjectProtocol", "fetchData"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "reloadData"]
+- !private ["PSo16NSObjectProtocol", "tasks"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["Ps22RandomAccessCollection", "filter"]
+- !private ["Ps22RandomAccessCollection", "remove"]
+- !private ["Ps22RandomAccessCollection", "row"]
+- !private ["Ps22RandomAccessCollection", "subscript"]
+- !private ["Ps26RangeReplaceableCollection", "filter"]
+- !private ["Ps26RangeReplaceableCollection", "remove"]
+- !private ["Ps26RangeReplaceableCollection", "subscript"]
+- !private ["Ps16RawRepresentable", "delete"]
+- !private ["P10Foundation20ReferenceConvertible", "row"]
+- !private ["Ps8Sequence", "filter"]
+- !private ["Ps8Sequence", "remove"]
+- !private ["Ps8Sequence", "row"]
+- !private ["Ps8Sequence", "subscript"]
+- !private ["C11TaskManager4Task", "completed"]
+- ["C11TaskManager15TasksDataSource", "Bool"]
+- !private ["C11TaskManager15TasksDataSource", "CoreDataFetcher"]
+- ["C11TaskManager15TasksDataSource", "IndexPath"]
+- ["C11TaskManager15TasksDataSource", "Task"]
+- ["C11TaskManager15TasksDataSource", "UITableView"]
+- ["C11TaskManager15TasksDataSource", "UITableViewCellEditingStyle"]
+- ["C11TaskManager15TasksDataSource", "deinit"]
+- ["C11TaskManager15TasksDataSource", "fetchData"]
+- ["C11TaskManager15TasksDataSource", "filterData"]
+- ["C11TaskManager15TasksDataSource", "init"]
+- ["C11TaskManager15TasksDataSource", "tableView"]
+- ["C11TaskManager15TasksDataSource", "tasks"]
+- !private ["PSo29UIAccessibilityIdentification", "reloadData"]
+- !private ["PSo12UIAppearance", "reloadData"]
+- !private ["PSo21UIAppearanceContainer", "reloadData"]
+- !private ["PSo17UICoordinateSpace", "reloadData"]
+- !private ["PSo13UIDynamicItem", "reloadData"]
+- !private ["PSo18UIFocusEnvironment", "reloadData"]
+- !private ["PSo11UIFocusItem", "reloadData"]
+- !private ["CSo11UIResponder", "reloadData"]
+- !private ["PSo30UIResponderStandardEditActions", "reloadData"]
+- !private ["CSo12UIScrollView", "reloadData"]
+- !private ["CSo11UITableView", "reloadData"]
+- !private ["OSC27UITableViewCellEditingStyle", "delete"]
+- !private ["PSo18UITraitEnvironment", "reloadData"]
+- !private ["CSo6UIView", "reloadData"]
+- !private ["Ps14_ArrayProtocol", "filter"]
+- !private ["Ps14_ArrayProtocol", "remove"]
+- !private ["Ps14_ArrayProtocol", "subscript"]
+- !private ["Ps23_BidirectionalIndexable", "filter"]
+- !private ["Ps23_BidirectionalIndexable", "remove"]
+- !private ["Ps23_BidirectionalIndexable", "row"]
+- !private ["Ps23_BidirectionalIndexable", "subscript"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "reloadData"]
+- !private ["Ps24_DestructorSafeContainer", "filter"]
+- !private ["Ps24_DestructorSafeContainer", "remove"]
+- !private ["Ps24_DestructorSafeContainer", "subscript"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "CoreDataFetcher"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "completed"]
+- !private ["Ps9_Hashable", "delete"]
+- ["Ps9_Hashable", "fetchData"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "reloadData"]
+- !private ["Ps9_Hashable", "row"]
+- !private ["Ps9_Hashable", "tasks"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps10_Indexable", "filter"]
+- !private ["Ps10_Indexable", "remove"]
+- !private ["Ps10_Indexable", "row"]
+- !private ["Ps10_Indexable", "subscript"]
+- !private ["Ps14_IndexableBase", "filter"]
+- !private ["Ps14_IndexableBase", "remove"]
+- !private ["Ps14_IndexableBase", "row"]
+- !private ["Ps14_IndexableBase", "subscript"]
+- !private ["Ps17_MutableIndexable", "filter"]
+- !private ["Ps17_MutableIndexable", "remove"]
+- !private ["Ps17_MutableIndexable", "row"]
+- !private ["Ps17_MutableIndexable", "subscript"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "filter"]
+- !private ["Ps21_ObjectiveCBridgeable", "remove"]
+- !private ["Ps21_ObjectiveCBridgeable", "row"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- !private ["Ps22_RandomAccessIndexable", "filter"]
+- !private ["Ps22_RandomAccessIndexable", "remove"]
+- !private ["Ps22_RandomAccessIndexable", "row"]
+- !private ["Ps22_RandomAccessIndexable", "subscript"]
+- !private ["Ps26_RangeReplaceableIndexable", "filter"]
+- !private ["Ps26_RangeReplaceableIndexable", "remove"]
+- !private ["Ps26_RangeReplaceableIndexable", "subscript"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Sb"
+- !private "PSo15CALayerDelegate"
+- "Ps7CVarArg"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- !private "C11TaskManager15CoreDataFetcher"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- "P11TaskManager9Fetchable"
+- "Ps8Hashable"
+- !private "V10Foundation9IndexPath"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps17MutableCollection"
+- !private "PSo8NSCoding"
+- !private "PSo20NSFetchRequestResult"
+- !private "CSo15NSManagedObject"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps16RawRepresentable"
+- !private "P10Foundation20ReferenceConvertible"
+- !private "Ps8Sequence"
+- !private "C11TaskManager4Task"
+- "C11TaskManager15TasksDataSource"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- !private "PSo21UIAppearanceContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- !private "PSo18UIFocusEnvironment"
+- !private "PSo11UIFocusItem"
+- !private "CSo11UIResponder"
+- !private "PSo30UIResponderStandardEditActions"
+- !private "CSo12UIScrollView"
+- !private "CSo11UITableView"
+- !private "OSC27UITableViewCellEditingStyle"
+- !private "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps23_BidirectionalIndexable"
+- !private "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- "Ps9_Hashable"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- !private "Ps17_MutableIndexable"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps22_RandomAccessIndexable"
+- !private "Ps26_RangeReplaceableIndexable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreData.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Metal.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/SwiftOnoneSupport.swiftmodule"
+- "/Users/petr.kopecky/Documents/TaskManager/TaskManager-Bridging-Header.h"
+interface-hash: "e1b44ec528f2643b8b239333949bf90f"

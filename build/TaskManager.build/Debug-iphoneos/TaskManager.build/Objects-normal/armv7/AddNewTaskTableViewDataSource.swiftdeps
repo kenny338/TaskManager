@@ -1,0 +1,729 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AddNewTastTableViewDataSource"
+provides-nominal:
+- "C11TaskManager29AddNewTastTableViewDataSource"
+provides-member:
+- ["C11TaskManager29AddNewTastTableViewDataSource", ""]
+provides-dynamic-lookup:
+- "numberOfSections"
+- "tableView"
+- "titles"
+depends-top-level:
+- !private "??"
+- "AddNewTastTableViewDataSource"
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- "CastingPrecedence"
+- !private "CategoryTableViewCell"
+- !private "Date"
+- !private "DateTableViewCell"
+- "IndexPath"
+- "Int"
+- "NSObject"
+- "String"
+- !private "StringLiteralType"
+- "StringProvider"
+- !private "SwitchTableViewCell"
+- !private "TextTableViewCell"
+- "UITableView"
+- "UITableViewCell"
+- "UITableViewDataSource"
+- !private "UserSettings"
+- !private "~="
+depends-member:
+- !private ["C11TaskManager29AddNewTastTableViewDataSource", "CategoryTableViewCell"]
+- !private ["C11TaskManager29AddNewTastTableViewDataSource", "Date"]
+- !private ["C11TaskManager29AddNewTastTableViewDataSource", "DateTableViewCell"]
+- ["C11TaskManager29AddNewTastTableViewDataSource", "IndexPath"]
+- ["C11TaskManager29AddNewTastTableViewDataSource", "Int"]
+- ["C11TaskManager29AddNewTastTableViewDataSource", "String"]
+- ["C11TaskManager29AddNewTastTableViewDataSource", "StringProvider"]
+- !private ["C11TaskManager29AddNewTastTableViewDataSource", "SwitchTableViewCell"]
+- !private ["C11TaskManager29AddNewTastTableViewDataSource", "TextTableViewCell"]
+- ["C11TaskManager29AddNewTastTableViewDataSource", "UITableView"]
+- ["C11TaskManager29AddNewTastTableViewDataSource", "UITableViewCell"]
+- !private ["C11TaskManager29AddNewTastTableViewDataSource", "UserSettings"]
+- ["C11TaskManager29AddNewTastTableViewDataSource", "deinit"]
+- ["C11TaskManager29AddNewTastTableViewDataSource", "init"]
+- ["C11TaskManager29AddNewTastTableViewDataSource", "numberOfSections"]
+- ["C11TaskManager29AddNewTastTableViewDataSource", "numberOfSectionsInTableView"]
+- ["C11TaskManager29AddNewTastTableViewDataSource", "sectionIndexTitles"]
+- ["C11TaskManager29AddNewTastTableViewDataSource", "sectionIndexTitlesForTableView"]
+- ["C11TaskManager29AddNewTastTableViewDataSource", "tableView"]
+- ["C11TaskManager29AddNewTastTableViewDataSource", "titles"]
+- !private ["Ps9AnyObject", "Date"]
+- ["Ps9AnyObject", "StringProvider"]
+- !private ["Ps9AnyObject", "UITableViewCell"]
+- !private ["Ps9AnyObject", "UserSettings"]
+- !private ["Ps9AnyObject", "category"]
+- !private ["Ps9AnyObject", "configure"]
+- !private ["Ps9AnyObject", "currentTask"]
+- !private ["Ps9AnyObject", "date"]
+- !private ["Ps9AnyObject", "datePicker"]
+- !private ["Ps9AnyObject", "dequeueReusableCell"]
+- !private ["Ps9AnyObject", "hasNotification"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "isOn"]
+- !private ["Ps9AnyObject", "loc"]
+- !private ["Ps9AnyObject", "name"]
+- ["Ps9AnyObject", "newTaskTitles"]
+- ["Ps9AnyObject", "numberOfSections"]
+- ["Ps9AnyObject", "numberOfSectionsInTableView"]
+- ["Ps9AnyObject", "sectionIndexTitles"]
+- ["Ps9AnyObject", "sectionIndexTitlesForTableView"]
+- !private ["Ps9AnyObject", "setDate"]
+- !private ["Ps9AnyObject", "settingsSwitch"]
+- !private ["Ps9AnyObject", "sharedSettings"]
+- ["Ps9AnyObject", "tableView"]
+- !private ["Ps9AnyObject", "text"]
+- !private ["Ps9AnyObject", "textView"]
+- !private ["Ps9AnyObject", "titles"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "count"]
+- !private ["Sa", "subscript"]
+- !private ["Ps23BidirectionalCollection", "count"]
+- !private ["Ps23BidirectionalCollection", "section"]
+- !private ["Ps23BidirectionalCollection", "subscript"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSo15CALayerDelegate", "configure"]
+- !private ["PSo15CALayerDelegate", "datePicker"]
+- !private ["PSo15CALayerDelegate", "dequeueReusableCell"]
+- !private ["PSo15CALayerDelegate", "init"]
+- !private ["PSo15CALayerDelegate", "isOn"]
+- !private ["PSo15CALayerDelegate", "setDate"]
+- !private ["PSo15CALayerDelegate", "settingsSwitch"]
+- !private ["PSo15CALayerDelegate", "text"]
+- !private ["PSo15CALayerDelegate", "textView"]
+- !private ["Ps7CVarArg", "Date"]
+- ["Ps7CVarArg", "StringProvider"]
+- !private ["Ps7CVarArg", "UITableViewCell"]
+- !private ["Ps7CVarArg", "UserSettings"]
+- !private ["Ps7CVarArg", "category"]
+- !private ["Ps7CVarArg", "configure"]
+- !private ["Ps7CVarArg", "count"]
+- !private ["Ps7CVarArg", "date"]
+- !private ["Ps7CVarArg", "datePicker"]
+- !private ["Ps7CVarArg", "dequeueReusableCell"]
+- !private ["Ps7CVarArg", "hasNotification"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "isOn"]
+- !private ["Ps7CVarArg", "loc"]
+- !private ["Ps7CVarArg", "name"]
+- ["Ps7CVarArg", "numberOfSections"]
+- ["Ps7CVarArg", "numberOfSectionsInTableView"]
+- ["Ps7CVarArg", "sectionIndexTitles"]
+- ["Ps7CVarArg", "sectionIndexTitlesForTableView"]
+- !private ["Ps7CVarArg", "setDate"]
+- !private ["Ps7CVarArg", "settingsSwitch"]
+- !private ["Ps7CVarArg", "subscript"]
+- ["Ps7CVarArg", "tableView"]
+- !private ["Ps7CVarArg", "text"]
+- !private ["Ps7CVarArg", "textView"]
+- !private ["Ps7CVarArg", "titles"]
+- ["Ps7CVarArg", ""]
+- !private ["C11TaskManager21CategoryTableViewCell", "configure"]
+- !private ["C11TaskManager21CategoryTableViewCell", "deinit"]
+- !private ["Ps10Collection", "count"]
+- !private ["Ps10Collection", "section"]
+- !private ["Ps10Collection", "subscript"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "loc"]
+- !private ["Ps10Comparable", "section"]
+- !private ["Ps28CustomDebugStringConvertible", "Date"]
+- ["Ps28CustomDebugStringConvertible", "StringProvider"]
+- !private ["Ps28CustomDebugStringConvertible", "UITableViewCell"]
+- !private ["Ps28CustomDebugStringConvertible", "UserSettings"]
+- !private ["Ps28CustomDebugStringConvertible", "category"]
+- !private ["Ps28CustomDebugStringConvertible", "configure"]
+- !private ["Ps28CustomDebugStringConvertible", "count"]
+- !private ["Ps28CustomDebugStringConvertible", "date"]
+- !private ["Ps28CustomDebugStringConvertible", "datePicker"]
+- !private ["Ps28CustomDebugStringConvertible", "dequeueReusableCell"]
+- !private ["Ps28CustomDebugStringConvertible", "hasNotification"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "isOn"]
+- !private ["Ps28CustomDebugStringConvertible", "loc"]
+- !private ["Ps28CustomDebugStringConvertible", "name"]
+- ["Ps28CustomDebugStringConvertible", "numberOfSections"]
+- ["Ps28CustomDebugStringConvertible", "numberOfSectionsInTableView"]
+- !private ["Ps28CustomDebugStringConvertible", "section"]
+- ["Ps28CustomDebugStringConvertible", "sectionIndexTitles"]
+- ["Ps28CustomDebugStringConvertible", "sectionIndexTitlesForTableView"]
+- !private ["Ps28CustomDebugStringConvertible", "setDate"]
+- !private ["Ps28CustomDebugStringConvertible", "settingsSwitch"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- ["Ps28CustomDebugStringConvertible", "tableView"]
+- !private ["Ps28CustomDebugStringConvertible", "text"]
+- !private ["Ps28CustomDebugStringConvertible", "textView"]
+- !private ["Ps28CustomDebugStringConvertible", "titles"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "loc"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "count"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "loc"]
+- !private ["Ps17CustomReflectable", "section"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- !private ["Ps23CustomStringConvertible", "Date"]
+- ["Ps23CustomStringConvertible", "StringProvider"]
+- !private ["Ps23CustomStringConvertible", "UITableViewCell"]
+- !private ["Ps23CustomStringConvertible", "UserSettings"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "category"]
+- !private ["Ps23CustomStringConvertible", "configure"]
+- !private ["Ps23CustomStringConvertible", "count"]
+- !private ["Ps23CustomStringConvertible", "date"]
+- !private ["Ps23CustomStringConvertible", "datePicker"]
+- !private ["Ps23CustomStringConvertible", "dequeueReusableCell"]
+- !private ["Ps23CustomStringConvertible", "hasNotification"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "isOn"]
+- !private ["Ps23CustomStringConvertible", "loc"]
+- !private ["Ps23CustomStringConvertible", "name"]
+- ["Ps23CustomStringConvertible", "numberOfSections"]
+- ["Ps23CustomStringConvertible", "numberOfSectionsInTableView"]
+- !private ["Ps23CustomStringConvertible", "section"]
+- ["Ps23CustomStringConvertible", "sectionIndexTitles"]
+- ["Ps23CustomStringConvertible", "sectionIndexTitlesForTableView"]
+- !private ["Ps23CustomStringConvertible", "setDate"]
+- !private ["Ps23CustomStringConvertible", "settingsSwitch"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- ["Ps23CustomStringConvertible", "tableView"]
+- !private ["Ps23CustomStringConvertible", "text"]
+- !private ["Ps23CustomStringConvertible", "textView"]
+- !private ["Ps23CustomStringConvertible", "titles"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["V10Foundation4Date", "init"]
+- !private ["C11TaskManager17DateTableViewCell", "datePicker"]
+- !private ["C11TaskManager17DateTableViewCell", "deinit"]
+- !private ["Ps9Equatable", "AddNotification"]
+- !private ["Ps9Equatable", "Date"]
+- ["Ps9Equatable", "StringProvider"]
+- !private ["Ps9Equatable", "UITableViewCell"]
+- !private ["Ps9Equatable", "UserSettings"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "category"]
+- !private ["Ps9Equatable", "configure"]
+- !private ["Ps9Equatable", "date"]
+- !private ["Ps9Equatable", "datePicker"]
+- !private ["Ps9Equatable", "dequeueReusableCell"]
+- !private ["Ps9Equatable", "hasNotification"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "isOn"]
+- !private ["Ps9Equatable", "loc"]
+- !private ["Ps9Equatable", "name"]
+- ["Ps9Equatable", "numberOfSections"]
+- ["Ps9Equatable", "numberOfSectionsInTableView"]
+- !private ["Ps9Equatable", "section"]
+- ["Ps9Equatable", "sectionIndexTitles"]
+- ["Ps9Equatable", "sectionIndexTitlesForTableView"]
+- !private ["Ps9Equatable", "setDate"]
+- !private ["Ps9Equatable", "settingsSwitch"]
+- ["Ps9Equatable", "tableView"]
+- !private ["Ps9Equatable", "text"]
+- !private ["Ps9Equatable", "textView"]
+- !private ["Ps9Equatable", "titles"]
+- ["Ps9Equatable", ""]
+- !private ["Ps25ExpressibleByArrayLiteral", "count"]
+- !private ["Ps25ExpressibleByArrayLiteral", "section"]
+- !private ["Ps25ExpressibleByArrayLiteral", "subscript"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "loc"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "loc"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "loc"]
+- !private ["Ps8Hashable", "AddNotification"]
+- !private ["Ps8Hashable", "Date"]
+- ["Ps8Hashable", "StringProvider"]
+- !private ["Ps8Hashable", "UITableViewCell"]
+- !private ["Ps8Hashable", "UserSettings"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "category"]
+- !private ["Ps8Hashable", "configure"]
+- !private ["Ps8Hashable", "date"]
+- !private ["Ps8Hashable", "datePicker"]
+- !private ["Ps8Hashable", "dequeueReusableCell"]
+- !private ["Ps8Hashable", "hasNotification"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "isOn"]
+- !private ["Ps8Hashable", "loc"]
+- !private ["Ps8Hashable", "name"]
+- ["Ps8Hashable", "numberOfSections"]
+- ["Ps8Hashable", "numberOfSectionsInTableView"]
+- !private ["Ps8Hashable", "section"]
+- ["Ps8Hashable", "sectionIndexTitles"]
+- ["Ps8Hashable", "sectionIndexTitlesForTableView"]
+- !private ["Ps8Hashable", "setDate"]
+- !private ["Ps8Hashable", "settingsSwitch"]
+- ["Ps8Hashable", "tableView"]
+- !private ["Ps8Hashable", "text"]
+- !private ["Ps8Hashable", "textView"]
+- !private ["Ps8Hashable", "titles"]
+- ["Ps8Hashable", ""]
+- !private ["V10Foundation9IndexPath", "section"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps25LosslessStringConvertible", "loc"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["Ps10MirrorPath", "loc"]
+- !private ["Ps17MutableCollection", "count"]
+- !private ["Ps17MutableCollection", "section"]
+- !private ["Ps17MutableCollection", "subscript"]
+- !private ["PSo8NSCoding", "configure"]
+- !private ["PSo8NSCoding", "datePicker"]
+- !private ["PSo8NSCoding", "dequeueReusableCell"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "isOn"]
+- !private ["PSo8NSCoding", "loc"]
+- !private ["PSo8NSCoding", "setDate"]
+- !private ["PSo8NSCoding", "settingsSwitch"]
+- !private ["PSo8NSCoding", "text"]
+- !private ["PSo8NSCoding", "textView"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "loc"]
+- !private ["PSo20NSFetchRequestResult", "category"]
+- !private ["PSo20NSFetchRequestResult", "date"]
+- !private ["PSo20NSFetchRequestResult", "hasNotification"]
+- !private ["PSo20NSFetchRequestResult", "name"]
+- !private ["CSo15NSManagedObject", "category"]
+- !private ["CSo15NSManagedObject", "date"]
+- !private ["CSo15NSManagedObject", "hasNotification"]
+- !private ["CSo15NSManagedObject", "name"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["PSo16NSMutableCopying", "loc"]
+- !private ["CSo8NSObject", "CategoryTableViewCell"]
+- !private ["CSo8NSObject", "Date"]
+- !private ["CSo8NSObject", "DateTableViewCell"]
+- ["CSo8NSObject", "IndexPath"]
+- ["CSo8NSObject", "Int"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "StringProvider"]
+- !private ["CSo8NSObject", "SwitchTableViewCell"]
+- !private ["CSo8NSObject", "TextTableViewCell"]
+- ["CSo8NSObject", "UITableView"]
+- ["CSo8NSObject", "UITableViewCell"]
+- !private ["CSo8NSObject", "UserSettings"]
+- !private ["CSo8NSObject", "category"]
+- !private ["CSo8NSObject", "configure"]
+- !private ["CSo8NSObject", "date"]
+- !private ["CSo8NSObject", "datePicker"]
+- !private ["CSo8NSObject", "dequeueReusableCell"]
+- !private ["CSo8NSObject", "hasNotification"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "isOn"]
+- !private ["CSo8NSObject", "loc"]
+- !private ["CSo8NSObject", "name"]
+- ["CSo8NSObject", "numberOfSections"]
+- ["CSo8NSObject", "numberOfSectionsInTableView"]
+- ["CSo8NSObject", "sectionIndexTitles"]
+- ["CSo8NSObject", "sectionIndexTitlesForTableView"]
+- !private ["CSo8NSObject", "setDate"]
+- !private ["CSo8NSObject", "settingsSwitch"]
+- ["CSo8NSObject", "tableView"]
+- !private ["CSo8NSObject", "text"]
+- !private ["CSo8NSObject", "textView"]
+- ["CSo8NSObject", "titles"]
+- ["CSo8NSObject", ""]
+- !private ["PSo16NSObjectProtocol", "Date"]
+- ["PSo16NSObjectProtocol", "StringProvider"]
+- !private ["PSo16NSObjectProtocol", "UITableViewCell"]
+- !private ["PSo16NSObjectProtocol", "UserSettings"]
+- !private ["PSo16NSObjectProtocol", "category"]
+- !private ["PSo16NSObjectProtocol", "configure"]
+- !private ["PSo16NSObjectProtocol", "date"]
+- !private ["PSo16NSObjectProtocol", "datePicker"]
+- !private ["PSo16NSObjectProtocol", "dequeueReusableCell"]
+- !private ["PSo16NSObjectProtocol", "hasNotification"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "isOn"]
+- !private ["PSo16NSObjectProtocol", "loc"]
+- !private ["PSo16NSObjectProtocol", "name"]
+- ["PSo16NSObjectProtocol", "numberOfSections"]
+- ["PSo16NSObjectProtocol", "numberOfSectionsInTableView"]
+- ["PSo16NSObjectProtocol", "sectionIndexTitles"]
+- ["PSo16NSObjectProtocol", "sectionIndexTitlesForTableView"]
+- !private ["PSo16NSObjectProtocol", "setDate"]
+- !private ["PSo16NSObjectProtocol", "settingsSwitch"]
+- ["PSo16NSObjectProtocol", "tableView"]
+- !private ["PSo16NSObjectProtocol", "text"]
+- !private ["PSo16NSObjectProtocol", "textView"]
+- !private ["PSo16NSObjectProtocol", "titles"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "loc"]
+- !private ["CSo8NSString", "init"]
+- !private ["CSo8NSString", "loc"]
+- !private ["P11TaskManager15NibLoadableView", "configure"]
+- !private ["P11TaskManager15NibLoadableView", "datePicker"]
+- !private ["P11TaskManager15NibLoadableView", "settingsSwitch"]
+- !private ["P11TaskManager15NibLoadableView", "textView"]
+- !private ["Ps22RandomAccessCollection", "count"]
+- !private ["Ps22RandomAccessCollection", "section"]
+- !private ["Ps22RandomAccessCollection", "subscript"]
+- !private ["Ps26RangeReplaceableCollection", "count"]
+- !private ["Ps26RangeReplaceableCollection", "subscript"]
+- !private ["P10Foundation20ReferenceConvertible", "init"]
+- !private ["P10Foundation20ReferenceConvertible", "section"]
+- !private ["P11TaskManager12ReusableView", "configure"]
+- !private ["P11TaskManager12ReusableView", "datePicker"]
+- !private ["P11TaskManager12ReusableView", "settingsSwitch"]
+- !private ["P11TaskManager12ReusableView", "textView"]
+- !private ["Ps8Sequence", "count"]
+- !private ["Ps8Sequence", "section"]
+- !private ["Ps8Sequence", "subscript"]
+- !private ["Vs12StaticString", "init"]
+- !private ["SS", "init"]
+- !private ["SS", "loc"]
+- ["C11TaskManager14StringProvider", "newTaskTitles"]
+- !private ["O11TaskManager10SwitchMode", "AddNotification"]
+- !private ["C11TaskManager19SwitchTableViewCell", "configure"]
+- !private ["C11TaskManager19SwitchTableViewCell", "deinit"]
+- !private ["C11TaskManager19SwitchTableViewCell", "settingsSwitch"]
+- !private ["C11TaskManager4Task", "category"]
+- !private ["C11TaskManager4Task", "date"]
+- !private ["C11TaskManager4Task", "hasNotification"]
+- !private ["C11TaskManager4Task", "name"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps16TextOutputStream", "loc"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["Ps20TextOutputStreamable", "loc"]
+- !private ["C11TaskManager17TextTableViewCell", "deinit"]
+- !private ["C11TaskManager17TextTableViewCell", "textView"]
+- !private ["PSo29UIAccessibilityIdentification", "configure"]
+- !private ["PSo29UIAccessibilityIdentification", "datePicker"]
+- !private ["PSo29UIAccessibilityIdentification", "dequeueReusableCell"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "isOn"]
+- !private ["PSo29UIAccessibilityIdentification", "setDate"]
+- !private ["PSo29UIAccessibilityIdentification", "settingsSwitch"]
+- !private ["PSo29UIAccessibilityIdentification", "text"]
+- !private ["PSo29UIAccessibilityIdentification", "textView"]
+- !private ["PSo12UIAppearance", "configure"]
+- !private ["PSo12UIAppearance", "datePicker"]
+- !private ["PSo12UIAppearance", "dequeueReusableCell"]
+- !private ["PSo12UIAppearance", "init"]
+- !private ["PSo12UIAppearance", "isOn"]
+- !private ["PSo12UIAppearance", "setDate"]
+- !private ["PSo12UIAppearance", "settingsSwitch"]
+- !private ["PSo12UIAppearance", "text"]
+- !private ["PSo12UIAppearance", "textView"]
+- !private ["PSo21UIAppearanceContainer", "configure"]
+- !private ["PSo21UIAppearanceContainer", "datePicker"]
+- !private ["PSo21UIAppearanceContainer", "dequeueReusableCell"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "isOn"]
+- !private ["PSo21UIAppearanceContainer", "setDate"]
+- !private ["PSo21UIAppearanceContainer", "settingsSwitch"]
+- !private ["PSo21UIAppearanceContainer", "text"]
+- !private ["PSo21UIAppearanceContainer", "textView"]
+- !private ["PSo30UIContentSizeCategoryAdjusting", "text"]
+- !private ["CSo9UIControl", "isOn"]
+- !private ["CSo9UIControl", "setDate"]
+- !private ["PSo17UICoordinateSpace", "configure"]
+- !private ["PSo17UICoordinateSpace", "datePicker"]
+- !private ["PSo17UICoordinateSpace", "dequeueReusableCell"]
+- !private ["PSo17UICoordinateSpace", "init"]
+- !private ["PSo17UICoordinateSpace", "isOn"]
+- !private ["PSo17UICoordinateSpace", "setDate"]
+- !private ["PSo17UICoordinateSpace", "settingsSwitch"]
+- !private ["PSo17UICoordinateSpace", "text"]
+- !private ["PSo17UICoordinateSpace", "textView"]
+- !private ["CSo12UIDatePicker", "setDate"]
+- !private ["PSo13UIDynamicItem", "configure"]
+- !private ["PSo13UIDynamicItem", "datePicker"]
+- !private ["PSo13UIDynamicItem", "dequeueReusableCell"]
+- !private ["PSo13UIDynamicItem", "init"]
+- !private ["PSo13UIDynamicItem", "isOn"]
+- !private ["PSo13UIDynamicItem", "setDate"]
+- !private ["PSo13UIDynamicItem", "settingsSwitch"]
+- !private ["PSo13UIDynamicItem", "text"]
+- !private ["PSo13UIDynamicItem", "textView"]
+- !private ["PSo18UIFocusEnvironment", "configure"]
+- !private ["PSo18UIFocusEnvironment", "datePicker"]
+- !private ["PSo18UIFocusEnvironment", "dequeueReusableCell"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "isOn"]
+- !private ["PSo18UIFocusEnvironment", "setDate"]
+- !private ["PSo18UIFocusEnvironment", "settingsSwitch"]
+- !private ["PSo18UIFocusEnvironment", "text"]
+- !private ["PSo18UIFocusEnvironment", "textView"]
+- !private ["PSo11UIFocusItem", "configure"]
+- !private ["PSo11UIFocusItem", "datePicker"]
+- !private ["PSo11UIFocusItem", "dequeueReusableCell"]
+- !private ["PSo11UIFocusItem", "init"]
+- !private ["PSo11UIFocusItem", "isOn"]
+- !private ["PSo11UIFocusItem", "setDate"]
+- !private ["PSo11UIFocusItem", "settingsSwitch"]
+- !private ["PSo11UIFocusItem", "text"]
+- !private ["PSo11UIFocusItem", "textView"]
+- !private ["PSo27UIGestureRecognizerDelegate", "configure"]
+- !private ["PSo27UIGestureRecognizerDelegate", "datePicker"]
+- !private ["PSo27UIGestureRecognizerDelegate", "init"]
+- !private ["PSo27UIGestureRecognizerDelegate", "settingsSwitch"]
+- !private ["PSo27UIGestureRecognizerDelegate", "textView"]
+- !private ["PSo10UIKeyInput", "text"]
+- !private ["CSo11UIResponder", "configure"]
+- !private ["CSo11UIResponder", "datePicker"]
+- !private ["CSo11UIResponder", "dequeueReusableCell"]
+- !private ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "isOn"]
+- !private ["CSo11UIResponder", "setDate"]
+- !private ["CSo11UIResponder", "settingsSwitch"]
+- !private ["CSo11UIResponder", "text"]
+- !private ["CSo11UIResponder", "textView"]
+- !private ["PSo30UIResponderStandardEditActions", "configure"]
+- !private ["PSo30UIResponderStandardEditActions", "datePicker"]
+- !private ["PSo30UIResponderStandardEditActions", "dequeueReusableCell"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- !private ["PSo30UIResponderStandardEditActions", "isOn"]
+- !private ["PSo30UIResponderStandardEditActions", "setDate"]
+- !private ["PSo30UIResponderStandardEditActions", "settingsSwitch"]
+- !private ["PSo30UIResponderStandardEditActions", "text"]
+- !private ["PSo30UIResponderStandardEditActions", "textView"]
+- !private ["CSo12UIScrollView", "dequeueReusableCell"]
+- !private ["CSo12UIScrollView", "text"]
+- !private ["PSo20UIScrollViewDelegate", "textView"]
+- !private ["CSo8UISwitch", "isOn"]
+- !private ["CSo11UITableView", "dequeueReusableCell"]
+- !private ["CSo15UITableViewCell", "configure"]
+- !private ["CSo15UITableViewCell", "datePicker"]
+- !private ["CSo15UITableViewCell", "init"]
+- !private ["CSo15UITableViewCell", "settingsSwitch"]
+- !private ["CSo15UITableViewCell", "textView"]
+- !private ["PSo21UITableViewDataSource", "Date"]
+- ["PSo21UITableViewDataSource", "StringProvider"]
+- !private ["PSo21UITableViewDataSource", "UITableViewCell"]
+- !private ["PSo21UITableViewDataSource", "UserSettings"]
+- ["PSo21UITableViewDataSource", "numberOfSections"]
+- ["PSo21UITableViewDataSource", "numberOfSectionsInTableView"]
+- ["PSo21UITableViewDataSource", "sectionIndexTitles"]
+- ["PSo21UITableViewDataSource", "sectionIndexTitlesForTableView"]
+- ["PSo21UITableViewDataSource", "tableView"]
+- !private ["PSo21UITableViewDataSource", "titles"]
+- ["PSo21UITableViewDataSource", ""]
+- !private ["PSo11UITextInput", "text"]
+- !private ["PSo17UITextInputTraits", "text"]
+- !private ["CSo10UITextView", "text"]
+- !private ["PSo18UITextViewDelegate", "textView"]
+- !private ["PSo18UITraitEnvironment", "configure"]
+- !private ["PSo18UITraitEnvironment", "datePicker"]
+- !private ["PSo18UITraitEnvironment", "dequeueReusableCell"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "isOn"]
+- !private ["PSo18UITraitEnvironment", "setDate"]
+- !private ["PSo18UITraitEnvironment", "settingsSwitch"]
+- !private ["PSo18UITraitEnvironment", "text"]
+- !private ["PSo18UITraitEnvironment", "textView"]
+- !private ["CSo6UIView", "configure"]
+- !private ["CSo6UIView", "datePicker"]
+- !private ["CSo6UIView", "dequeueReusableCell"]
+- !private ["CSo6UIView", "init"]
+- !private ["CSo6UIView", "isOn"]
+- !private ["CSo6UIView", "setDate"]
+- !private ["CSo6UIView", "settingsSwitch"]
+- !private ["CSo6UIView", "text"]
+- !private ["CSo6UIView", "textView"]
+- !private ["C11TaskManager12UserSettings", "currentTask"]
+- !private ["C11TaskManager12UserSettings", "sharedSettings"]
+- !private ["Ps14_ArrayProtocol", "count"]
+- !private ["Ps14_ArrayProtocol", "subscript"]
+- !private ["Ps23_BidirectionalIndexable", "count"]
+- !private ["Ps23_BidirectionalIndexable", "section"]
+- !private ["Ps23_BidirectionalIndexable", "subscript"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "configure"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "datePicker"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "dequeueReusableCell"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "init"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "isOn"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "setDate"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "settingsSwitch"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "text"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "textView"]
+- !private ["Ps24_DestructorSafeContainer", "count"]
+- !private ["Ps24_DestructorSafeContainer", "subscript"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "loc"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "loc"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "loc"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "loc"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "loc"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "loc"]
+- !private ["Ps9_Hashable", "AddNotification"]
+- !private ["Ps9_Hashable", "Date"]
+- ["Ps9_Hashable", "StringProvider"]
+- !private ["Ps9_Hashable", "UITableViewCell"]
+- !private ["Ps9_Hashable", "UserSettings"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "category"]
+- !private ["Ps9_Hashable", "configure"]
+- !private ["Ps9_Hashable", "date"]
+- !private ["Ps9_Hashable", "datePicker"]
+- !private ["Ps9_Hashable", "dequeueReusableCell"]
+- !private ["Ps9_Hashable", "hasNotification"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "isOn"]
+- !private ["Ps9_Hashable", "loc"]
+- !private ["Ps9_Hashable", "name"]
+- ["Ps9_Hashable", "numberOfSections"]
+- ["Ps9_Hashable", "numberOfSectionsInTableView"]
+- !private ["Ps9_Hashable", "section"]
+- ["Ps9_Hashable", "sectionIndexTitles"]
+- ["Ps9_Hashable", "sectionIndexTitlesForTableView"]
+- !private ["Ps9_Hashable", "setDate"]
+- !private ["Ps9_Hashable", "settingsSwitch"]
+- ["Ps9_Hashable", "tableView"]
+- !private ["Ps9_Hashable", "text"]
+- !private ["Ps9_Hashable", "textView"]
+- !private ["Ps9_Hashable", "titles"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps10_Indexable", "count"]
+- !private ["Ps10_Indexable", "section"]
+- !private ["Ps10_Indexable", "subscript"]
+- !private ["Ps14_IndexableBase", "count"]
+- !private ["Ps14_IndexableBase", "section"]
+- !private ["Ps14_IndexableBase", "subscript"]
+- !private ["Ps17_MutableIndexable", "count"]
+- !private ["Ps17_MutableIndexable", "section"]
+- !private ["Ps17_MutableIndexable", "subscript"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "count"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "loc"]
+- !private ["Ps21_ObjectiveCBridgeable", "section"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- !private ["Ps22_RandomAccessIndexable", "count"]
+- !private ["Ps22_RandomAccessIndexable", "section"]
+- !private ["Ps22_RandomAccessIndexable", "subscript"]
+- !private ["Ps26_RangeReplaceableIndexable", "count"]
+- !private ["Ps26_RangeReplaceableIndexable", "subscript"]
+depends-nominal:
+- "C11TaskManager29AddNewTastTableViewDataSource"
+- "Ps9AnyObject"
+- !private "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Sb"
+- !private "PSo15CALayerDelegate"
+- "Ps7CVarArg"
+- !private "C11TaskManager21CategoryTableViewCell"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "V10Foundation4Date"
+- !private "C11TaskManager17DateTableViewCell"
+- "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- !private "V10Foundation9IndexPath"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo20NSFetchRequestResult"
+- !private "CSo15NSManagedObject"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "P11TaskManager15NibLoadableView"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps26RangeReplaceableCollection"
+- !private "P10Foundation20ReferenceConvertible"
+- !private "P11TaskManager12ReusableView"
+- !private "Ps8Sequence"
+- !private "Vs12StaticString"
+- !private "SS"
+- "C11TaskManager14StringProvider"
+- !private "O11TaskManager10SwitchMode"
+- !private "C11TaskManager19SwitchTableViewCell"
+- !private "C11TaskManager4Task"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "C11TaskManager17TextTableViewCell"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- !private "PSo21UIAppearanceContainer"
+- !private "PSo30UIContentSizeCategoryAdjusting"
+- !private "CSo9UIControl"
+- !private "PSo17UICoordinateSpace"
+- !private "CSo12UIDatePicker"
+- !private "PSo13UIDynamicItem"
+- !private "PSo18UIFocusEnvironment"
+- !private "PSo11UIFocusItem"
+- !private "PSo27UIGestureRecognizerDelegate"
+- !private "PSo10UIKeyInput"
+- !private "CSo11UIResponder"
+- !private "PSo30UIResponderStandardEditActions"
+- !private "CSo12UIScrollView"
+- !private "PSo20UIScrollViewDelegate"
+- !private "CSo8UISwitch"
+- !private "CSo11UITableView"
+- !private "CSo15UITableViewCell"
+- "PSo21UITableViewDataSource"
+- !private "PSo11UITextInput"
+- !private "PSo17UITextInputTraits"
+- !private "CSo10UITextView"
+- !private "PSo18UITextViewDelegate"
+- !private "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- !private "C11TaskManager12UserSettings"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps23_BidirectionalIndexable"
+- !private "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- !private "Ps17_MutableIndexable"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps22_RandomAccessIndexable"
+- !private "Ps26_RangeReplaceableIndexable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreData.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Metal.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/SwiftOnoneSupport.swiftmodule"
+- "/Users/petr.kopecky/Documents/TaskManager/TaskManager-Bridging-Header.h"
+interface-hash: "aeb9756ba32623b22377f71162c37249"

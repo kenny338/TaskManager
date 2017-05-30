@@ -1,0 +1,382 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DateTableViewCell"
+provides-nominal:
+- "C11TaskManager17DateTableViewCell"
+provides-member:
+- ["C11TaskManager17DateTableViewCell", ""]
+provides-dynamic-lookup:
+- "awakeFromNib"
+- "dateChanged"
+- "datePicker"
+depends-top-level:
+- "AssignmentPrecedence"
+- "CastingPrecedence"
+- "DateTableViewCell"
+- !private "NSDate"
+- "NibLoadableView"
+- "ReusableView"
+- "UIDatePicker"
+- "UITableViewCell"
+- !private "UserSettings"
+depends-member:
+- !private ["Ps9AnyObject", "DateTableViewCell"]
+- !private ["Ps9AnyObject", "UserSettings"]
+- !private ["Ps9AnyObject", "addTarget"]
+- !private ["Ps9AnyObject", "currentTask"]
+- !private ["Ps9AnyObject", "date"]
+- !private ["Ps9AnyObject", "dateChanged"]
+- !private ["Ps9AnyObject", "datePicker"]
+- ["Ps9AnyObject", "defaultReuseIdentifier"]
+- !private ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "nibName"]
+- !private ["Ps9AnyObject", "sharedSettings"]
+- ["Ps9AnyObject", ""]
+- !private ["PSo15CALayerDelegate", "DateTableViewCell"]
+- !private ["PSo15CALayerDelegate", "UserSettings"]
+- !private ["PSo15CALayerDelegate", "addTarget"]
+- !private ["PSo15CALayerDelegate", "date"]
+- !private ["PSo15CALayerDelegate", "dateChanged"]
+- !private ["PSo15CALayerDelegate", "datePicker"]
+- ["PSo15CALayerDelegate", "defaultReuseIdentifier"]
+- !private ["PSo15CALayerDelegate", "init"]
+- ["PSo15CALayerDelegate", "nibName"]
+- ["PSo15CALayerDelegate", ""]
+- !private ["Ps7CVarArg", "DateTableViewCell"]
+- !private ["Ps7CVarArg", "UserSettings"]
+- !private ["Ps7CVarArg", "addTarget"]
+- !private ["Ps7CVarArg", "date"]
+- !private ["Ps7CVarArg", "dateChanged"]
+- !private ["Ps7CVarArg", "datePicker"]
+- ["Ps7CVarArg", "defaultReuseIdentifier"]
+- !private ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", "nibName"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps28CustomDebugStringConvertible", "DateTableViewCell"]
+- !private ["Ps28CustomDebugStringConvertible", "UserSettings"]
+- !private ["Ps28CustomDebugStringConvertible", "addTarget"]
+- !private ["Ps28CustomDebugStringConvertible", "date"]
+- !private ["Ps28CustomDebugStringConvertible", "dateChanged"]
+- !private ["Ps28CustomDebugStringConvertible", "datePicker"]
+- ["Ps28CustomDebugStringConvertible", "defaultReuseIdentifier"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "nibName"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "DateTableViewCell"]
+- !private ["Ps23CustomStringConvertible", "UserSettings"]
+- !private ["Ps23CustomStringConvertible", "addTarget"]
+- !private ["Ps23CustomStringConvertible", "date"]
+- !private ["Ps23CustomStringConvertible", "dateChanged"]
+- !private ["Ps23CustomStringConvertible", "datePicker"]
+- ["Ps23CustomStringConvertible", "defaultReuseIdentifier"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "nibName"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["C11TaskManager17DateTableViewCell", "DateTableViewCell"]
+- !private ["C11TaskManager17DateTableViewCell", "NSDate"]
+- ["C11TaskManager17DateTableViewCell", "UIDatePicker"]
+- !private ["C11TaskManager17DateTableViewCell", "UserSettings"]
+- ["C11TaskManager17DateTableViewCell", "awakeFromNib"]
+- ["C11TaskManager17DateTableViewCell", "dateChanged"]
+- ["C11TaskManager17DateTableViewCell", "datePicker"]
+- ["C11TaskManager17DateTableViewCell", "defaultReuseIdentifier"]
+- ["C11TaskManager17DateTableViewCell", "deinit"]
+- ["C11TaskManager17DateTableViewCell", "init"]
+- ["C11TaskManager17DateTableViewCell", "nibName"]
+- !private ["Ps9Equatable", "DateTableViewCell"]
+- !private ["Ps9Equatable", "UserSettings"]
+- !private ["Ps9Equatable", "addTarget"]
+- !private ["Ps9Equatable", "date"]
+- !private ["Ps9Equatable", "dateChanged"]
+- !private ["Ps9Equatable", "datePicker"]
+- ["Ps9Equatable", "defaultReuseIdentifier"]
+- !private ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "nibName"]
+- !private ["Ps9Equatable", "valueChanged"]
+- ["Ps9Equatable", ""]
+- !private ["Ps25ExpressibleByArrayLiteral", "valueChanged"]
+- !private ["Ps8Hashable", "DateTableViewCell"]
+- !private ["Ps8Hashable", "UserSettings"]
+- !private ["Ps8Hashable", "addTarget"]
+- !private ["Ps8Hashable", "date"]
+- !private ["Ps8Hashable", "dateChanged"]
+- !private ["Ps8Hashable", "datePicker"]
+- ["Ps8Hashable", "defaultReuseIdentifier"]
+- !private ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "nibName"]
+- ["Ps8Hashable", ""]
+- !private ["PSo8NSCoding", "DateTableViewCell"]
+- !private ["PSo8NSCoding", "UserSettings"]
+- !private ["PSo8NSCoding", "addTarget"]
+- !private ["PSo8NSCoding", "date"]
+- !private ["PSo8NSCoding", "dateChanged"]
+- !private ["PSo8NSCoding", "datePicker"]
+- ["PSo8NSCoding", "defaultReuseIdentifier"]
+- !private ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "nibName"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo20NSFetchRequestResult", "date"]
+- !private ["CSo15NSManagedObject", "date"]
+- !private ["CSo8NSObject", "DateTableViewCell"]
+- !private ["CSo8NSObject", "NSDate"]
+- ["CSo8NSObject", "UIDatePicker"]
+- !private ["CSo8NSObject", "UserSettings"]
+- !private ["CSo8NSObject", "addTarget"]
+- ["CSo8NSObject", "awakeFromNib"]
+- !private ["CSo8NSObject", "date"]
+- ["CSo8NSObject", "dateChanged"]
+- ["CSo8NSObject", "datePicker"]
+- ["CSo8NSObject", "defaultReuseIdentifier"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "nibName"]
+- !private ["PSo16NSObjectProtocol", "DateTableViewCell"]
+- !private ["PSo16NSObjectProtocol", "UserSettings"]
+- !private ["PSo16NSObjectProtocol", "addTarget"]
+- !private ["PSo16NSObjectProtocol", "date"]
+- !private ["PSo16NSObjectProtocol", "dateChanged"]
+- !private ["PSo16NSObjectProtocol", "datePicker"]
+- ["PSo16NSObjectProtocol", "defaultReuseIdentifier"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "nibName"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["P11TaskManager15NibLoadableView", "DateTableViewCell"]
+- !private ["P11TaskManager15NibLoadableView", "UserSettings"]
+- !private ["P11TaskManager15NibLoadableView", "dateChanged"]
+- !private ["P11TaskManager15NibLoadableView", "datePicker"]
+- ["P11TaskManager15NibLoadableView", "defaultReuseIdentifier"]
+- ["P11TaskManager15NibLoadableView", "nibName"]
+- ["P11TaskManager15NibLoadableView", ""]
+- !private ["Ps9OptionSet", "valueChanged"]
+- !private ["Ps16RawRepresentable", "valueChanged"]
+- !private ["P11TaskManager12ReusableView", "DateTableViewCell"]
+- !private ["P11TaskManager12ReusableView", "UserSettings"]
+- !private ["P11TaskManager12ReusableView", "dateChanged"]
+- !private ["P11TaskManager12ReusableView", "datePicker"]
+- ["P11TaskManager12ReusableView", "defaultReuseIdentifier"]
+- ["P11TaskManager12ReusableView", "nibName"]
+- ["P11TaskManager12ReusableView", ""]
+- !private ["Ps10SetAlgebra", "valueChanged"]
+- !private ["C11TaskManager4Task", "date"]
+- !private ["PSo29UIAccessibilityIdentification", "DateTableViewCell"]
+- !private ["PSo29UIAccessibilityIdentification", "UserSettings"]
+- !private ["PSo29UIAccessibilityIdentification", "addTarget"]
+- !private ["PSo29UIAccessibilityIdentification", "date"]
+- !private ["PSo29UIAccessibilityIdentification", "dateChanged"]
+- !private ["PSo29UIAccessibilityIdentification", "datePicker"]
+- ["PSo29UIAccessibilityIdentification", "defaultReuseIdentifier"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- ["PSo29UIAccessibilityIdentification", "nibName"]
+- ["PSo29UIAccessibilityIdentification", ""]
+- !private ["PSo12UIAppearance", "DateTableViewCell"]
+- !private ["PSo12UIAppearance", "UserSettings"]
+- !private ["PSo12UIAppearance", "addTarget"]
+- !private ["PSo12UIAppearance", "date"]
+- !private ["PSo12UIAppearance", "dateChanged"]
+- !private ["PSo12UIAppearance", "datePicker"]
+- ["PSo12UIAppearance", "defaultReuseIdentifier"]
+- !private ["PSo12UIAppearance", "init"]
+- ["PSo12UIAppearance", "nibName"]
+- ["PSo12UIAppearance", ""]
+- !private ["PSo21UIAppearanceContainer", "DateTableViewCell"]
+- !private ["PSo21UIAppearanceContainer", "UserSettings"]
+- !private ["PSo21UIAppearanceContainer", "addTarget"]
+- !private ["PSo21UIAppearanceContainer", "date"]
+- !private ["PSo21UIAppearanceContainer", "dateChanged"]
+- !private ["PSo21UIAppearanceContainer", "datePicker"]
+- ["PSo21UIAppearanceContainer", "defaultReuseIdentifier"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "nibName"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["CSo9UIControl", "addTarget"]
+- !private ["CSo9UIControl", "date"]
+- !private ["VSC15UIControlEvents", "valueChanged"]
+- !private ["PSo17UICoordinateSpace", "DateTableViewCell"]
+- !private ["PSo17UICoordinateSpace", "UserSettings"]
+- !private ["PSo17UICoordinateSpace", "addTarget"]
+- !private ["PSo17UICoordinateSpace", "date"]
+- !private ["PSo17UICoordinateSpace", "dateChanged"]
+- !private ["PSo17UICoordinateSpace", "datePicker"]
+- ["PSo17UICoordinateSpace", "defaultReuseIdentifier"]
+- !private ["PSo17UICoordinateSpace", "init"]
+- ["PSo17UICoordinateSpace", "nibName"]
+- ["PSo17UICoordinateSpace", ""]
+- !private ["CSo12UIDatePicker", "addTarget"]
+- !private ["CSo12UIDatePicker", "date"]
+- !private ["PSo13UIDynamicItem", "DateTableViewCell"]
+- !private ["PSo13UIDynamicItem", "UserSettings"]
+- !private ["PSo13UIDynamicItem", "addTarget"]
+- !private ["PSo13UIDynamicItem", "date"]
+- !private ["PSo13UIDynamicItem", "dateChanged"]
+- !private ["PSo13UIDynamicItem", "datePicker"]
+- ["PSo13UIDynamicItem", "defaultReuseIdentifier"]
+- !private ["PSo13UIDynamicItem", "init"]
+- ["PSo13UIDynamicItem", "nibName"]
+- ["PSo13UIDynamicItem", ""]
+- !private ["PSo18UIFocusEnvironment", "DateTableViewCell"]
+- !private ["PSo18UIFocusEnvironment", "UserSettings"]
+- !private ["PSo18UIFocusEnvironment", "addTarget"]
+- !private ["PSo18UIFocusEnvironment", "date"]
+- !private ["PSo18UIFocusEnvironment", "dateChanged"]
+- !private ["PSo18UIFocusEnvironment", "datePicker"]
+- ["PSo18UIFocusEnvironment", "defaultReuseIdentifier"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "nibName"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo11UIFocusItem", "DateTableViewCell"]
+- !private ["PSo11UIFocusItem", "UserSettings"]
+- !private ["PSo11UIFocusItem", "addTarget"]
+- !private ["PSo11UIFocusItem", "date"]
+- !private ["PSo11UIFocusItem", "dateChanged"]
+- !private ["PSo11UIFocusItem", "datePicker"]
+- ["PSo11UIFocusItem", "defaultReuseIdentifier"]
+- !private ["PSo11UIFocusItem", "init"]
+- ["PSo11UIFocusItem", "nibName"]
+- ["PSo11UIFocusItem", ""]
+- !private ["PSo27UIGestureRecognizerDelegate", "DateTableViewCell"]
+- !private ["PSo27UIGestureRecognizerDelegate", "UserSettings"]
+- !private ["PSo27UIGestureRecognizerDelegate", "dateChanged"]
+- !private ["PSo27UIGestureRecognizerDelegate", "datePicker"]
+- ["PSo27UIGestureRecognizerDelegate", "defaultReuseIdentifier"]
+- !private ["PSo27UIGestureRecognizerDelegate", "init"]
+- ["PSo27UIGestureRecognizerDelegate", "nibName"]
+- ["PSo27UIGestureRecognizerDelegate", ""]
+- !private ["CSo11UIResponder", "DateTableViewCell"]
+- !private ["CSo11UIResponder", "NSDate"]
+- ["CSo11UIResponder", "UIDatePicker"]
+- !private ["CSo11UIResponder", "UserSettings"]
+- !private ["CSo11UIResponder", "addTarget"]
+- ["CSo11UIResponder", "awakeFromNib"]
+- !private ["CSo11UIResponder", "date"]
+- ["CSo11UIResponder", "dateChanged"]
+- ["CSo11UIResponder", "datePicker"]
+- ["CSo11UIResponder", "defaultReuseIdentifier"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "nibName"]
+- !private ["PSo30UIResponderStandardEditActions", "DateTableViewCell"]
+- !private ["PSo30UIResponderStandardEditActions", "UserSettings"]
+- !private ["PSo30UIResponderStandardEditActions", "addTarget"]
+- !private ["PSo30UIResponderStandardEditActions", "date"]
+- !private ["PSo30UIResponderStandardEditActions", "dateChanged"]
+- !private ["PSo30UIResponderStandardEditActions", "datePicker"]
+- ["PSo30UIResponderStandardEditActions", "defaultReuseIdentifier"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- ["PSo30UIResponderStandardEditActions", "nibName"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- !private ["CSo15UITableViewCell", "DateTableViewCell"]
+- !private ["CSo15UITableViewCell", "NSDate"]
+- ["CSo15UITableViewCell", "UIDatePicker"]
+- !private ["CSo15UITableViewCell", "UserSettings"]
+- ["CSo15UITableViewCell", "awakeFromNib"]
+- ["CSo15UITableViewCell", "dateChanged"]
+- ["CSo15UITableViewCell", "datePicker"]
+- ["CSo15UITableViewCell", "defaultReuseIdentifier"]
+- ["CSo15UITableViewCell", "init"]
+- ["CSo15UITableViewCell", "nibName"]
+- ["CSo15UITableViewCell", ""]
+- !private ["PSo18UITraitEnvironment", "DateTableViewCell"]
+- !private ["PSo18UITraitEnvironment", "UserSettings"]
+- !private ["PSo18UITraitEnvironment", "addTarget"]
+- !private ["PSo18UITraitEnvironment", "date"]
+- !private ["PSo18UITraitEnvironment", "dateChanged"]
+- !private ["PSo18UITraitEnvironment", "datePicker"]
+- ["PSo18UITraitEnvironment", "defaultReuseIdentifier"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "nibName"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "DateTableViewCell"]
+- !private ["CSo6UIView", "NSDate"]
+- ["CSo6UIView", "UIDatePicker"]
+- !private ["CSo6UIView", "UserSettings"]
+- !private ["CSo6UIView", "addTarget"]
+- ["CSo6UIView", "awakeFromNib"]
+- !private ["CSo6UIView", "date"]
+- ["CSo6UIView", "dateChanged"]
+- ["CSo6UIView", "datePicker"]
+- ["CSo6UIView", "defaultReuseIdentifier"]
+- ["CSo6UIView", "init"]
+- ["CSo6UIView", "nibName"]
+- !private ["C11TaskManager12UserSettings", "currentTask"]
+- !private ["C11TaskManager12UserSettings", "sharedSettings"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "DateTableViewCell"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "UserSettings"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "addTarget"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "date"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "dateChanged"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "datePicker"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "defaultReuseIdentifier"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "init"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "nibName"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", ""]
+- !private ["Ps9_Hashable", "DateTableViewCell"]
+- !private ["Ps9_Hashable", "UserSettings"]
+- !private ["Ps9_Hashable", "addTarget"]
+- !private ["Ps9_Hashable", "date"]
+- !private ["Ps9_Hashable", "dateChanged"]
+- !private ["Ps9_Hashable", "datePicker"]
+- ["Ps9_Hashable", "defaultReuseIdentifier"]
+- !private ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "nibName"]
+- ["Ps9_Hashable", ""]
+depends-nominal:
+- "Ps9AnyObject"
+- "PSo15CALayerDelegate"
+- "Ps7CVarArg"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "C11TaskManager17DateTableViewCell"
+- "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- "Ps8Hashable"
+- "PSo8NSCoding"
+- !private "PSo20NSFetchRequestResult"
+- !private "CSo15NSManagedObject"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "P11TaskManager15NibLoadableView"
+- !private "Ps9OptionSet"
+- !private "Ps16RawRepresentable"
+- "P11TaskManager12ReusableView"
+- !private "Ps10SetAlgebra"
+- !private "C11TaskManager4Task"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- !private "CSo9UIControl"
+- !private "VSC15UIControlEvents"
+- "PSo17UICoordinateSpace"
+- !private "CSo12UIDatePicker"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "PSo11UIFocusItem"
+- "PSo27UIGestureRecognizerDelegate"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- "CSo15UITableViewCell"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- !private "C11TaskManager12UserSettings"
+- "Ps37_DefaultCustomPlaygroundQuickLookable"
+- "Ps9_Hashable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreData.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Metal.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/SwiftOnoneSupport.swiftmodule"
+- "/Users/petr.kopecky/Documents/TaskManager/TaskManager-Bridging-Header.h"
+interface-hash: "bc5eadf8ae5214fb8bc630f4c11c0b93"

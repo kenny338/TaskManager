@@ -1,0 +1,481 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["CSo11UITableView", ""]
+- ["CSo11UITableView", "register"]
+- ["CSo11UITableView", "register"]
+- ["CSo11UITableView", "dequeueReusableCell"]
+- ["CSo11UITableView", "addNoDataView"]
+provides-dynamic-lookup:
+- "addNoDataView"
+depends-top-level:
+- "AssignmentPrecedence"
+- !private "Bundle"
+- "CastingPrecedence"
+- "IndexPath"
+- "NibLoadableView"
+- !private "NoDataView"
+- "ReusableView"
+- "String"
+- !private "StringLiteralType"
+- !private "UINib"
+- "UITableView"
+- "UITableViewCell"
+- !private "UIView"
+- !private "fatalError"
+depends-member:
+- !private ["Ps9AnyObject", "Bundle"]
+- !private ["Ps9AnyObject", "UINib"]
+- !private ["Ps9AnyObject", "UIView"]
+- !private ["Ps9AnyObject", "backgroundView"]
+- !private ["Ps9AnyObject", "defaultReuseIdentifier"]
+- !private ["Ps9AnyObject", "dequeueReusableCell"]
+- !private ["Ps9AnyObject", "fatalError"]
+- !private ["Ps9AnyObject", "infoLabel"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "load"]
+- !private ["Ps9AnyObject", "nibName"]
+- !private ["Ps9AnyObject", "register"]
+- !private ["Ps9AnyObject", "text"]
+- !private ["CSo6Bundle", "init"]
+- !private ["PSo15CALayerDelegate", "Bundle"]
+- !private ["PSo15CALayerDelegate", "UINib"]
+- !private ["PSo15CALayerDelegate", "UIView"]
+- !private ["PSo15CALayerDelegate", "backgroundView"]
+- !private ["PSo15CALayerDelegate", "defaultReuseIdentifier"]
+- !private ["PSo15CALayerDelegate", "dequeueReusableCell"]
+- !private ["PSo15CALayerDelegate", "fatalError"]
+- !private ["PSo15CALayerDelegate", "infoLabel"]
+- !private ["PSo15CALayerDelegate", "load"]
+- !private ["PSo15CALayerDelegate", "nibName"]
+- !private ["PSo15CALayerDelegate", "register"]
+- !private ["PSo15CALayerDelegate", "text"]
+- !private ["Ps7CVarArg", "Bundle"]
+- !private ["Ps7CVarArg", "UINib"]
+- !private ["Ps7CVarArg", "UIView"]
+- !private ["Ps7CVarArg", "backgroundView"]
+- !private ["Ps7CVarArg", "defaultReuseIdentifier"]
+- !private ["Ps7CVarArg", "dequeueReusableCell"]
+- !private ["Ps7CVarArg", "fatalError"]
+- !private ["Ps7CVarArg", "infoLabel"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "load"]
+- !private ["Ps7CVarArg", "nibName"]
+- !private ["Ps7CVarArg", "register"]
+- !private ["Ps7CVarArg", "text"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "Bundle"]
+- !private ["Ps28CustomDebugStringConvertible", "UINib"]
+- !private ["Ps28CustomDebugStringConvertible", "UIView"]
+- !private ["Ps28CustomDebugStringConvertible", "backgroundView"]
+- !private ["Ps28CustomDebugStringConvertible", "defaultReuseIdentifier"]
+- !private ["Ps28CustomDebugStringConvertible", "dequeueReusableCell"]
+- !private ["Ps28CustomDebugStringConvertible", "fatalError"]
+- !private ["Ps28CustomDebugStringConvertible", "infoLabel"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "load"]
+- !private ["Ps28CustomDebugStringConvertible", "nibName"]
+- !private ["Ps28CustomDebugStringConvertible", "register"]
+- !private ["Ps28CustomDebugStringConvertible", "text"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "Bundle"]
+- !private ["Ps23CustomStringConvertible", "UINib"]
+- !private ["Ps23CustomStringConvertible", "UIView"]
+- !private ["Ps23CustomStringConvertible", "backgroundView"]
+- !private ["Ps23CustomStringConvertible", "defaultReuseIdentifier"]
+- !private ["Ps23CustomStringConvertible", "dequeueReusableCell"]
+- !private ["Ps23CustomStringConvertible", "fatalError"]
+- !private ["Ps23CustomStringConvertible", "infoLabel"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "load"]
+- !private ["Ps23CustomStringConvertible", "nibName"]
+- !private ["Ps23CustomStringConvertible", "register"]
+- !private ["Ps23CustomStringConvertible", "text"]
+- !private ["Ps9Equatable", "Bundle"]
+- !private ["Ps9Equatable", "UINib"]
+- !private ["Ps9Equatable", "UIView"]
+- !private ["Ps9Equatable", "backgroundView"]
+- !private ["Ps9Equatable", "defaultReuseIdentifier"]
+- !private ["Ps9Equatable", "dequeueReusableCell"]
+- !private ["Ps9Equatable", "fatalError"]
+- !private ["Ps9Equatable", "infoLabel"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "load"]
+- !private ["Ps9Equatable", "nibName"]
+- !private ["Ps9Equatable", "register"]
+- !private ["Ps9Equatable", "text"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "Bundle"]
+- !private ["Ps8Hashable", "UINib"]
+- !private ["Ps8Hashable", "UIView"]
+- !private ["Ps8Hashable", "backgroundView"]
+- !private ["Ps8Hashable", "defaultReuseIdentifier"]
+- !private ["Ps8Hashable", "dequeueReusableCell"]
+- !private ["Ps8Hashable", "fatalError"]
+- !private ["Ps8Hashable", "infoLabel"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "load"]
+- !private ["Ps8Hashable", "nibName"]
+- !private ["Ps8Hashable", "register"]
+- !private ["Ps8Hashable", "text"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["PSo8NSCoding", "Bundle"]
+- !private ["PSo8NSCoding", "UINib"]
+- !private ["PSo8NSCoding", "UIView"]
+- !private ["PSo8NSCoding", "backgroundView"]
+- !private ["PSo8NSCoding", "defaultReuseIdentifier"]
+- !private ["PSo8NSCoding", "dequeueReusableCell"]
+- !private ["PSo8NSCoding", "fatalError"]
+- !private ["PSo8NSCoding", "infoLabel"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "load"]
+- !private ["PSo8NSCoding", "nibName"]
+- !private ["PSo8NSCoding", "register"]
+- !private ["PSo8NSCoding", "text"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "Bundle"]
+- ["CSo8NSObject", "IndexPath"]
+- ["CSo8NSObject", "NibLoadableView"]
+- !private ["CSo8NSObject", "NoDataView"]
+- ["CSo8NSObject", "ReusableView"]
+- ["CSo8NSObject", "String"]
+- !private ["CSo8NSObject", "UINib"]
+- ["CSo8NSObject", "UITableViewCell"]
+- !private ["CSo8NSObject", "UIView"]
+- ["CSo8NSObject", "addNoDataView"]
+- !private ["CSo8NSObject", "backgroundView"]
+- !private ["CSo8NSObject", "defaultReuseIdentifier"]
+- ["CSo8NSObject", "dequeueReusableCell"]
+- !private ["CSo8NSObject", "fatalError"]
+- !private ["CSo8NSObject", "infoLabel"]
+- !private ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "load"]
+- !private ["CSo8NSObject", "nibName"]
+- ["CSo8NSObject", "register"]
+- !private ["CSo8NSObject", "text"]
+- !private ["PSo16NSObjectProtocol", "Bundle"]
+- !private ["PSo16NSObjectProtocol", "UINib"]
+- !private ["PSo16NSObjectProtocol", "UIView"]
+- !private ["PSo16NSObjectProtocol", "backgroundView"]
+- !private ["PSo16NSObjectProtocol", "defaultReuseIdentifier"]
+- !private ["PSo16NSObjectProtocol", "dequeueReusableCell"]
+- !private ["PSo16NSObjectProtocol", "fatalError"]
+- !private ["PSo16NSObjectProtocol", "infoLabel"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "load"]
+- !private ["PSo16NSObjectProtocol", "nibName"]
+- !private ["PSo16NSObjectProtocol", "register"]
+- !private ["PSo16NSObjectProtocol", "text"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- !private ["P11TaskManager15NibLoadableView", "defaultReuseIdentifier"]
+- !private ["P11TaskManager15NibLoadableView", "infoLabel"]
+- !private ["P11TaskManager15NibLoadableView", "nibName"]
+- !private ["C11TaskManager10NoDataView", "deinit"]
+- !private ["C11TaskManager10NoDataView", "infoLabel"]
+- !private ["P11TaskManager12ReusableView", "defaultReuseIdentifier"]
+- !private ["P11TaskManager12ReusableView", "nibName"]
+- !private ["Vs12StaticString", "init"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "Bundle"]
+- !private ["PSo29UIAccessibilityIdentification", "UINib"]
+- !private ["PSo29UIAccessibilityIdentification", "UIView"]
+- !private ["PSo29UIAccessibilityIdentification", "backgroundView"]
+- !private ["PSo29UIAccessibilityIdentification", "defaultReuseIdentifier"]
+- !private ["PSo29UIAccessibilityIdentification", "dequeueReusableCell"]
+- !private ["PSo29UIAccessibilityIdentification", "fatalError"]
+- !private ["PSo29UIAccessibilityIdentification", "infoLabel"]
+- !private ["PSo29UIAccessibilityIdentification", "load"]
+- !private ["PSo29UIAccessibilityIdentification", "nibName"]
+- !private ["PSo29UIAccessibilityIdentification", "register"]
+- !private ["PSo29UIAccessibilityIdentification", "text"]
+- !private ["PSo12UIAppearance", "Bundle"]
+- !private ["PSo12UIAppearance", "UINib"]
+- !private ["PSo12UIAppearance", "UIView"]
+- !private ["PSo12UIAppearance", "backgroundView"]
+- !private ["PSo12UIAppearance", "defaultReuseIdentifier"]
+- !private ["PSo12UIAppearance", "dequeueReusableCell"]
+- !private ["PSo12UIAppearance", "fatalError"]
+- !private ["PSo12UIAppearance", "infoLabel"]
+- !private ["PSo12UIAppearance", "load"]
+- !private ["PSo12UIAppearance", "nibName"]
+- !private ["PSo12UIAppearance", "register"]
+- !private ["PSo12UIAppearance", "text"]
+- !private ["PSo21UIAppearanceContainer", "Bundle"]
+- !private ["PSo21UIAppearanceContainer", "UINib"]
+- !private ["PSo21UIAppearanceContainer", "UIView"]
+- !private ["PSo21UIAppearanceContainer", "backgroundView"]
+- !private ["PSo21UIAppearanceContainer", "defaultReuseIdentifier"]
+- !private ["PSo21UIAppearanceContainer", "dequeueReusableCell"]
+- !private ["PSo21UIAppearanceContainer", "fatalError"]
+- !private ["PSo21UIAppearanceContainer", "infoLabel"]
+- !private ["PSo21UIAppearanceContainer", "load"]
+- !private ["PSo21UIAppearanceContainer", "nibName"]
+- !private ["PSo21UIAppearanceContainer", "register"]
+- !private ["PSo21UIAppearanceContainer", "text"]
+- !private ["PSo30UIContentSizeCategoryAdjusting", "text"]
+- !private ["PSo17UICoordinateSpace", "Bundle"]
+- !private ["PSo17UICoordinateSpace", "UINib"]
+- !private ["PSo17UICoordinateSpace", "UIView"]
+- !private ["PSo17UICoordinateSpace", "backgroundView"]
+- !private ["PSo17UICoordinateSpace", "defaultReuseIdentifier"]
+- !private ["PSo17UICoordinateSpace", "dequeueReusableCell"]
+- !private ["PSo17UICoordinateSpace", "fatalError"]
+- !private ["PSo17UICoordinateSpace", "infoLabel"]
+- !private ["PSo17UICoordinateSpace", "load"]
+- !private ["PSo17UICoordinateSpace", "nibName"]
+- !private ["PSo17UICoordinateSpace", "register"]
+- !private ["PSo17UICoordinateSpace", "text"]
+- !private ["PSo13UIDynamicItem", "Bundle"]
+- !private ["PSo13UIDynamicItem", "UINib"]
+- !private ["PSo13UIDynamicItem", "UIView"]
+- !private ["PSo13UIDynamicItem", "backgroundView"]
+- !private ["PSo13UIDynamicItem", "defaultReuseIdentifier"]
+- !private ["PSo13UIDynamicItem", "dequeueReusableCell"]
+- !private ["PSo13UIDynamicItem", "fatalError"]
+- !private ["PSo13UIDynamicItem", "infoLabel"]
+- !private ["PSo13UIDynamicItem", "load"]
+- !private ["PSo13UIDynamicItem", "nibName"]
+- !private ["PSo13UIDynamicItem", "register"]
+- !private ["PSo13UIDynamicItem", "text"]
+- !private ["PSo18UIFocusEnvironment", "Bundle"]
+- !private ["PSo18UIFocusEnvironment", "UINib"]
+- !private ["PSo18UIFocusEnvironment", "UIView"]
+- !private ["PSo18UIFocusEnvironment", "backgroundView"]
+- !private ["PSo18UIFocusEnvironment", "defaultReuseIdentifier"]
+- !private ["PSo18UIFocusEnvironment", "dequeueReusableCell"]
+- !private ["PSo18UIFocusEnvironment", "fatalError"]
+- !private ["PSo18UIFocusEnvironment", "infoLabel"]
+- !private ["PSo18UIFocusEnvironment", "load"]
+- !private ["PSo18UIFocusEnvironment", "nibName"]
+- !private ["PSo18UIFocusEnvironment", "register"]
+- !private ["PSo18UIFocusEnvironment", "text"]
+- !private ["PSo11UIFocusItem", "Bundle"]
+- !private ["PSo11UIFocusItem", "UINib"]
+- !private ["PSo11UIFocusItem", "UIView"]
+- !private ["PSo11UIFocusItem", "backgroundView"]
+- !private ["PSo11UIFocusItem", "defaultReuseIdentifier"]
+- !private ["PSo11UIFocusItem", "dequeueReusableCell"]
+- !private ["PSo11UIFocusItem", "fatalError"]
+- !private ["PSo11UIFocusItem", "infoLabel"]
+- !private ["PSo11UIFocusItem", "load"]
+- !private ["PSo11UIFocusItem", "nibName"]
+- !private ["PSo11UIFocusItem", "register"]
+- !private ["PSo11UIFocusItem", "text"]
+- !private ["PSo27UIGestureRecognizerDelegate", "defaultReuseIdentifier"]
+- !private ["PSo27UIGestureRecognizerDelegate", "nibName"]
+- !private ["CSo7UILabel", "text"]
+- !private ["CSo5UINib", "init"]
+- !private ["CSo11UIResponder", "Bundle"]
+- ["CSo11UIResponder", "IndexPath"]
+- ["CSo11UIResponder", "NibLoadableView"]
+- !private ["CSo11UIResponder", "NoDataView"]
+- ["CSo11UIResponder", "ReusableView"]
+- ["CSo11UIResponder", "String"]
+- !private ["CSo11UIResponder", "UINib"]
+- ["CSo11UIResponder", "UITableViewCell"]
+- !private ["CSo11UIResponder", "UIView"]
+- ["CSo11UIResponder", "addNoDataView"]
+- !private ["CSo11UIResponder", "backgroundView"]
+- !private ["CSo11UIResponder", "defaultReuseIdentifier"]
+- ["CSo11UIResponder", "dequeueReusableCell"]
+- !private ["CSo11UIResponder", "fatalError"]
+- !private ["CSo11UIResponder", "infoLabel"]
+- !private ["CSo11UIResponder", "load"]
+- !private ["CSo11UIResponder", "nibName"]
+- ["CSo11UIResponder", "register"]
+- !private ["CSo11UIResponder", "text"]
+- !private ["PSo30UIResponderStandardEditActions", "Bundle"]
+- !private ["PSo30UIResponderStandardEditActions", "UINib"]
+- !private ["PSo30UIResponderStandardEditActions", "UIView"]
+- !private ["PSo30UIResponderStandardEditActions", "backgroundView"]
+- !private ["PSo30UIResponderStandardEditActions", "defaultReuseIdentifier"]
+- !private ["PSo30UIResponderStandardEditActions", "dequeueReusableCell"]
+- !private ["PSo30UIResponderStandardEditActions", "fatalError"]
+- !private ["PSo30UIResponderStandardEditActions", "infoLabel"]
+- !private ["PSo30UIResponderStandardEditActions", "load"]
+- !private ["PSo30UIResponderStandardEditActions", "nibName"]
+- !private ["PSo30UIResponderStandardEditActions", "register"]
+- !private ["PSo30UIResponderStandardEditActions", "text"]
+- !private ["CSo12UIScrollView", "Bundle"]
+- ["CSo12UIScrollView", "IndexPath"]
+- ["CSo12UIScrollView", "NibLoadableView"]
+- !private ["CSo12UIScrollView", "NoDataView"]
+- ["CSo12UIScrollView", "ReusableView"]
+- ["CSo12UIScrollView", "String"]
+- !private ["CSo12UIScrollView", "UINib"]
+- ["CSo12UIScrollView", "UITableViewCell"]
+- !private ["CSo12UIScrollView", "UIView"]
+- ["CSo12UIScrollView", "addNoDataView"]
+- !private ["CSo12UIScrollView", "backgroundView"]
+- ["CSo12UIScrollView", "dequeueReusableCell"]
+- !private ["CSo12UIScrollView", "fatalError"]
+- ["CSo12UIScrollView", "register"]
+- !private ["CSo11UITableView", "Bundle"]
+- ["CSo11UITableView", "IndexPath"]
+- ["CSo11UITableView", "NibLoadableView"]
+- !private ["CSo11UITableView", "NoDataView"]
+- ["CSo11UITableView", "ReusableView"]
+- ["CSo11UITableView", "String"]
+- !private ["CSo11UITableView", "UINib"]
+- ["CSo11UITableView", "UITableViewCell"]
+- !private ["CSo11UITableView", "UIView"]
+- ["CSo11UITableView", "addNoDataView"]
+- !private ["CSo11UITableView", "backgroundView"]
+- ["CSo11UITableView", "dequeueReusableCell"]
+- !private ["CSo11UITableView", "fatalError"]
+- ["CSo11UITableView", "register"]
+- !private ["CSo15UITableViewCell", "defaultReuseIdentifier"]
+- !private ["CSo15UITableViewCell", "nibName"]
+- !private ["PSo18UITraitEnvironment", "Bundle"]
+- !private ["PSo18UITraitEnvironment", "UINib"]
+- !private ["PSo18UITraitEnvironment", "UIView"]
+- !private ["PSo18UITraitEnvironment", "backgroundView"]
+- !private ["PSo18UITraitEnvironment", "defaultReuseIdentifier"]
+- !private ["PSo18UITraitEnvironment", "dequeueReusableCell"]
+- !private ["PSo18UITraitEnvironment", "fatalError"]
+- !private ["PSo18UITraitEnvironment", "infoLabel"]
+- !private ["PSo18UITraitEnvironment", "load"]
+- !private ["PSo18UITraitEnvironment", "nibName"]
+- !private ["PSo18UITraitEnvironment", "register"]
+- !private ["PSo18UITraitEnvironment", "text"]
+- !private ["CSo6UIView", "Bundle"]
+- ["CSo6UIView", "IndexPath"]
+- ["CSo6UIView", "NibLoadableView"]
+- !private ["CSo6UIView", "NoDataView"]
+- ["CSo6UIView", "ReusableView"]
+- ["CSo6UIView", "String"]
+- !private ["CSo6UIView", "UINib"]
+- ["CSo6UIView", "UITableViewCell"]
+- !private ["CSo6UIView", "UIView"]
+- ["CSo6UIView", "addNoDataView"]
+- !private ["CSo6UIView", "backgroundView"]
+- !private ["CSo6UIView", "defaultReuseIdentifier"]
+- ["CSo6UIView", "dequeueReusableCell"]
+- !private ["CSo6UIView", "fatalError"]
+- !private ["CSo6UIView", "infoLabel"]
+- !private ["CSo6UIView", "load"]
+- !private ["CSo6UIView", "nibName"]
+- ["CSo6UIView", "register"]
+- !private ["CSo6UIView", "text"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "Bundle"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "UINib"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "UIView"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "backgroundView"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "defaultReuseIdentifier"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "dequeueReusableCell"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "fatalError"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "infoLabel"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "load"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "nibName"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "register"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "text"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "Bundle"]
+- !private ["Ps9_Hashable", "UINib"]
+- !private ["Ps9_Hashable", "UIView"]
+- !private ["Ps9_Hashable", "backgroundView"]
+- !private ["Ps9_Hashable", "defaultReuseIdentifier"]
+- !private ["Ps9_Hashable", "dequeueReusableCell"]
+- !private ["Ps9_Hashable", "fatalError"]
+- !private ["Ps9_Hashable", "infoLabel"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "load"]
+- !private ["Ps9_Hashable", "nibName"]
+- !private ["Ps9_Hashable", "register"]
+- !private ["Ps9_Hashable", "text"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+depends-nominal:
+- !private "Ps9AnyObject"
+- !private "CSo6Bundle"
+- !private "PSo15CALayerDelegate"
+- !private "Ps7CVarArg"
+- !private "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "Ps9Equatable"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Ps8Hashable"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "P11TaskManager15NibLoadableView"
+- !private "C11TaskManager10NoDataView"
+- !private "P11TaskManager12ReusableView"
+- !private "Vs12StaticString"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- !private "PSo21UIAppearanceContainer"
+- !private "PSo30UIContentSizeCategoryAdjusting"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- !private "PSo18UIFocusEnvironment"
+- !private "PSo11UIFocusItem"
+- !private "PSo27UIGestureRecognizerDelegate"
+- !private "CSo7UILabel"
+- !private "CSo5UINib"
+- "CSo11UIResponder"
+- !private "PSo30UIResponderStandardEditActions"
+- "CSo12UIScrollView"
+- "CSo11UITableView"
+- !private "CSo15UITableViewCell"
+- !private "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- !private "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- !private "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreData.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Metal.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/SwiftOnoneSupport.swiftmodule"
+- "/Users/petr.kopecky/Documents/TaskManager/TaskManager-Bridging-Header.h"
+interface-hash: "98afe7a4ef665a73f67ad9cb1b8c6c62"

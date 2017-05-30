@@ -1,0 +1,227 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["CSo6UIView", ""]
+- ["CSo6UIView", "load"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "Bundle"
+- "CastingPrecedence"
+- "NibLoadableView"
+- !private "UINib"
+- "UIView"
+- !private "print"
+depends-member:
+- !private ["Ps9AnyObject", "Bundle"]
+- !private ["Ps9AnyObject", "UINib"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "instantiate"]
+- !private ["Ps9AnyObject", "nibName"]
+- !private ["Ps9AnyObject", "print"]
+- !private ["Sa", "subscript"]
+- !private ["Ps23BidirectionalCollection", "subscript"]
+- !private ["CSo6Bundle", "init"]
+- !private ["PSo15CALayerDelegate", "Bundle"]
+- !private ["PSo15CALayerDelegate", "UINib"]
+- !private ["PSo15CALayerDelegate", "nibName"]
+- !private ["PSo15CALayerDelegate", "print"]
+- !private ["Ps7CVarArg", "Bundle"]
+- !private ["Ps7CVarArg", "UINib"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "instantiate"]
+- !private ["Ps7CVarArg", "nibName"]
+- !private ["Ps7CVarArg", "print"]
+- !private ["Ps7CVarArg", "subscript"]
+- !private ["Ps10Collection", "subscript"]
+- !private ["Ps28CustomDebugStringConvertible", "Bundle"]
+- !private ["Ps28CustomDebugStringConvertible", "UINib"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "instantiate"]
+- !private ["Ps28CustomDebugStringConvertible", "nibName"]
+- !private ["Ps28CustomDebugStringConvertible", "print"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- !private ["Ps23CustomStringConvertible", "Bundle"]
+- !private ["Ps23CustomStringConvertible", "UINib"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "instantiate"]
+- !private ["Ps23CustomStringConvertible", "nibName"]
+- !private ["Ps23CustomStringConvertible", "print"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Ps9Equatable", "Bundle"]
+- !private ["Ps9Equatable", "UINib"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "instantiate"]
+- !private ["Ps9Equatable", "nibName"]
+- !private ["Ps9Equatable", "print"]
+- !private ["Ps25ExpressibleByArrayLiteral", "subscript"]
+- !private ["Ps8Hashable", "Bundle"]
+- !private ["Ps8Hashable", "UINib"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "instantiate"]
+- !private ["Ps8Hashable", "nibName"]
+- !private ["Ps8Hashable", "print"]
+- !private ["Ps17MutableCollection", "subscript"]
+- !private ["PSo8NSCoding", "Bundle"]
+- !private ["PSo8NSCoding", "UINib"]
+- !private ["PSo8NSCoding", "nibName"]
+- !private ["PSo8NSCoding", "print"]
+- !private ["CSo8NSObject", "Bundle"]
+- ["CSo8NSObject", "NibLoadableView"]
+- !private ["CSo8NSObject", "UINib"]
+- ["CSo8NSObject", "UIView"]
+- !private ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "instantiate"]
+- ["CSo8NSObject", "load"]
+- !private ["CSo8NSObject", "nibName"]
+- !private ["CSo8NSObject", "print"]
+- !private ["PSo16NSObjectProtocol", "Bundle"]
+- !private ["PSo16NSObjectProtocol", "UINib"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "instantiate"]
+- !private ["PSo16NSObjectProtocol", "nibName"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- !private ["P11TaskManager15NibLoadableView", "nibName"]
+- !private ["Ps22RandomAccessCollection", "subscript"]
+- !private ["Ps26RangeReplaceableCollection", "subscript"]
+- !private ["Ps8Sequence", "subscript"]
+- !private ["PSo29UIAccessibilityIdentification", "Bundle"]
+- !private ["PSo29UIAccessibilityIdentification", "UINib"]
+- !private ["PSo29UIAccessibilityIdentification", "nibName"]
+- !private ["PSo29UIAccessibilityIdentification", "print"]
+- !private ["PSo12UIAppearance", "Bundle"]
+- !private ["PSo12UIAppearance", "UINib"]
+- !private ["PSo12UIAppearance", "nibName"]
+- !private ["PSo12UIAppearance", "print"]
+- !private ["PSo21UIAppearanceContainer", "Bundle"]
+- !private ["PSo21UIAppearanceContainer", "UINib"]
+- !private ["PSo21UIAppearanceContainer", "nibName"]
+- !private ["PSo21UIAppearanceContainer", "print"]
+- !private ["PSo17UICoordinateSpace", "Bundle"]
+- !private ["PSo17UICoordinateSpace", "UINib"]
+- !private ["PSo17UICoordinateSpace", "nibName"]
+- !private ["PSo17UICoordinateSpace", "print"]
+- !private ["PSo13UIDynamicItem", "Bundle"]
+- !private ["PSo13UIDynamicItem", "UINib"]
+- !private ["PSo13UIDynamicItem", "nibName"]
+- !private ["PSo13UIDynamicItem", "print"]
+- !private ["PSo18UIFocusEnvironment", "Bundle"]
+- !private ["PSo18UIFocusEnvironment", "UINib"]
+- !private ["PSo18UIFocusEnvironment", "nibName"]
+- !private ["PSo18UIFocusEnvironment", "print"]
+- !private ["PSo11UIFocusItem", "Bundle"]
+- !private ["PSo11UIFocusItem", "UINib"]
+- !private ["PSo11UIFocusItem", "nibName"]
+- !private ["PSo11UIFocusItem", "print"]
+- !private ["CSo5UINib", "init"]
+- !private ["CSo5UINib", "instantiate"]
+- !private ["CSo11UIResponder", "Bundle"]
+- ["CSo11UIResponder", "NibLoadableView"]
+- !private ["CSo11UIResponder", "UINib"]
+- ["CSo11UIResponder", "UIView"]
+- ["CSo11UIResponder", "load"]
+- !private ["CSo11UIResponder", "nibName"]
+- !private ["CSo11UIResponder", "print"]
+- !private ["PSo30UIResponderStandardEditActions", "Bundle"]
+- !private ["PSo30UIResponderStandardEditActions", "UINib"]
+- !private ["PSo30UIResponderStandardEditActions", "nibName"]
+- !private ["PSo30UIResponderStandardEditActions", "print"]
+- !private ["PSo18UITraitEnvironment", "Bundle"]
+- !private ["PSo18UITraitEnvironment", "UINib"]
+- !private ["PSo18UITraitEnvironment", "nibName"]
+- !private ["PSo18UITraitEnvironment", "print"]
+- !private ["CSo6UIView", "Bundle"]
+- ["CSo6UIView", "NibLoadableView"]
+- !private ["CSo6UIView", "UINib"]
+- ["CSo6UIView", "UIView"]
+- ["CSo6UIView", "load"]
+- !private ["CSo6UIView", "nibName"]
+- !private ["CSo6UIView", "print"]
+- !private ["Ps14_ArrayProtocol", "subscript"]
+- !private ["Ps23_BidirectionalIndexable", "subscript"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "Bundle"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "UINib"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "nibName"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "print"]
+- !private ["Ps24_DestructorSafeContainer", "subscript"]
+- !private ["Ps9_Hashable", "Bundle"]
+- !private ["Ps9_Hashable", "UINib"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "instantiate"]
+- !private ["Ps9_Hashable", "nibName"]
+- !private ["Ps9_Hashable", "print"]
+- !private ["Ps10_Indexable", "subscript"]
+- !private ["Ps14_IndexableBase", "subscript"]
+- !private ["Ps17_MutableIndexable", "subscript"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- !private ["Ps22_RandomAccessIndexable", "subscript"]
+- !private ["Ps26_RangeReplaceableIndexable", "subscript"]
+depends-nominal:
+- !private "Ps9AnyObject"
+- !private "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "CSo6Bundle"
+- !private "PSo15CALayerDelegate"
+- !private "Ps7CVarArg"
+- !private "Ps10Collection"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps8Hashable"
+- !private "Ps17MutableCollection"
+- !private "PSo8NSCoding"
+- "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "P11TaskManager15NibLoadableView"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps8Sequence"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- !private "PSo21UIAppearanceContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- !private "PSo18UIFocusEnvironment"
+- !private "PSo11UIFocusItem"
+- !private "CSo5UINib"
+- "CSo11UIResponder"
+- !private "PSo30UIResponderStandardEditActions"
+- !private "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps23_BidirectionalIndexable"
+- !private "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps9_Hashable"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- !private "Ps17_MutableIndexable"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps22_RandomAccessIndexable"
+- !private "Ps26_RangeReplaceableIndexable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreData.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Metal.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/SwiftOnoneSupport.swiftmodule"
+- "/Users/petr.kopecky/Documents/TaskManager/TaskManager-Bridging-Header.h"
+interface-hash: "4b20ab0b7f09748766ac6614cf9f15dd"

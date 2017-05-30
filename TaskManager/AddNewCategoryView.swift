@@ -7,10 +7,9 @@
 //
 
 import UIKit
-import RappleColorPicker
 
 
-class AddNewCategoryView: UIView, NibLoadableView, RappleColorPickerDelegate {
+class AddNewCategoryView: UIView, NibLoadableView {
     
     @IBOutlet weak var categoryView: UIView!
     @IBOutlet weak var categoryTitle: UITextField!
@@ -37,17 +36,13 @@ class AddNewCategoryView: UIView, NibLoadableView, RappleColorPickerDelegate {
     }
     @IBAction func openColorPalleteButtonPressed(_ sender: UITapGestureRecognizer) {
         if let vc = ApplicationNavigator.sharedInstance.getRootController()?.viewControllers.last {
-            RappleColorPicker.openColorPallet(onViewController: vc, origin: center, delegate: self, title: "Select color".loc().uppercased())
+        
         }
         
     }
     
     //MARK: - RappleColorPicker delegate
-    
-    func colorSelected(_ color: UIColor) {
-        RappleColorPicker.close()
-        categoryView.backgroundColor = color
-    }
+
     func clean() {
         categoryTitle.text = ""
         categoryTitle.resignFirstResponder()

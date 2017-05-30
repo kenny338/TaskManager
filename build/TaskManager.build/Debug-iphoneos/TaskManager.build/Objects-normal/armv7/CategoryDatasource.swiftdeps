@@ -1,0 +1,577 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CategoryDatasource"
+provides-nominal:
+- "C11TaskManager18CategoryDatasource"
+provides-member:
+- ["C11TaskManager18CategoryDatasource", ""]
+provides-dynamic-lookup:
+- "categories"
+- "fetchData"
+- "tableView"
+depends-top-level:
+- !private "=="
+- !private "??"
+- "Array"
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- "Category"
+- "CategoryDatasource"
+- !private "CategoryTableViewCell"
+- !private "CoreDataFetcher"
+- "Fetchable"
+- "IndexPath"
+- "Int"
+- "NSObject"
+- "String"
+- !private "StringLiteralType"
+- "UITableView"
+- "UITableViewCell"
+- "UITableViewDataSource"
+- !private "UserSettings"
+depends-member:
+- !private ["Ps9AnyObject", "CoreDataFetcher"]
+- !private ["Ps9AnyObject", "UserSettings"]
+- !private ["Ps9AnyObject", "accessoryType"]
+- !private ["Ps9AnyObject", "categories"]
+- !private ["Ps9AnyObject", "category"]
+- !private ["Ps9AnyObject", "configure"]
+- !private ["Ps9AnyObject", "currentTask"]
+- !private ["Ps9AnyObject", "dequeueReusableCell"]
+- !private ["Ps9AnyObject", "fetchCategories"]
+- ["Ps9AnyObject", "fetchData"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "loc"]
+- ["Ps9AnyObject", "numberOfSections"]
+- ["Ps9AnyObject", "numberOfSectionsInTableView"]
+- !private ["Ps9AnyObject", "reloadData"]
+- ["Ps9AnyObject", "sectionIndexTitles"]
+- ["Ps9AnyObject", "sectionIndexTitlesForTableView"]
+- !private ["Ps9AnyObject", "selectRow"]
+- !private ["Ps9AnyObject", "shared"]
+- !private ["Ps9AnyObject", "sharedSettings"]
+- ["Ps9AnyObject", "tableView"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "count"]
+- !private ["Sa", "subscript"]
+- !private ["Ps23BidirectionalCollection", "count"]
+- !private ["Ps23BidirectionalCollection", "row"]
+- !private ["Ps23BidirectionalCollection", "subscript"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSo15CALayerDelegate", "accessoryType"]
+- !private ["PSo15CALayerDelegate", "configure"]
+- !private ["PSo15CALayerDelegate", "dequeueReusableCell"]
+- !private ["PSo15CALayerDelegate", "reloadData"]
+- !private ["PSo15CALayerDelegate", "selectRow"]
+- !private ["Ps7CVarArg", "CoreDataFetcher"]
+- !private ["Ps7CVarArg", "UserSettings"]
+- !private ["Ps7CVarArg", "accessoryType"]
+- !private ["Ps7CVarArg", "categories"]
+- !private ["Ps7CVarArg", "category"]
+- !private ["Ps7CVarArg", "configure"]
+- !private ["Ps7CVarArg", "count"]
+- !private ["Ps7CVarArg", "dequeueReusableCell"]
+- ["Ps7CVarArg", "fetchData"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "loc"]
+- ["Ps7CVarArg", "numberOfSections"]
+- ["Ps7CVarArg", "numberOfSectionsInTableView"]
+- !private ["Ps7CVarArg", "reloadData"]
+- ["Ps7CVarArg", "sectionIndexTitles"]
+- ["Ps7CVarArg", "sectionIndexTitlesForTableView"]
+- !private ["Ps7CVarArg", "selectRow"]
+- !private ["Ps7CVarArg", "subscript"]
+- ["Ps7CVarArg", "tableView"]
+- ["Ps7CVarArg", ""]
+- ["C11TaskManager18CategoryDatasource", "Category"]
+- !private ["C11TaskManager18CategoryDatasource", "CategoryTableViewCell"]
+- !private ["C11TaskManager18CategoryDatasource", "CoreDataFetcher"]
+- ["C11TaskManager18CategoryDatasource", "IndexPath"]
+- ["C11TaskManager18CategoryDatasource", "Int"]
+- ["C11TaskManager18CategoryDatasource", "String"]
+- ["C11TaskManager18CategoryDatasource", "UITableView"]
+- ["C11TaskManager18CategoryDatasource", "UITableViewCell"]
+- !private ["C11TaskManager18CategoryDatasource", "UserSettings"]
+- ["C11TaskManager18CategoryDatasource", "categories"]
+- ["C11TaskManager18CategoryDatasource", "deinit"]
+- ["C11TaskManager18CategoryDatasource", "fetchData"]
+- ["C11TaskManager18CategoryDatasource", "init"]
+- ["C11TaskManager18CategoryDatasource", "numberOfSections"]
+- ["C11TaskManager18CategoryDatasource", "numberOfSectionsInTableView"]
+- ["C11TaskManager18CategoryDatasource", "sectionIndexTitles"]
+- ["C11TaskManager18CategoryDatasource", "sectionIndexTitlesForTableView"]
+- ["C11TaskManager18CategoryDatasource", "tableView"]
+- !private ["C11TaskManager21CategoryTableViewCell", "accessoryType"]
+- !private ["C11TaskManager21CategoryTableViewCell", "configure"]
+- !private ["C11TaskManager21CategoryTableViewCell", "deinit"]
+- !private ["Ps10Collection", "count"]
+- !private ["Ps10Collection", "row"]
+- !private ["Ps10Collection", "subscript"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "loc"]
+- !private ["Ps10Comparable", "row"]
+- !private ["C11TaskManager15CoreDataFetcher", "fetchCategories"]
+- !private ["C11TaskManager15CoreDataFetcher", "shared"]
+- !private ["Ps28CustomDebugStringConvertible", "CoreDataFetcher"]
+- !private ["Ps28CustomDebugStringConvertible", "UserSettings"]
+- !private ["Ps28CustomDebugStringConvertible", "accessoryType"]
+- !private ["Ps28CustomDebugStringConvertible", "categories"]
+- !private ["Ps28CustomDebugStringConvertible", "category"]
+- !private ["Ps28CustomDebugStringConvertible", "configure"]
+- !private ["Ps28CustomDebugStringConvertible", "count"]
+- !private ["Ps28CustomDebugStringConvertible", "dequeueReusableCell"]
+- ["Ps28CustomDebugStringConvertible", "fetchData"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "loc"]
+- ["Ps28CustomDebugStringConvertible", "numberOfSections"]
+- ["Ps28CustomDebugStringConvertible", "numberOfSectionsInTableView"]
+- !private ["Ps28CustomDebugStringConvertible", "reloadData"]
+- !private ["Ps28CustomDebugStringConvertible", "row"]
+- ["Ps28CustomDebugStringConvertible", "sectionIndexTitles"]
+- ["Ps28CustomDebugStringConvertible", "sectionIndexTitlesForTableView"]
+- !private ["Ps28CustomDebugStringConvertible", "selectRow"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- ["Ps28CustomDebugStringConvertible", "tableView"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "loc"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "count"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "loc"]
+- !private ["Ps17CustomReflectable", "row"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- !private ["Ps23CustomStringConvertible", "CoreDataFetcher"]
+- !private ["Ps23CustomStringConvertible", "UserSettings"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "accessoryType"]
+- !private ["Ps23CustomStringConvertible", "categories"]
+- !private ["Ps23CustomStringConvertible", "category"]
+- !private ["Ps23CustomStringConvertible", "configure"]
+- !private ["Ps23CustomStringConvertible", "count"]
+- !private ["Ps23CustomStringConvertible", "dequeueReusableCell"]
+- ["Ps23CustomStringConvertible", "fetchData"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "loc"]
+- ["Ps23CustomStringConvertible", "numberOfSections"]
+- ["Ps23CustomStringConvertible", "numberOfSectionsInTableView"]
+- !private ["Ps23CustomStringConvertible", "reloadData"]
+- !private ["Ps23CustomStringConvertible", "row"]
+- ["Ps23CustomStringConvertible", "sectionIndexTitles"]
+- ["Ps23CustomStringConvertible", "sectionIndexTitlesForTableView"]
+- !private ["Ps23CustomStringConvertible", "selectRow"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- ["Ps23CustomStringConvertible", "tableView"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "CoreDataFetcher"]
+- !private ["Ps9Equatable", "UserSettings"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "accessoryType"]
+- !private ["Ps9Equatable", "bottom"]
+- !private ["Ps9Equatable", "categories"]
+- !private ["Ps9Equatable", "category"]
+- !private ["Ps9Equatable", "checkmark"]
+- !private ["Ps9Equatable", "configure"]
+- !private ["Ps9Equatable", "dequeueReusableCell"]
+- ["Ps9Equatable", "fetchData"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "loc"]
+- ["Ps9Equatable", "numberOfSections"]
+- ["Ps9Equatable", "numberOfSectionsInTableView"]
+- !private ["Ps9Equatable", "reloadData"]
+- !private ["Ps9Equatable", "row"]
+- ["Ps9Equatable", "sectionIndexTitles"]
+- ["Ps9Equatable", "sectionIndexTitlesForTableView"]
+- !private ["Ps9Equatable", "selectRow"]
+- ["Ps9Equatable", "tableView"]
+- ["Ps9Equatable", ""]
+- !private ["Ps25ExpressibleByArrayLiteral", "count"]
+- !private ["Ps25ExpressibleByArrayLiteral", "row"]
+- !private ["Ps25ExpressibleByArrayLiteral", "subscript"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "loc"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "loc"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "loc"]
+- !private ["P11TaskManager9Fetchable", "CoreDataFetcher"]
+- !private ["P11TaskManager9Fetchable", "UserSettings"]
+- !private ["P11TaskManager9Fetchable", "categories"]
+- ["P11TaskManager9Fetchable", "fetchData"]
+- ["P11TaskManager9Fetchable", "numberOfSections"]
+- ["P11TaskManager9Fetchable", "numberOfSectionsInTableView"]
+- ["P11TaskManager9Fetchable", "sectionIndexTitles"]
+- ["P11TaskManager9Fetchable", "sectionIndexTitlesForTableView"]
+- ["P11TaskManager9Fetchable", "tableView"]
+- ["P11TaskManager9Fetchable", ""]
+- !private ["Ps8Hashable", "CoreDataFetcher"]
+- !private ["Ps8Hashable", "UserSettings"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "accessoryType"]
+- !private ["Ps8Hashable", "bottom"]
+- !private ["Ps8Hashable", "categories"]
+- !private ["Ps8Hashable", "category"]
+- !private ["Ps8Hashable", "checkmark"]
+- !private ["Ps8Hashable", "configure"]
+- !private ["Ps8Hashable", "dequeueReusableCell"]
+- ["Ps8Hashable", "fetchData"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "loc"]
+- ["Ps8Hashable", "numberOfSections"]
+- ["Ps8Hashable", "numberOfSectionsInTableView"]
+- !private ["Ps8Hashable", "reloadData"]
+- !private ["Ps8Hashable", "row"]
+- ["Ps8Hashable", "sectionIndexTitles"]
+- ["Ps8Hashable", "sectionIndexTitlesForTableView"]
+- !private ["Ps8Hashable", "selectRow"]
+- ["Ps8Hashable", "tableView"]
+- ["Ps8Hashable", ""]
+- !private ["V10Foundation9IndexPath", "row"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps25LosslessStringConvertible", "loc"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["Ps10MirrorPath", "loc"]
+- !private ["Ps17MutableCollection", "count"]
+- !private ["Ps17MutableCollection", "row"]
+- !private ["Ps17MutableCollection", "subscript"]
+- !private ["PSo8NSCoding", "accessoryType"]
+- !private ["PSo8NSCoding", "configure"]
+- !private ["PSo8NSCoding", "dequeueReusableCell"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "loc"]
+- !private ["PSo8NSCoding", "reloadData"]
+- !private ["PSo8NSCoding", "selectRow"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "loc"]
+- !private ["PSo20NSFetchRequestResult", "category"]
+- !private ["CSo15NSManagedObject", "category"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["PSo16NSMutableCopying", "loc"]
+- ["CSo8NSObject", "Category"]
+- !private ["CSo8NSObject", "CategoryTableViewCell"]
+- !private ["CSo8NSObject", "CoreDataFetcher"]
+- ["CSo8NSObject", "IndexPath"]
+- ["CSo8NSObject", "Int"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "UITableView"]
+- ["CSo8NSObject", "UITableViewCell"]
+- !private ["CSo8NSObject", "UserSettings"]
+- !private ["CSo8NSObject", "accessoryType"]
+- ["CSo8NSObject", "categories"]
+- !private ["CSo8NSObject", "category"]
+- !private ["CSo8NSObject", "configure"]
+- !private ["CSo8NSObject", "dequeueReusableCell"]
+- ["CSo8NSObject", "fetchData"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "loc"]
+- ["CSo8NSObject", "numberOfSections"]
+- ["CSo8NSObject", "numberOfSectionsInTableView"]
+- !private ["CSo8NSObject", "reloadData"]
+- ["CSo8NSObject", "sectionIndexTitles"]
+- ["CSo8NSObject", "sectionIndexTitlesForTableView"]
+- !private ["CSo8NSObject", "selectRow"]
+- ["CSo8NSObject", "tableView"]
+- ["CSo8NSObject", ""]
+- !private ["PSo16NSObjectProtocol", "CoreDataFetcher"]
+- !private ["PSo16NSObjectProtocol", "UserSettings"]
+- !private ["PSo16NSObjectProtocol", "accessoryType"]
+- !private ["PSo16NSObjectProtocol", "categories"]
+- !private ["PSo16NSObjectProtocol", "category"]
+- !private ["PSo16NSObjectProtocol", "configure"]
+- !private ["PSo16NSObjectProtocol", "dequeueReusableCell"]
+- ["PSo16NSObjectProtocol", "fetchData"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "loc"]
+- ["PSo16NSObjectProtocol", "numberOfSections"]
+- ["PSo16NSObjectProtocol", "numberOfSectionsInTableView"]
+- !private ["PSo16NSObjectProtocol", "reloadData"]
+- ["PSo16NSObjectProtocol", "sectionIndexTitles"]
+- ["PSo16NSObjectProtocol", "sectionIndexTitlesForTableView"]
+- !private ["PSo16NSObjectProtocol", "selectRow"]
+- ["PSo16NSObjectProtocol", "tableView"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "loc"]
+- !private ["CSo8NSString", "init"]
+- !private ["CSo8NSString", "loc"]
+- !private ["P11TaskManager15NibLoadableView", "accessoryType"]
+- !private ["P11TaskManager15NibLoadableView", "configure"]
+- !private ["Ps22RandomAccessCollection", "count"]
+- !private ["Ps22RandomAccessCollection", "row"]
+- !private ["Ps22RandomAccessCollection", "subscript"]
+- !private ["Ps26RangeReplaceableCollection", "count"]
+- !private ["Ps26RangeReplaceableCollection", "subscript"]
+- !private ["Ps16RawRepresentable", "bottom"]
+- !private ["Ps16RawRepresentable", "checkmark"]
+- !private ["P10Foundation20ReferenceConvertible", "row"]
+- !private ["P11TaskManager12ReusableView", "accessoryType"]
+- !private ["P11TaskManager12ReusableView", "configure"]
+- !private ["Ps8Sequence", "count"]
+- !private ["Ps8Sequence", "row"]
+- !private ["Ps8Sequence", "subscript"]
+- !private ["Vs12StaticString", "init"]
+- !private ["SS", "init"]
+- !private ["SS", "loc"]
+- !private ["C11TaskManager4Task", "category"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps16TextOutputStream", "loc"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["Ps20TextOutputStreamable", "loc"]
+- !private ["PSo29UIAccessibilityIdentification", "accessoryType"]
+- !private ["PSo29UIAccessibilityIdentification", "configure"]
+- !private ["PSo29UIAccessibilityIdentification", "dequeueReusableCell"]
+- !private ["PSo29UIAccessibilityIdentification", "reloadData"]
+- !private ["PSo29UIAccessibilityIdentification", "selectRow"]
+- !private ["PSo12UIAppearance", "accessoryType"]
+- !private ["PSo12UIAppearance", "configure"]
+- !private ["PSo12UIAppearance", "dequeueReusableCell"]
+- !private ["PSo12UIAppearance", "reloadData"]
+- !private ["PSo12UIAppearance", "selectRow"]
+- !private ["PSo21UIAppearanceContainer", "accessoryType"]
+- !private ["PSo21UIAppearanceContainer", "configure"]
+- !private ["PSo21UIAppearanceContainer", "dequeueReusableCell"]
+- !private ["PSo21UIAppearanceContainer", "reloadData"]
+- !private ["PSo21UIAppearanceContainer", "selectRow"]
+- !private ["PSo17UICoordinateSpace", "accessoryType"]
+- !private ["PSo17UICoordinateSpace", "configure"]
+- !private ["PSo17UICoordinateSpace", "dequeueReusableCell"]
+- !private ["PSo17UICoordinateSpace", "reloadData"]
+- !private ["PSo17UICoordinateSpace", "selectRow"]
+- !private ["PSo13UIDynamicItem", "accessoryType"]
+- !private ["PSo13UIDynamicItem", "configure"]
+- !private ["PSo13UIDynamicItem", "dequeueReusableCell"]
+- !private ["PSo13UIDynamicItem", "reloadData"]
+- !private ["PSo13UIDynamicItem", "selectRow"]
+- !private ["PSo18UIFocusEnvironment", "accessoryType"]
+- !private ["PSo18UIFocusEnvironment", "configure"]
+- !private ["PSo18UIFocusEnvironment", "dequeueReusableCell"]
+- !private ["PSo18UIFocusEnvironment", "reloadData"]
+- !private ["PSo18UIFocusEnvironment", "selectRow"]
+- !private ["PSo11UIFocusItem", "accessoryType"]
+- !private ["PSo11UIFocusItem", "configure"]
+- !private ["PSo11UIFocusItem", "dequeueReusableCell"]
+- !private ["PSo11UIFocusItem", "reloadData"]
+- !private ["PSo11UIFocusItem", "selectRow"]
+- !private ["PSo27UIGestureRecognizerDelegate", "accessoryType"]
+- !private ["PSo27UIGestureRecognizerDelegate", "configure"]
+- !private ["CSo11UIResponder", "accessoryType"]
+- !private ["CSo11UIResponder", "configure"]
+- !private ["CSo11UIResponder", "dequeueReusableCell"]
+- !private ["CSo11UIResponder", "reloadData"]
+- !private ["CSo11UIResponder", "selectRow"]
+- !private ["PSo30UIResponderStandardEditActions", "accessoryType"]
+- !private ["PSo30UIResponderStandardEditActions", "configure"]
+- !private ["PSo30UIResponderStandardEditActions", "dequeueReusableCell"]
+- !private ["PSo30UIResponderStandardEditActions", "reloadData"]
+- !private ["PSo30UIResponderStandardEditActions", "selectRow"]
+- !private ["CSo12UIScrollView", "dequeueReusableCell"]
+- !private ["CSo12UIScrollView", "reloadData"]
+- !private ["CSo12UIScrollView", "selectRow"]
+- !private ["CSo11UITableView", "dequeueReusableCell"]
+- !private ["CSo11UITableView", "reloadData"]
+- !private ["CSo11UITableView", "selectRow"]
+- !private ["CSo15UITableViewCell", "accessoryType"]
+- !private ["CSo15UITableViewCell", "configure"]
+- !private ["OSC28UITableViewCellAccessoryType", "checkmark"]
+- !private ["PSo21UITableViewDataSource", "CoreDataFetcher"]
+- !private ["PSo21UITableViewDataSource", "UserSettings"]
+- !private ["PSo21UITableViewDataSource", "categories"]
+- ["PSo21UITableViewDataSource", "fetchData"]
+- ["PSo21UITableViewDataSource", "numberOfSections"]
+- ["PSo21UITableViewDataSource", "numberOfSectionsInTableView"]
+- ["PSo21UITableViewDataSource", "sectionIndexTitles"]
+- ["PSo21UITableViewDataSource", "sectionIndexTitlesForTableView"]
+- ["PSo21UITableViewDataSource", "tableView"]
+- ["PSo21UITableViewDataSource", ""]
+- !private ["OSC25UITableViewScrollPosition", "bottom"]
+- !private ["PSo18UITraitEnvironment", "accessoryType"]
+- !private ["PSo18UITraitEnvironment", "configure"]
+- !private ["PSo18UITraitEnvironment", "dequeueReusableCell"]
+- !private ["PSo18UITraitEnvironment", "reloadData"]
+- !private ["PSo18UITraitEnvironment", "selectRow"]
+- !private ["CSo6UIView", "accessoryType"]
+- !private ["CSo6UIView", "configure"]
+- !private ["CSo6UIView", "dequeueReusableCell"]
+- !private ["CSo6UIView", "reloadData"]
+- !private ["CSo6UIView", "selectRow"]
+- !private ["C11TaskManager12UserSettings", "currentTask"]
+- !private ["C11TaskManager12UserSettings", "sharedSettings"]
+- !private ["Ps14_ArrayProtocol", "count"]
+- !private ["Ps14_ArrayProtocol", "subscript"]
+- !private ["Ps23_BidirectionalIndexable", "count"]
+- !private ["Ps23_BidirectionalIndexable", "row"]
+- !private ["Ps23_BidirectionalIndexable", "subscript"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "accessoryType"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "configure"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "dequeueReusableCell"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "reloadData"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "selectRow"]
+- !private ["Ps24_DestructorSafeContainer", "count"]
+- !private ["Ps24_DestructorSafeContainer", "subscript"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "loc"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "loc"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "loc"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "loc"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "loc"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "loc"]
+- !private ["Ps9_Hashable", "CoreDataFetcher"]
+- !private ["Ps9_Hashable", "UserSettings"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "accessoryType"]
+- !private ["Ps9_Hashable", "bottom"]
+- !private ["Ps9_Hashable", "categories"]
+- !private ["Ps9_Hashable", "category"]
+- !private ["Ps9_Hashable", "checkmark"]
+- !private ["Ps9_Hashable", "configure"]
+- !private ["Ps9_Hashable", "dequeueReusableCell"]
+- ["Ps9_Hashable", "fetchData"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "loc"]
+- ["Ps9_Hashable", "numberOfSections"]
+- ["Ps9_Hashable", "numberOfSectionsInTableView"]
+- !private ["Ps9_Hashable", "reloadData"]
+- !private ["Ps9_Hashable", "row"]
+- ["Ps9_Hashable", "sectionIndexTitles"]
+- ["Ps9_Hashable", "sectionIndexTitlesForTableView"]
+- !private ["Ps9_Hashable", "selectRow"]
+- ["Ps9_Hashable", "tableView"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps10_Indexable", "count"]
+- !private ["Ps10_Indexable", "row"]
+- !private ["Ps10_Indexable", "subscript"]
+- !private ["Ps14_IndexableBase", "count"]
+- !private ["Ps14_IndexableBase", "row"]
+- !private ["Ps14_IndexableBase", "subscript"]
+- !private ["Ps17_MutableIndexable", "count"]
+- !private ["Ps17_MutableIndexable", "row"]
+- !private ["Ps17_MutableIndexable", "subscript"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "count"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "loc"]
+- !private ["Ps21_ObjectiveCBridgeable", "row"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- !private ["Ps22_RandomAccessIndexable", "count"]
+- !private ["Ps22_RandomAccessIndexable", "row"]
+- !private ["Ps22_RandomAccessIndexable", "subscript"]
+- !private ["Ps26_RangeReplaceableIndexable", "count"]
+- !private ["Ps26_RangeReplaceableIndexable", "subscript"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Sb"
+- !private "PSo15CALayerDelegate"
+- "Ps7CVarArg"
+- "C11TaskManager18CategoryDatasource"
+- !private "C11TaskManager21CategoryTableViewCell"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- !private "C11TaskManager15CoreDataFetcher"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "P11TaskManager9Fetchable"
+- "Ps8Hashable"
+- !private "V10Foundation9IndexPath"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo20NSFetchRequestResult"
+- !private "CSo15NSManagedObject"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "P11TaskManager15NibLoadableView"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps16RawRepresentable"
+- !private "P10Foundation20ReferenceConvertible"
+- !private "P11TaskManager12ReusableView"
+- !private "Ps8Sequence"
+- !private "Vs12StaticString"
+- !private "SS"
+- !private "C11TaskManager4Task"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- !private "PSo21UIAppearanceContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- !private "PSo18UIFocusEnvironment"
+- !private "PSo11UIFocusItem"
+- !private "PSo27UIGestureRecognizerDelegate"
+- !private "CSo11UIResponder"
+- !private "PSo30UIResponderStandardEditActions"
+- !private "CSo12UIScrollView"
+- !private "CSo11UITableView"
+- !private "CSo15UITableViewCell"
+- !private "OSC28UITableViewCellAccessoryType"
+- "PSo21UITableViewDataSource"
+- !private "OSC25UITableViewScrollPosition"
+- !private "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- !private "C11TaskManager12UserSettings"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps23_BidirectionalIndexable"
+- !private "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- !private "Ps17_MutableIndexable"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps22_RandomAccessIndexable"
+- !private "Ps26_RangeReplaceableIndexable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreData.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Metal.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/SwiftOnoneSupport.swiftmodule"
+- "/Users/petr.kopecky/Documents/TaskManager/TaskManager-Bridging-Header.h"
+interface-hash: "ace92e783ff84f5e473b4188f15156f7"
