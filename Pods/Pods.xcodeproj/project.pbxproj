@@ -7,119 +7,278 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A2C156D4325C7DD7C28A5A121B6580E /* Pods-TaskManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C5BBCFCC9F45B4C5861F90EEC915EDF4 /* Pods-TaskManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		23725DFAB4B738267882202F16D11250 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		543A759B704322648C4529C7E6952C12 /* RappleColorPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47998FBB3D7D606F747CA93A5C47C42 /* RappleColorPickerViewController.swift */; };
-		6B8A2B57EC81E38F989CFB0F8A0AF78B /* Pods-TaskManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 918485D0A5F654147BFB743568F19C80 /* Pods-TaskManager-dummy.m */; };
-		925BFB0AD0CFFF1483F476D61A567150 /* RappleColorPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 76416E78FA7D9156A26C062422AAD77A /* RappleColorPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		92C464B7AB4E1297F7C01DDC4F8A9277 /* RappleColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D392A73F6B57B389D345879BA1F5A6 /* RappleColorPicker.swift */; };
-		9A6B86A467FDA43322A8979C055749BD /* RappleColorPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC32695EC537D7BE22A739A711C40E5 /* RappleColorPicker-dummy.m */; };
-		EAADEF082BDB23D97CC5E68FB802191B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		02B7DCAE969D1194B7349EF336FCA142 /* MemoryStorage+UpdateWithoutAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94037586A5BFA270D05AF8D379239BF5 /* MemoryStorage+UpdateWithoutAnimations.swift */; };
+		0B7C38F1ECC15EFCC5A59CA40F18D8AE /* SectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1119587ACA245CB14F75402C7BF13D06 /* SectionModel.swift */; };
+		1E4038327D0FAB8FFB9B675B61417186 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D64FF2315F19A471EC33C2110D5B276 /* CoreData.framework */; };
+		1EB96508765A9321B175828680625AD9 /* ViewModelMapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BD788F75025D3EC58C1503C5F07C55 /* ViewModelMapping.swift */; };
+		1F810610393A12D2D489D04ED532CA96 /* RappleColorPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 25490F9A40BEB799F97CDC330E182BF8 /* RappleColorPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21CCACB061B6A5121E8E3B15F26A7381 /* DTTableViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D735C97A33DCBD489EF87A77336358B /* DTTableViewManager.swift */; };
+		24E108A846E07319B7DAA5F8E47AFA6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 655BC96F1020CB1D099EA176CFF320C8 /* Foundation.framework */; };
+		2F5F74073D06F33084C96BFE9C42C4BB /* DTModelStorage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FB65FBC012FD48E5DAD559AC4409451 /* DTModelStorage-dummy.m */; };
+		3225BE27E528F5FD4B48F384CF0F37D0 /* RappleColorPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B8B5FC759391E0C5E77E96C91B37FE7 /* RappleColorPicker-dummy.m */; };
+		3D7C22348B060338A6B0D778D659CFD4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3E21C66616582FD64ADFAFB165D36EE /* UIKit.framework */; };
+		44284240878F3B6119A7774CA1977509 /* UINib+Existance.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B22442A1D81BA279B2363E5F6DFE7F /* UINib+Existance.swift */; };
+		47949AD4BDE9090E1A3B4DC245674D01 /* BaseStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8870256B97F52DB0B516366D5865D5 /* BaseStorage.swift */; };
+		4EA65B252057BC0E0FDB2BDBE4E56D2A /* RappleColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30028CC08166A39C7597EE652930E65 /* RappleColorPicker.swift */; };
+		4F760BB50AFB178A157EF98031A0169D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 655BC96F1020CB1D099EA176CFF320C8 /* Foundation.framework */; };
+		63621CCBA7EFDCB25C7AF8B87F21CBC8 /* StorageUpdate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E5D59AFCC321554D1FBD0ECBC15884 /* StorageUpdate.swift */; };
+		702AF9BDBCA0377F7D12FB65CD1EA580 /* TableViewUpdater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1256B91F682F4F5C3AE3716A3A1AE4E2 /* TableViewUpdater.swift */; };
+		7725A5C6E758EA507F0EF3684D0821F6 /* TableViewConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FAAD2D3A70DEBBD42350EE3229BA858 /* TableViewConfiguration.swift */; };
+		80C01262128DF644124DF97466EC7138 /* DTTableViewManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F90CF2AF114BAB16B9FB7B4E83527DA9 /* DTTableViewManager-dummy.m */; };
+		892500AB3EE641897FB0CD7C0181F93D /* DTTableViewManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D2B4DD8BB16843D92A06F64F9155E00 /* DTTableViewManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89FE3233E5B0CCF4225B4252D86FC6A0 /* RappleColorPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CB29705EDA6D76284DC5C2E1D76107 /* RappleColorPickerViewController.swift */; };
+		95796806C2EC7A3327811F1B3D654479 /* TableViewFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CBA5F70DA7D3EC3840A5C1A02FAD25E /* TableViewFactory.swift */; };
+		A3529F5F242B415DD2B169F039CB63F4 /* UIView+XibLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87926410A51AF2E747356ED075E09060 /* UIView+XibLoading.swift */; };
+		AAB96D74FE13982E517147DEE770ECE1 /* EventReactions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB750691D5C62DE8FE8BFA43B60402C /* EventReactions.swift */; };
+		AC8B2EA042A1E899FE377CC759DBDC4F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 655BC96F1020CB1D099EA176CFF320C8 /* Foundation.framework */; };
+		ACB382721A25135195A5A36D22C92F55 /* ModelTransfer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5E8CE07C8CA5C70406D4C25BF8EA26 /* ModelTransfer.swift */; };
+		AD665F5C665CDBE357D08FDD8F0133EC /* Pods-TaskManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 918485D0A5F654147BFB743568F19C80 /* Pods-TaskManager-dummy.m */; };
+		B150392B7349AE9C98A5FEE58F241D37 /* Pods-TaskManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C5BBCFCC9F45B4C5861F90EEC915EDF4 /* Pods-TaskManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BCC3E8EE9BE100018445DEE636780591 /* StorageProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255A9E7102524C131C7EC3F62297C0ED /* StorageProtocol.swift */; };
+		C5CAC1CC69D554BE316678DDA2A70003 /* DTModelStorage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 05AD3ECD26DE62AEDE165CAE8551C584 /* DTModelStorage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D04819C4FB18A8F02705EF2406015B7D /* DTModelStorage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58AEAF707C18EA2EA8EE1EE75462820A /* DTModelStorage.framework */; };
+		D895002F5B2A9F3C2BE6598468404F02 /* RuntimeHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5412687E2B80F9CCDD501CC89DA3E5 /* RuntimeHelper.swift */; };
+		E1BB4CE7C41E3C77B01911E0AC4B01D4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3E21C66616582FD64ADFAFB165D36EE /* UIKit.framework */; };
+		E39684BCF1A02DEEBE2EF9E7661E15F4 /* MemoryStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AD3C228BEF095927EE5763E4770E8B /* MemoryStorage.swift */; };
+		E8AF183CCBB2816BDA9835E37B78D7D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 655BC96F1020CB1D099EA176CFF320C8 /* Foundation.framework */; };
+		F95114BE05194E52528224329BA7D5E7 /* SectionModel+HeaderFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5807ED46262A6E492E34CEC0C184CF81 /* SectionModel+HeaderFooter.swift */; };
+		FA714BB17B5C354B3D3D75210A7CDAB3 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B2B3E7F661AC2B864E52A787B6983A /* Section.swift */; };
+		FB7A412DD1527C4DA4498D910BD42CF9 /* CoreDataStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E9BDAE47807ABEE5C6E515E8DD3AC6 /* CoreDataStorage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		498741E7ACBEA211F2C5E8A5381E3AFD /* PBXContainerItemProxy */ = {
+		49DB3AB1A3E7587A032247F48CEA1025 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CB8ED883B85BC1A69B03AC1A2D472166;
+			remoteGlobalIDString = 5FD82F2DE1EAB069B933A376E0B2F401;
+			remoteInfo = DTTableViewManager;
+		};
+		9184FC28D36BB7DE1370556C2448D5E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92B5A76C03B41255CAC6812FE237C35C;
 			remoteInfo = RappleColorPicker;
+		};
+		9D07F9700F9A0DC2613344A9C9C6DB1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF3106CA935D8780F6D691AEA34093AA;
+			remoteInfo = DTModelStorage;
+		};
+		BB94224B5CC069A10165E84F8413812C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF3106CA935D8780F6D691AEA34093AA;
+			remoteInfo = DTModelStorage;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05AD3ECD26DE62AEDE165CAE8551C584 /* DTModelStorage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DTModelStorage-umbrella.h"; sourceTree = "<group>"; };
 		0812DCC33110E7B84F98EAEBB8E53B59 /* Pods-TaskManager-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TaskManager-acknowledgements.markdown"; sourceTree = "<group>"; };
-		0BAB3DF83E38C48BA23651F26B923A52 /* RappleColorPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RappleColorPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1D0F476FE9EEC42D35C5F8465C7E1191 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2606037036AB9EDBE7D4DBAEA9694EA8 /* RappleColorPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RappleColorPicker.xcconfig; sourceTree = "<group>"; };
-		3B89F74B23870A729C8643E3389CD95D /* RappleColorPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RappleColorPicker-prefix.pch"; sourceTree = "<group>"; };
+		0FAAD2D3A70DEBBD42350EE3229BA858 /* TableViewConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TableViewConfiguration.swift; path = Source/TableViewConfiguration.swift; sourceTree = "<group>"; };
+		102DD04A7DC2F99C4DA6022CFFE7C4FC /* DTTableViewManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DTTableViewManager.modulemap; sourceTree = "<group>"; };
+		1119587ACA245CB14F75402C7BF13D06 /* SectionModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SectionModel.swift; path = Source/Core/SectionModel.swift; sourceTree = "<group>"; };
+		1256B91F682F4F5C3AE3716A3A1AE4E2 /* TableViewUpdater.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TableViewUpdater.swift; path = Source/TableViewUpdater.swift; sourceTree = "<group>"; };
+		25490F9A40BEB799F97CDC330E182BF8 /* RappleColorPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RappleColorPicker-umbrella.h"; sourceTree = "<group>"; };
+		255A9E7102524C131C7EC3F62297C0ED /* StorageProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StorageProtocol.swift; path = Source/Core/StorageProtocol.swift; sourceTree = "<group>"; };
+		2F5E8CE07C8CA5C70406D4C25BF8EA26 /* ModelTransfer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModelTransfer.swift; path = Source/Core/ModelTransfer.swift; sourceTree = "<group>"; };
+		38BD788F75025D3EC58C1503C5F07C55 /* ViewModelMapping.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewModelMapping.swift; path = Source/Core/ViewModelMapping.swift; sourceTree = "<group>"; };
+		3D2B4DD8BB16843D92A06F64F9155E00 /* DTTableViewManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DTTableViewManager-umbrella.h"; sourceTree = "<group>"; };
+		3DE0C3503AA24E11F4C7B66D6065E53B /* DTTableViewManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DTTableViewManager.xcconfig; sourceTree = "<group>"; };
+		3F13CB4727C10D3530310478AB11D121 /* DTModelStorage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DTModelStorage-prefix.pch"; sourceTree = "<group>"; };
+		42E5D59AFCC321554D1FBD0ECBC15884 /* StorageUpdate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StorageUpdate.swift; path = Source/Core/StorageUpdate.swift; sourceTree = "<group>"; };
+		46AD3C228BEF095927EE5763E4770E8B /* MemoryStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MemoryStorage.swift; path = Source/Core/MemoryStorage.swift; sourceTree = "<group>"; };
+		4AB750691D5C62DE8FE8BFA43B60402C /* EventReactions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EventReactions.swift; path = Source/Core/EventReactions.swift; sourceTree = "<group>"; };
+		5807ED46262A6E492E34CEC0C184CF81 /* SectionModel+HeaderFooter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SectionModel+HeaderFooter.swift"; path = "Source/SectionModel+HeaderFooter.swift"; sourceTree = "<group>"; };
+		58AD75D02922BDF29F0AFDC7C859517C /* RappleColorPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = RappleColorPicker.modulemap; sourceTree = "<group>"; };
+		58AEAF707C18EA2EA8EE1EE75462820A /* DTModelStorage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DTModelStorage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CBA5F70DA7D3EC3840A5C1A02FAD25E /* TableViewFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TableViewFactory.swift; path = Source/TableViewFactory.swift; sourceTree = "<group>"; };
+		5EB6A6E12CD87E93EEACD840C35AD2DA /* DTModelStorage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DTModelStorage.modulemap; sourceTree = "<group>"; };
 		6227CB9FDF22B1DF86C7C9DB7E4A3AD8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		76416E78FA7D9156A26C062422AAD77A /* RappleColorPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RappleColorPicker-umbrella.h"; sourceTree = "<group>"; };
+		655BC96F1020CB1D099EA176CFF320C8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		692EF030D8BA16FC711E5632A84174D1 /* RappleColorPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RappleColorPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D64FF2315F19A471EC33C2110D5B276 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreData.framework; sourceTree = DEVELOPER_DIR; };
 		79EFEAD5448517FDDAC69E05804A00BF /* Pods-TaskManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TaskManager.debug.xcconfig"; sourceTree = "<group>"; };
-		84D392A73F6B57B389D345879BA1F5A6 /* RappleColorPicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RappleColorPicker.swift; path = Pod/Classes/RappleColorPicker.swift; sourceTree = "<group>"; };
-		8AC32695EC537D7BE22A739A711C40E5 /* RappleColorPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RappleColorPicker-dummy.m"; sourceTree = "<group>"; };
+		7FB65FBC012FD48E5DAD559AC4409451 /* DTModelStorage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DTModelStorage-dummy.m"; sourceTree = "<group>"; };
+		87926410A51AF2E747356ED075E09060 /* UIView+XibLoading.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+XibLoading.swift"; path = "Source/UIView+XibLoading.swift"; sourceTree = "<group>"; };
+		896A6B0E8CA63BE2910021B164CF8D8F /* Pods_TaskManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TaskManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B8B5FC759391E0C5E77E96C91B37FE7 /* RappleColorPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RappleColorPicker-dummy.m"; sourceTree = "<group>"; };
+		8D735C97A33DCBD489EF87A77336358B /* DTTableViewManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DTTableViewManager.swift; path = Source/DTTableViewManager.swift; sourceTree = "<group>"; };
 		8E5D7E58EEACDA0750723F575FF9AABB /* Pods-TaskManager-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TaskManager-resources.sh"; sourceTree = "<group>"; };
 		918485D0A5F654147BFB743568F19C80 /* Pods-TaskManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TaskManager-dummy.m"; sourceTree = "<group>"; };
+		927E742797FEBFDE49FEF25E8733EDF4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		98498C587045DD5EEB4C345F4C193C55 /* Pods_TaskManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TaskManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		94037586A5BFA270D05AF8D379239BF5 /* MemoryStorage+UpdateWithoutAnimations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MemoryStorage+UpdateWithoutAnimations.swift"; path = "Source/Core/MemoryStorage+UpdateWithoutAnimations.swift"; sourceTree = "<group>"; };
+		981E4E6CD4718AAA368DFBF638FEC4EF /* RappleColorPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RappleColorPicker.xcconfig; sourceTree = "<group>"; };
+		9DB569121160D77CC5B9FADA6FBA3681 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4D7A089AEE3FD4E8721E3F02C27B7EE /* Pods-TaskManager-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TaskManager-acknowledgements.plist"; sourceTree = "<group>"; };
 		A5B77772A9AEABB2633F99ED044AFE85 /* Pods-TaskManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TaskManager.release.xcconfig"; sourceTree = "<group>"; };
+		A6B22442A1D81BA279B2363E5F6DFE7F /* UINib+Existance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UINib+Existance.swift"; path = "Source/Core/UINib+Existance.swift"; sourceTree = "<group>"; };
+		B29D010F23843677DCE1D63EEAE09A98 /* DTTableViewManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DTTableViewManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB5412687E2B80F9CCDD501CC89DA3E5 /* RuntimeHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuntimeHelper.swift; path = Source/Core/RuntimeHelper.swift; sourceTree = "<group>"; };
 		BEE324A3DD96739E81D10A3BA175D01C /* Pods-TaskManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TaskManager.modulemap"; sourceTree = "<group>"; };
+		C3E21C66616582FD64ADFAFB165D36EE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		C4CB29705EDA6D76284DC5C2E1D76107 /* RappleColorPickerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RappleColorPickerViewController.swift; path = Pod/Classes/RappleColorPickerViewController.swift; sourceTree = "<group>"; };
 		C5BBCFCC9F45B4C5861F90EEC915EDF4 /* Pods-TaskManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TaskManager-umbrella.h"; sourceTree = "<group>"; };
-		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		E47998FBB3D7D606F747CA93A5C47C42 /* RappleColorPickerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RappleColorPickerViewController.swift; path = Pod/Classes/RappleColorPickerViewController.swift; sourceTree = "<group>"; };
-		ED2ECE788318CD6A5C13F6399903BFF2 /* RappleColorPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = RappleColorPicker.modulemap; sourceTree = "<group>"; };
+		D0E9BDAE47807ABEE5C6E515E8DD3AC6 /* CoreDataStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoreDataStorage.swift; path = Source/Core/CoreDataStorage.swift; sourceTree = "<group>"; };
+		D7B2B3E7F661AC2B864E52A787B6983A /* Section.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Section.swift; path = Source/Core/Section.swift; sourceTree = "<group>"; };
+		E03ECC5B8908D7C75174C2D186A6F30E /* DTModelStorage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DTModelStorage.xcconfig; sourceTree = "<group>"; };
+		ED8870256B97F52DB0B516366D5865D5 /* BaseStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseStorage.swift; path = Source/Core/BaseStorage.swift; sourceTree = "<group>"; };
+		F28618078E10EA08DDC3BE5A59B0CD4B /* DTModelStorage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DTModelStorage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F30028CC08166A39C7597EE652930E65 /* RappleColorPicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RappleColorPicker.swift; path = Pod/Classes/RappleColorPicker.swift; sourceTree = "<group>"; };
 		F396563A7DC7D31BB8FAA5D2AA9FAF11 /* Pods-TaskManager-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TaskManager-frameworks.sh"; sourceTree = "<group>"; };
+		F7176B39E369BC8BEA84A49E2F61191C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7982F07FC1DA0A0D4EE19F88211CB75 /* RappleColorPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RappleColorPicker-prefix.pch"; sourceTree = "<group>"; };
+		F90CF2AF114BAB16B9FB7B4E83527DA9 /* DTTableViewManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DTTableViewManager-dummy.m"; sourceTree = "<group>"; };
+		FEA15750278A3D98A24B1D4D0E6D81D5 /* DTTableViewManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DTTableViewManager-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5A6032DB672A3B9A38DB0125AB951F0E /* Frameworks */ = {
+		4D76A69AD90283FB96A2C24634F4E94A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23725DFAB4B738267882202F16D11250 /* Foundation.framework in Frameworks */,
+				1E4038327D0FAB8FFB9B675B61417186 /* CoreData.framework in Frameworks */,
+				4F760BB50AFB178A157EF98031A0169D /* Foundation.framework in Frameworks */,
+				3D7C22348B060338A6B0D778D659CFD4 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E82C57CE41C89E50FFD072E19ED34631 /* Frameworks */ = {
+		729EBB28384BA83D0A1DCE4A1AB13324 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EAADEF082BDB23D97CC5E68FB802191B /* Foundation.framework in Frameworks */,
+				AC8B2EA042A1E899FE377CC759DBDC4F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B810E806C9B89B61BFD59AC385D8C0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24E108A846E07319B7DAA5F8E47AFA6B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D35BC27DB08579BD56E6BE1F88E6ADA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D04819C4FB18A8F02705EF2406015B7D /* DTModelStorage.framework in Frameworks */,
+				E8AF183CCBB2816BDA9835E37B78D7D4 /* Foundation.framework in Frameworks */,
+				E1BB4CE7C41E3C77B01911E0AC4B01D4 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1A999D79A2B25C05C638DA837A87A981 /* Products */ = {
+		09199B229D08A092B6392637F09869D3 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				98498C587045DD5EEB4C345F4C193C55 /* Pods_TaskManager.framework */,
-				0BAB3DF83E38C48BA23651F26B923A52 /* RappleColorPicker.framework */,
+				DBE34D7F1B5744A22B4CC87987C80C5B /* DTModelStorage */,
+				4C119BB3737B6BBBDEB46B64143A400E /* DTTableViewManager */,
+				7F92A8ADB51499BBF793155320229677 /* RappleColorPicker */,
 			);
-			name = Products;
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+		21B96ECDE6A2B2EC883127126304555A /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+				ED8870256B97F52DB0B516366D5865D5 /* BaseStorage.swift */,
+				D0E9BDAE47807ABEE5C6E515E8DD3AC6 /* CoreDataStorage.swift */,
+				4AB750691D5C62DE8FE8BFA43B60402C /* EventReactions.swift */,
+				46AD3C228BEF095927EE5763E4770E8B /* MemoryStorage.swift */,
+				94037586A5BFA270D05AF8D379239BF5 /* MemoryStorage+UpdateWithoutAnimations.swift */,
+				2F5E8CE07C8CA5C70406D4C25BF8EA26 /* ModelTransfer.swift */,
+				BB5412687E2B80F9CCDD501CC89DA3E5 /* RuntimeHelper.swift */,
+				D7B2B3E7F661AC2B864E52A787B6983A /* Section.swift */,
+				1119587ACA245CB14F75402C7BF13D06 /* SectionModel.swift */,
+				255A9E7102524C131C7EC3F62297C0ED /* StorageProtocol.swift */,
+				42E5D59AFCC321554D1FBD0ECBC15884 /* StorageUpdate.swift */,
+				A6B22442A1D81BA279B2363E5F6DFE7F /* UINib+Existance.swift */,
+				38BD788F75025D3EC58C1503C5F07C55 /* ViewModelMapping.swift */,
 			);
-			name = iOS;
+			name = Core;
+			sourceTree = "<group>";
+		};
+		29C314774F8348029945EFD966C72B31 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				927E742797FEBFDE49FEF25E8733EDF4 /* Info.plist */,
+				58AD75D02922BDF29F0AFDC7C859517C /* RappleColorPicker.modulemap */,
+				981E4E6CD4718AAA368DFBF638FEC4EF /* RappleColorPicker.xcconfig */,
+				8B8B5FC759391E0C5E77E96C91B37FE7 /* RappleColorPicker-dummy.m */,
+				F7982F07FC1DA0A0D4EE19F88211CB75 /* RappleColorPicker-prefix.pch */,
+				25490F9A40BEB799F97CDC330E182BF8 /* RappleColorPicker-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RappleColorPicker";
+			sourceTree = "<group>";
+		};
+		4C119BB3737B6BBBDEB46B64143A400E /* DTTableViewManager */ = {
+			isa = PBXGroup;
+			children = (
+				8D735C97A33DCBD489EF87A77336358B /* DTTableViewManager.swift */,
+				5807ED46262A6E492E34CEC0C184CF81 /* SectionModel+HeaderFooter.swift */,
+				0FAAD2D3A70DEBBD42350EE3229BA858 /* TableViewConfiguration.swift */,
+				5CBA5F70DA7D3EC3840A5C1A02FAD25E /* TableViewFactory.swift */,
+				1256B91F682F4F5C3AE3716A3A1AE4E2 /* TableViewUpdater.swift */,
+				87926410A51AF2E747356ED075E09060 /* UIView+XibLoading.swift */,
+				9489A48484034EECAD827B9FE7080954 /* Support Files */,
+			);
+			path = DTTableViewManager;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				EBF38D0D64519C3CE392592E345AE434 /* Pods */,
-				1A999D79A2B25C05C638DA837A87A981 /* Products */,
+				F86846B765E9E2767D2EE92C20475BAE /* Frameworks */,
+				09199B229D08A092B6392637F09869D3 /* Pods */,
+				F922DA3A86C227CCAE49BE7AA8E4CD4D /* Products */,
 				DB3667DCD4445F8FB1B3B0114D97754F /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		B04E4D4922F8E72AC1CB9F3F3B7DDB7A /* Support Files */ = {
+		7EE2D22BDF7B9F26EBCFCD34C80E7F26 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				1D0F476FE9EEC42D35C5F8465C7E1191 /* Info.plist */,
-				ED2ECE788318CD6A5C13F6399903BFF2 /* RappleColorPicker.modulemap */,
-				2606037036AB9EDBE7D4DBAEA9694EA8 /* RappleColorPicker.xcconfig */,
-				8AC32695EC537D7BE22A739A711C40E5 /* RappleColorPicker-dummy.m */,
-				3B89F74B23870A729C8643E3389CD95D /* RappleColorPicker-prefix.pch */,
-				76416E78FA7D9156A26C062422AAD77A /* RappleColorPicker-umbrella.h */,
+				6D64FF2315F19A471EC33C2110D5B276 /* CoreData.framework */,
+				655BC96F1020CB1D099EA176CFF320C8 /* Foundation.framework */,
+				C3E21C66616582FD64ADFAFB165D36EE /* UIKit.framework */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/RappleColorPicker";
+			name = iOS;
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		7F92A8ADB51499BBF793155320229677 /* RappleColorPicker */ = {
 			isa = PBXGroup;
 			children = (
-				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+				F30028CC08166A39C7597EE652930E65 /* RappleColorPicker.swift */,
+				C4CB29705EDA6D76284DC5C2E1D76107 /* RappleColorPickerViewController.swift */,
+				29C314774F8348029945EFD966C72B31 /* Support Files */,
 			);
-			name = Frameworks;
+			path = RappleColorPicker;
+			sourceTree = "<group>";
+		};
+		9489A48484034EECAD827B9FE7080954 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				102DD04A7DC2F99C4DA6022CFFE7C4FC /* DTTableViewManager.modulemap */,
+				3DE0C3503AA24E11F4C7B66D6065E53B /* DTTableViewManager.xcconfig */,
+				F90CF2AF114BAB16B9FB7B4E83527DA9 /* DTTableViewManager-dummy.m */,
+				FEA15750278A3D98A24B1D4D0E6D81D5 /* DTTableViewManager-prefix.pch */,
+				3D2B4DD8BB16843D92A06F64F9155E00 /* DTTableViewManager-umbrella.h */,
+				F7176B39E369BC8BEA84A49E2F61191C /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DTTableViewManager";
 			sourceTree = "<group>";
 		};
 		C2870A2874D8402497A8179877D20D95 /* Pods-TaskManager */ = {
@@ -148,71 +307,112 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		E7119FEC132BD49DF148E554CCB9E5C5 /* RappleColorPicker */ = {
+		DBE34D7F1B5744A22B4CC87987C80C5B /* DTModelStorage */ = {
 			isa = PBXGroup;
 			children = (
-				84D392A73F6B57B389D345879BA1F5A6 /* RappleColorPicker.swift */,
-				E47998FBB3D7D606F747CA93A5C47C42 /* RappleColorPickerViewController.swift */,
-				B04E4D4922F8E72AC1CB9F3F3B7DDB7A /* Support Files */,
+				21B96ECDE6A2B2EC883127126304555A /* Core */,
+				F14DA229A244D840C07F826C98991000 /* Support Files */,
 			);
-			path = RappleColorPicker;
+			path = DTModelStorage;
 			sourceTree = "<group>";
 		};
-		EBF38D0D64519C3CE392592E345AE434 /* Pods */ = {
+		F14DA229A244D840C07F826C98991000 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				E7119FEC132BD49DF148E554CCB9E5C5 /* RappleColorPicker */,
+				5EB6A6E12CD87E93EEACD840C35AD2DA /* DTModelStorage.modulemap */,
+				E03ECC5B8908D7C75174C2D186A6F30E /* DTModelStorage.xcconfig */,
+				7FB65FBC012FD48E5DAD559AC4409451 /* DTModelStorage-dummy.m */,
+				3F13CB4727C10D3530310478AB11D121 /* DTModelStorage-prefix.pch */,
+				05AD3ECD26DE62AEDE165CAE8551C584 /* DTModelStorage-umbrella.h */,
+				9DB569121160D77CC5B9FADA6FBA3681 /* Info.plist */,
 			);
-			name = Pods;
+			name = "Support Files";
+			path = "../Target Support Files/DTModelStorage";
+			sourceTree = "<group>";
+		};
+		F86846B765E9E2767D2EE92C20475BAE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				58AEAF707C18EA2EA8EE1EE75462820A /* DTModelStorage.framework */,
+				7EE2D22BDF7B9F26EBCFCD34C80E7F26 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F922DA3A86C227CCAE49BE7AA8E4CD4D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F28618078E10EA08DDC3BE5A59B0CD4B /* DTModelStorage.framework */,
+				B29D010F23843677DCE1D63EEAE09A98 /* DTTableViewManager.framework */,
+				896A6B0E8CA63BE2910021B164CF8D8F /* Pods_TaskManager.framework */,
+				692EF030D8BA16FC711E5632A84174D1 /* RappleColorPicker.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		904A59705738502D147FB776B5BEEF64 /* Headers */ = {
+		452FFFD1EA8F4E216D0C2C7C95B7A589 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				925BFB0AD0CFFF1483F476D61A567150 /* RappleColorPicker-umbrella.h in Headers */,
+				1F810610393A12D2D489D04ED532CA96 /* RappleColorPicker-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EC78C91B9862546355661E0CC789DA3D /* Headers */ = {
+		4BE1945563BCF1A4D811E0CF697885A6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A2C156D4325C7DD7C28A5A121B6580E /* Pods-TaskManager-umbrella.h in Headers */,
+				C5CAC1CC69D554BE316678DDA2A70003 /* DTModelStorage-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54FFF1819F5F43F92EA15F6640B3B57B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				892500AB3EE641897FB0CD7C0181F93D /* DTTableViewManager-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A051B92BDF93CD27B358F82BBE49FB40 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B150392B7349AE9C98A5FEE58F241D37 /* Pods-TaskManager-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		A77CD17669643B31F38400D70581DDF7 /* Pods-TaskManager */ = {
+		5FD82F2DE1EAB069B933A376E0B2F401 /* DTTableViewManager */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9B7E80C8CF2D7521946A49640191A45B /* Build configuration list for PBXNativeTarget "Pods-TaskManager" */;
+			buildConfigurationList = C82ED947903485490CFA970B7DDB6004 /* Build configuration list for PBXNativeTarget "DTTableViewManager" */;
 			buildPhases = (
-				C5ABE73341EF08D99C822C523C900107 /* Sources */,
-				E82C57CE41C89E50FFD072E19ED34631 /* Frameworks */,
-				EC78C91B9862546355661E0CC789DA3D /* Headers */,
+				0DC3A35A6EE3BA826C908778DE9D0366 /* Sources */,
+				9D35BC27DB08579BD56E6BE1F88E6ADA /* Frameworks */,
+				54FFF1819F5F43F92EA15F6640B3B57B /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B14A8B86B54F433ED08A0BB5E5CCA9DC /* PBXTargetDependency */,
+				4D9331EF14CC89152562E8E8F620D21B /* PBXTargetDependency */,
 			);
-			name = "Pods-TaskManager";
-			productName = "Pods-TaskManager";
-			productReference = 98498C587045DD5EEB4C345F4C193C55 /* Pods_TaskManager.framework */;
+			name = DTTableViewManager;
+			productName = DTTableViewManager;
+			productReference = B29D010F23843677DCE1D63EEAE09A98 /* DTTableViewManager.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		CB8ED883B85BC1A69B03AC1A2D472166 /* RappleColorPicker */ = {
+		92B5A76C03B41255CAC6812FE237C35C /* RappleColorPicker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 362711A937F05B3C26C88B23FFFEA334 /* Build configuration list for PBXNativeTarget "RappleColorPicker" */;
+			buildConfigurationList = 1833C23544BA37A1530A5429CCCC1688 /* Build configuration list for PBXNativeTarget "RappleColorPicker" */;
 			buildPhases = (
-				477CF3C284C9C7DCA1BB6852D771B7B3 /* Sources */,
-				5A6032DB672A3B9A38DB0125AB951F0E /* Frameworks */,
-				904A59705738502D147FB776B5BEEF64 /* Headers */,
+				9F02E46169E74A1EFBDE567126D686E3 /* Sources */,
+				729EBB28384BA83D0A1DCE4A1AB13324 /* Frameworks */,
+				452FFFD1EA8F4E216D0C2C7C95B7A589 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -220,7 +420,44 @@
 			);
 			name = RappleColorPicker;
 			productName = RappleColorPicker;
-			productReference = 0BAB3DF83E38C48BA23651F26B923A52 /* RappleColorPicker.framework */;
+			productReference = 692EF030D8BA16FC711E5632A84174D1 /* RappleColorPicker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A75F68EE8EEB681BE5C745F91B764C4C /* Pods-TaskManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7DC931FF9ADB631FF63EA98E117E27E /* Build configuration list for PBXNativeTarget "Pods-TaskManager" */;
+			buildPhases = (
+				1CEBA0D976B85EB8CD6112513BECAAC1 /* Sources */,
+				8B810E806C9B89B61BFD59AC385D8C0A /* Frameworks */,
+				A051B92BDF93CD27B358F82BBE49FB40 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47D2FC2CEE0F8606AF7763AFFBFC829A /* PBXTargetDependency */,
+				848C903401B29AD171CFAE7349EE854D /* PBXTargetDependency */,
+				798F17815C879BEEA1EDAE7D96545D2F /* PBXTargetDependency */,
+			);
+			name = "Pods-TaskManager";
+			productName = "Pods-TaskManager";
+			productReference = 896A6B0E8CA63BE2910021B164CF8D8F /* Pods_TaskManager.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DF3106CA935D8780F6D691AEA34093AA /* DTModelStorage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EB4356B9BED44A22A4C499E37FFFB0C /* Build configuration list for PBXNativeTarget "DTModelStorage" */;
+			buildPhases = (
+				D1EE668BCE3E419DAA47C96BAF4A464B /* Sources */,
+				4D76A69AD90283FB96A2C24634F4E94A /* Frameworks */,
+				4BE1945563BCF1A4D811E0CF697885A6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DTModelStorage;
+			productName = DTModelStorage;
+			productReference = F28618078E10EA08DDC3BE5A59B0CD4B /* DTModelStorage.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -232,11 +469,17 @@
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0700;
 				TargetAttributes = {
-					A77CD17669643B31F38400D70581DDF7 = {
-						LastSwiftMigration = 0810;
+					5FD82F2DE1EAB069B933A376E0B2F401 = {
+						ProvisioningStyle = Manual;
 					};
-					CB8ED883B85BC1A69B03AC1A2D472166 = {
-						LastSwiftMigration = 0810;
+					92B5A76C03B41255CAC6812FE237C35C = {
+						ProvisioningStyle = Manual;
+					};
+					A75F68EE8EEB681BE5C745F91B764C4C = {
+						ProvisioningStyle = Manual;
+					};
+					DF3106CA935D8780F6D691AEA34093AA = {
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -248,48 +491,209 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 1A999D79A2B25C05C638DA837A87A981 /* Products */;
+			productRefGroup = F922DA3A86C227CCAE49BE7AA8E4CD4D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A77CD17669643B31F38400D70581DDF7 /* Pods-TaskManager */,
-				CB8ED883B85BC1A69B03AC1A2D472166 /* RappleColorPicker */,
+				DF3106CA935D8780F6D691AEA34093AA /* DTModelStorage */,
+				5FD82F2DE1EAB069B933A376E0B2F401 /* DTTableViewManager */,
+				A75F68EE8EEB681BE5C745F91B764C4C /* Pods-TaskManager */,
+				92B5A76C03B41255CAC6812FE237C35C /* RappleColorPicker */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		477CF3C284C9C7DCA1BB6852D771B7B3 /* Sources */ = {
+		0DC3A35A6EE3BA826C908778DE9D0366 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A6B86A467FDA43322A8979C055749BD /* RappleColorPicker-dummy.m in Sources */,
-				92C464B7AB4E1297F7C01DDC4F8A9277 /* RappleColorPicker.swift in Sources */,
-				543A759B704322648C4529C7E6952C12 /* RappleColorPickerViewController.swift in Sources */,
+				80C01262128DF644124DF97466EC7138 /* DTTableViewManager-dummy.m in Sources */,
+				21CCACB061B6A5121E8E3B15F26A7381 /* DTTableViewManager.swift in Sources */,
+				F95114BE05194E52528224329BA7D5E7 /* SectionModel+HeaderFooter.swift in Sources */,
+				7725A5C6E758EA507F0EF3684D0821F6 /* TableViewConfiguration.swift in Sources */,
+				95796806C2EC7A3327811F1B3D654479 /* TableViewFactory.swift in Sources */,
+				702AF9BDBCA0377F7D12FB65CD1EA580 /* TableViewUpdater.swift in Sources */,
+				A3529F5F242B415DD2B169F039CB63F4 /* UIView+XibLoading.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C5ABE73341EF08D99C822C523C900107 /* Sources */ = {
+		1CEBA0D976B85EB8CD6112513BECAAC1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B8A2B57EC81E38F989CFB0F8A0AF78B /* Pods-TaskManager-dummy.m in Sources */,
+				AD665F5C665CDBE357D08FDD8F0133EC /* Pods-TaskManager-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F02E46169E74A1EFBDE567126D686E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3225BE27E528F5FD4B48F384CF0F37D0 /* RappleColorPicker-dummy.m in Sources */,
+				4EA65B252057BC0E0FDB2BDBE4E56D2A /* RappleColorPicker.swift in Sources */,
+				89FE3233E5B0CCF4225B4252D86FC6A0 /* RappleColorPickerViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1EE668BCE3E419DAA47C96BAF4A464B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47949AD4BDE9090E1A3B4DC245674D01 /* BaseStorage.swift in Sources */,
+				FB7A412DD1527C4DA4498D910BD42CF9 /* CoreDataStorage.swift in Sources */,
+				2F5F74073D06F33084C96BFE9C42C4BB /* DTModelStorage-dummy.m in Sources */,
+				AAB96D74FE13982E517147DEE770ECE1 /* EventReactions.swift in Sources */,
+				02B7DCAE969D1194B7349EF336FCA142 /* MemoryStorage+UpdateWithoutAnimations.swift in Sources */,
+				E39684BCF1A02DEEBE2EF9E7661E15F4 /* MemoryStorage.swift in Sources */,
+				ACB382721A25135195A5A36D22C92F55 /* ModelTransfer.swift in Sources */,
+				D895002F5B2A9F3C2BE6598468404F02 /* RuntimeHelper.swift in Sources */,
+				FA714BB17B5C354B3D3D75210A7CDAB3 /* Section.swift in Sources */,
+				0B7C38F1ECC15EFCC5A59CA40F18D8AE /* SectionModel.swift in Sources */,
+				BCC3E8EE9BE100018445DEE636780591 /* StorageProtocol.swift in Sources */,
+				63621CCBA7EFDCB25C7AF8B87F21CBC8 /* StorageUpdate.swift in Sources */,
+				44284240878F3B6119A7774CA1977509 /* UINib+Existance.swift in Sources */,
+				1EB96508765A9321B175828680625AD9 /* ViewModelMapping.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		B14A8B86B54F433ED08A0BB5E5CCA9DC /* PBXTargetDependency */ = {
+		47D2FC2CEE0F8606AF7763AFFBFC829A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DTModelStorage;
+			target = DF3106CA935D8780F6D691AEA34093AA /* DTModelStorage */;
+			targetProxy = 9D07F9700F9A0DC2613344A9C9C6DB1C /* PBXContainerItemProxy */;
+		};
+		4D9331EF14CC89152562E8E8F620D21B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DTModelStorage;
+			target = DF3106CA935D8780F6D691AEA34093AA /* DTModelStorage */;
+			targetProxy = BB94224B5CC069A10165E84F8413812C /* PBXContainerItemProxy */;
+		};
+		798F17815C879BEEA1EDAE7D96545D2F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = RappleColorPicker;
-			target = CB8ED883B85BC1A69B03AC1A2D472166 /* RappleColorPicker */;
-			targetProxy = 498741E7ACBEA211F2C5E8A5381E3AFD /* PBXContainerItemProxy */;
+			target = 92B5A76C03B41255CAC6812FE237C35C /* RappleColorPicker */;
+			targetProxy = 9184FC28D36BB7DE1370556C2448D5E0 /* PBXContainerItemProxy */;
+		};
+		848C903401B29AD171CFAE7349EE854D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DTTableViewManager;
+			target = 5FD82F2DE1EAB069B933A376E0B2F401 /* DTTableViewManager */;
+			targetProxy = 49DB3AB1A3E7587A032247F48CEA1025 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		034014829C1E4434983CF3A690C12017 /* Debug */ = {
+		20AE1960A1C014D51333D907A944F740 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 981E4E6CD4718AAA368DFBF638FEC4EF /* RappleColorPicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RappleColorPicker/RappleColorPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RappleColorPicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RappleColorPicker/RappleColorPicker.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = RappleColorPicker;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		268C298B48A43E7669158051987504AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 981E4E6CD4718AAA368DFBF638FEC4EF /* RappleColorPicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RappleColorPicker/RappleColorPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RappleColorPicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RappleColorPicker/RappleColorPicker.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = RappleColorPicker;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		41A3C9D6F0F5A8A66D3B0E2949A8E953 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DE0C3503AA24E11F4C7B66D6065E53B /* DTTableViewManager.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DTTableViewManager/DTTableViewManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DTTableViewManager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DTTableViewManager/DTTableViewManager.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = DTTableViewManager;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -307,6 +711,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -326,32 +731,75 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		65A641A447E5DABEDF93A4FB55AB1897 /* Release */ = {
+		64C81DBA10CD9208D9D280600D82DAFE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2606037036AB9EDBE7D4DBAEA9694EA8 /* RappleColorPicker.xcconfig */;
+			baseConfigurationReference = 79EFEAD5448517FDDAC69E05804A00BF /* Pods-TaskManager.debug.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/RappleColorPicker/RappleColorPicker-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RappleColorPicker/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-TaskManager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TaskManager/Pods-TaskManager.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TaskManager;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6C73BC5C5D5A4FC6B36065B8C078BE9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E03ECC5B8908D7C75174C2D186A6F30E /* DTModelStorage.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DTModelStorage/DTModelStorage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DTModelStorage/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/RappleColorPicker/RappleColorPicker.modulemap";
+				MODULEMAP_FILE = "Target Support Files/DTModelStorage/DTModelStorage.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = RappleColorPicker;
+				PRODUCT_NAME = DTModelStorage;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
@@ -361,7 +809,78 @@
 			};
 			name = Release;
 		};
-		C7E474A03CAE21F1CB6046E7344C59BD /* Release */ = {
+		83E6CE428F92D0F2A076B5BC6C8CFEFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DE0C3503AA24E11F4C7B66D6065E53B /* DTTableViewManager.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DTTableViewManager/DTTableViewManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DTTableViewManager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DTTableViewManager/DTTableViewManager.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = DTTableViewManager;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ADDF569CDAF91FE6F04C2D63174D7AC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5B77772A9AEABB2633F99ED044AFE85 /* Pods-TaskManager.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TaskManager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TaskManager/Pods-TaskManager.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TaskManager;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B7324857C38B065FEB1EEE3105C2367A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -379,6 +898,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -393,33 +913,38 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		DD231CF7FF06EAA10DA61B18F7D5EB68 /* Debug */ = {
+		F58DA46063CE7F8E6C58E5B697F03B08 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2606037036AB9EDBE7D4DBAEA9694EA8 /* RappleColorPicker.xcconfig */;
+			baseConfigurationReference = E03ECC5B8908D7C75174C2D186A6F30E /* DTModelStorage.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/RappleColorPicker/RappleColorPicker-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RappleColorPicker/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/DTModelStorage/DTModelStorage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DTModelStorage/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/RappleColorPicker/RappleColorPicker.modulemap";
+				MODULEMAP_FILE = "Target Support Files/DTModelStorage/DTModelStorage.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = RappleColorPicker;
+				PRODUCT_NAME = DTModelStorage;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -429,102 +954,51 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		EC4AE3849D5C28C5DD39E8ABA728022B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 79EFEAD5448517FDDAC69E05804A00BF /* Pods-TaskManager.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-TaskManager/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TaskManager/Pods-TaskManager.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_TaskManager;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		F55A759E49E72F90155F0CA52053E460 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A5B77772A9AEABB2633F99ED044AFE85 /* Pods-TaskManager.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-TaskManager/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TaskManager/Pods-TaskManager.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_TaskManager;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0EB4356B9BED44A22A4C499E37FFFB0C /* Build configuration list for PBXNativeTarget "DTModelStorage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F58DA46063CE7F8E6C58E5B697F03B08 /* Debug */,
+				6C73BC5C5D5A4FC6B36065B8C078BE9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1833C23544BA37A1530A5429CCCC1688 /* Build configuration list for PBXNativeTarget "RappleColorPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20AE1960A1C014D51333D907A944F740 /* Debug */,
+				268C298B48A43E7669158051987504AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				034014829C1E4434983CF3A690C12017 /* Debug */,
-				C7E474A03CAE21F1CB6046E7344C59BD /* Release */,
+				59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */,
+				B7324857C38B065FEB1EEE3105C2367A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		362711A937F05B3C26C88B23FFFEA334 /* Build configuration list for PBXNativeTarget "RappleColorPicker" */ = {
+		C82ED947903485490CFA970B7DDB6004 /* Build configuration list for PBXNativeTarget "DTTableViewManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DD231CF7FF06EAA10DA61B18F7D5EB68 /* Debug */,
-				65A641A447E5DABEDF93A4FB55AB1897 /* Release */,
+				41A3C9D6F0F5A8A66D3B0E2949A8E953 /* Debug */,
+				83E6CE428F92D0F2A076B5BC6C8CFEFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9B7E80C8CF2D7521946A49640191A45B /* Build configuration list for PBXNativeTarget "Pods-TaskManager" */ = {
+		E7DC931FF9ADB631FF63EA98E117E27E /* Build configuration list for PBXNativeTarget "Pods-TaskManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EC4AE3849D5C28C5DD39E8ABA728022B /* Debug */,
-				F55A759E49E72F90155F0CA52053E460 /* Release */,
+				64C81DBA10CD9208D9D280600D82DAFE /* Debug */,
+				ADDF569CDAF91FE6F04C2D63174D7AC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

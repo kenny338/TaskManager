@@ -84,8 +84,12 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "$BUILT_PRODUCTS_DIR/DTModelStorage/DTModelStorage.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/DTTableViewManager/DTTableViewManager.framework"
   install_framework "$BUILT_PRODUCTS_DIR/RappleColorPicker/RappleColorPicker.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "$BUILT_PRODUCTS_DIR/DTModelStorage/DTModelStorage.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/DTTableViewManager/DTTableViewManager.framework"
   install_framework "$BUILT_PRODUCTS_DIR/RappleColorPicker/RappleColorPicker.framework"
 fi
