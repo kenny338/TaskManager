@@ -7,8 +7,10 @@
 //
 
 import UIKit
+import DTTableViewManager
+import DTModelStorage
 
-class TaskTableViewCell : UITableViewCell, ReusableView, NibLoadableView {
+class TaskTableViewCell : UITableViewCell, ReusableView, NibLoadableView, ModelTransfer {
 
     @IBOutlet weak var categoryView: UIView!
     @IBOutlet weak var title: UILabel!
@@ -22,11 +24,11 @@ class TaskTableViewCell : UITableViewCell, ReusableView, NibLoadableView {
         addGestureRecognizer()
     }
     //MARK: - UI
-    func configure(with task: Task) {
-        currentTask = task
-        categoryView.backgroundColor = UIColor.hexStringToUIColor(hex: task.category?.hexColor ?? "")
-        title.text = task.name
-        finishLabel.text? = "Finish until \((task.date as? Date ?? Date()).toString())"
+    func update(with model: Task) {
+        currentTask = model
+        categoryView.backgroundColor = UIColor.hexStringToUIColor(hex: model.category?.hexColor ?? "")
+        title.text = model.name
+        finishLabel.text? = "Finish until \((model.date as? Date ?? Date()).toString())"
         configureCheckmarkImage()
      }
     func configureCheckmarkImage() {

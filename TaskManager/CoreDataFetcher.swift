@@ -24,29 +24,27 @@ class CoreDataFetcher {
         return delegate.persistentContainer.viewContext
 
     }()
+    var tasksSortDescriptor: NSSortDescriptor  {
+        get {
+            var sortDescriptor = NSSortDescriptor()
+            switch UserSettings.sharedSettings.preferedSorting() {
+            case .date:
+                sortDescriptor = NSSortDescriptor(key: "date", ascending: true)
+                
+            case .name:
+                sortDescriptor = NSSortDescriptor(key: "name", ascending: true)
+            }
+            return sortDescriptor
+        }
+    }
     
-    func fetchTasks(sorting: PreferedSorting, completionBlock:([Task]?) -> ()) {
-        let request: NSFetchRequest<Task> = Task.fetchRequest()
-        var sortDescriptor = NSSortDescriptor()
-        switch sorting {
-        case .date:
-            sortDescriptor = NSSortDescriptor(key: "date", ascending: true)
-            
-        case .name:
-            sortDescriptor = NSSortDescriptor(key: "name", ascending: true)
-        }
-        request.sortDescriptors = [sortDescriptor]
-        
-        do {
-            let fetched = try context.fetch(request)
-            completionBlock(fetched.filter({ (task) -> Bool in
-                return !(task.name?.isEmpty ?? true)
-            }))
-        }
-        catch {
-            print("Error performing fetch \(error.localizedDescription)")
-        }
-
+    func fetchedResultsController<T: NSManagedObject>(entity: T.Type) -> NSFetchedResultsController<NSFetchRequestResult> {
+        let request = NSFetchRequest<T>()
+        request.entity = NSEntityDescription.entity(forEntityName: String(describing: T.self), in: context)
+        request.sortDescriptors = [tasksSortDescriptor]
+        let fetchedResultsController = NSFetchedResultsController(fetchRequest: request, managedObjectContext: context, sectionNameKeyPath: nil, cacheName: nil)
+        _ = try? fetchedResultsController.performFetch()
+        return fetchedResultsController as! NSFetchedResultsController<NSFetchRequestResult>
     }
     
     func fetchCategories(completionBlock:([Category]?) -> ()) {

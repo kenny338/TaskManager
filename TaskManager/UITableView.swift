@@ -28,4 +28,13 @@ extension UITableView {
         
         return cell
     }
+    func addNoDataView(with title: String?) {
+        guard let title = title else {
+            self.backgroundView = nil
+            return
+        }
+        let view:NoDataView = UIView.load()
+        view.infoLabel.text = title
+        self.backgroundView = view
+    }
 }

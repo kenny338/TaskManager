@@ -44,13 +44,13 @@ class NotificationHelper {
             UIApplication.shared.cancelLocalNotification(notification)
         }
         
-        CoreDataFetcher.shared.fetchTasks(sorting: .date, completionBlock: { (tasks) in
-            if let fetchedTasks = tasks {
-                for task in fetchedTasks {
-                    task.hasNotification = false
-                }
-            }
-        })
+//        CoreDataFetcher.shared.fetchTasks(sorting: .date, completionBlock: { (tasks) in
+//            if let fetchedTasks = tasks {
+//                for task in fetchedTasks {
+//                    task.hasNotification = false
+//                }
+//            }
+//        })
             CoreDataFetcher.shared.save()
     }
     

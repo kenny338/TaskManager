@@ -8,7 +8,7 @@
 
 import UIKit
 
-class NoTasksView: UIView, NibLoadableView {
+class NoDataView: UIView, NibLoadableView {
 
     @IBOutlet weak var infoLabel: UILabel!
    

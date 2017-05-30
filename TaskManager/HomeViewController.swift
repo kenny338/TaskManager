@@ -7,86 +7,114 @@
 //
 
 import UIKit
+import DTTableViewManager
+import DTModelStorage
 
-class HomeViewController: UIViewController, SavingDelegate {
-    
-    let headerHeight: CGFloat = 91
+class HomeViewController: UIViewController, SavingDelegate, DTTableViewManageable {
+    let rowHeight: CGFloat = 91
     
     //MARK: - Variables
     
+    lazy var coreDataStorage: CoreDataStorage = {
+        return CoreDataStorage(fetchedResultsController: CoreDataFetcher.shared.fetchedResultsController(entity: Task.self))
+    }()
+    
     var shouldPerformFetch = true
     @IBOutlet weak var segmentControl: UISegmentedControl!
-    lazy var dataSource: TasksDataSource = {
-        return TasksDataSource(tableView: self.tableView)
-    }()
+    
     
     @IBOutlet weak var tableView: UITableView! {
         didSet {
-            self.tableView.dataSource = dataSource
-            self.tableView.register(TaskTableViewCell.self)
-            self.tableView.delegate = self
-            self.tableView.tableHeaderView = UIView(frame: CGRect(x: 0, y: 0, width: 0, height: 0))
-            self.tableView.tableFooterView = UIView(frame: CGRect(x: 0, y: 0, width: 0, height: 0))
+            configureManager()
         }
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        configure()
+        configureUI()
     }
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         if shouldPerformFetch {
-            dataSource.fetchData()
             shouldPerformFetch = false
         }
     }
-
-    //MARK: - UI
     
-    func configure() {
-        let newTask = UIBarButtonItem(image: UIImage(assetID: .newTask), style: .plain, target: self, action: #selector(newTaskTapped))
-        let settings = UIBarButtonItem(image: UIImage(assetID: .settings), style: .plain, target: self, action: #selector(settingsTapped))
+    //MARK: - Tableview manager
+    func configureManager() {
+        manager.startManaging(withDelegate: self)
+//        addItemsToManager()
+        manager.register(TaskTableViewCell.self)
+        manager.storage = coreDataStorage
         
-        navigationController?.navigationBar.topItem?.title = "tasks".loc().uppercased()
-        navigationItem.setRightBarButtonItems([newTask, settings], animated: true)
-        segmentControl.addTarget(self, action: #selector(segmentChanged), for: .valueChanged)
-    }
-    
-    
-    //MARK: - Action
-    func newTaskTapped() {
-        ApplicationNavigator.sharedInstance.navigate(to: .newTask(withDelegate: self))
-    }
-    
-    func segmentChanged() {
-        dataSource.filterData(onlyNotCompleted: segmentControl.selectedSegmentIndex == 0 ? false : true)
-    }
-    
-    func settingsTapped() {
-        ApplicationNavigator.sharedInstance.navigate(to: .settings)
-        shouldPerformFetch = true
-    }
-    
-    //MARK: - Saving delegate
-    
-    func finishedSaving() {
-        dataSource.fetchData()
-    }
+        manager.heightForCell(withItem: Task.self) {[weak self] (_, _) -> CGFloat in
+            return self?.rowHeight ?? 0
+        }
+        manager.didSelect(TaskTableViewCell.self) { (_, currentTask, indexPath) in
+            ApplicationNavigator.sharedInstance.navigate(to: .taskDetail(withDelegate: self, task: currentTask))
+        }
 
+       manager.editActions(for: TaskTableViewCell.self) { (_, currentTask, indexPath) -> [UITableViewRowAction]? in
+            let rowAction = UITableViewRowAction(style: .destructive, title: "Delete", handler: { (_, _) in
+                
+            })
+            return [rowAction]
+        }
+    }
+//    func addItemsToManager() {
+//        if dataSource.tasks.count == 0 {
+//            tableView.addNoDataView(with: "You don't have any tasks.")
+//        }
+//        else {
+//            tableView.addNoDataView(with: nil)
+//        }
+//        manager.memoryStorage.addItems(dataSource.tasks)
+//    }
+
+
+//MARK: - UI
+
+func configureUI() {
+    let newTask = UIBarButtonItem(image: UIImage(assetID: .newTask), style: .plain, target: self, action: #selector(newTaskTapped))
+    let settings = UIBarButtonItem(image: UIImage(assetID: .settings), style: .plain, target: self, action: #selector(settingsTapped))
+    
+    navigationController?.navigationBar.topItem?.title = "tasks".loc().uppercased()
+    navigationItem.setRightBarButtonItems([newTask, settings], animated: true)
+    segmentControl.addTarget(self, action: #selector(segmentChanged), for: .valueChanged)
 }
 
-extension HomeViewController : UITableViewDelegate {
+
+//MARK: - Action
+func newTaskTapped() {
+    ApplicationNavigator.sharedInstance.navigate(to: .newTask(withDelegate: self))
+}
+
+func segmentChanged() {
+    let request = coreDataStorage.fetchedResultsController.fetchRequest
     
-    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return headerHeight
-    }
-    func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
-        return 0
-    }
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let task = dataSource.tasks[indexPath.row]
-        ApplicationNavigator.sharedInstance.navigate(to: .taskDetail(withDelegate: self, task: task))
+    switch segmentControl.selectedSegmentIndex {
+    case 0:
+        request.predicate = nil
+    case 1:
+        let predicate = NSPredicate(format: "completed == \(!Bool(segmentControl.selectedSegmentIndex as NSNumber))")
+        request.predicate = predicate
+        
+    default: break
     }
     
+    try! coreDataStorage.fetchedResultsController.performFetch()
+    tableView.reloadData()
+}
+
+func settingsTapped() {
+    ApplicationNavigator.sharedInstance.navigate(to: .settings)
+    shouldPerformFetch = true
+}
+
+//MARK: - Saving delegate
+
+func finishedSaving() {
+    //     dataSource.fetchData()
+}
+
 }

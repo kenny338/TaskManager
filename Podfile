@@ -5,7 +5,8 @@ use_frameworks!
 
 
 target ‘TaskManager’ do
-pod "RappleColorPicker"       #Used for picking colors
+pod "RappleColorPicker"       #Colors picker
+pod 'DTTableViewManager', '~> 5.1' #Generic table view's manager
   
 end
 
