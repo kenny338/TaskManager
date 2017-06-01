@@ -27,8 +27,8 @@ class TaskManagerTests: XCTestCase {
     }
     
     func testCreateTask() {
-        let task = Task()
-        XCTAssertFalse(task.completed, "Task can't be completed")
+        let task = Task(context: CoreDataFetcher.shared.context)
+        XCTAssertFalse(task.completed, "Task can't be completed after creation")
     }
     
     
