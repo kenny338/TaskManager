@@ -26,6 +26,12 @@ class TaskManagerTests: XCTestCase {
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
     
+    func testCreateTask() {
+        let task = Task()
+        XCTAssertFalse(task.completed, "Task can't be completed")
+    }
+    
+    
     func testPerformanceExample() {
         // This is an example of a performance test case.
         self.measure {
