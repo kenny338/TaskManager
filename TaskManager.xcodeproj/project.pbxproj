@@ -407,9 +407,9 @@
 				TargetAttributes = {
 					B908416B1DC887E800A2F3D3 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = 88E2VGYD46;
+						DevelopmentTeam = RNV9RP2UV3;
 						LastSwiftMigration = 0810;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					B90841821DC887E800A2F3D3 = {
 						CreatedOnToolsVersion = 8.1;
@@ -676,13 +676,13 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = 88E2VGYD46;
+				DEVELOPMENT_TEAM = RNV9RP2UV3;
 				INFOPLIST_FILE = TaskManager/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = cz.test.anwhr.TaskManager.kop;
+				PRODUCT_BUNDLE_IDENTIFIER = cz.test.anwhr.TaskManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "5ce7707b-9830-4360-83ad-afe2c5da95c1";
+				PROVISIONING_PROFILE_SPECIFIER = task_test;
 				SWIFT_OBJC_BRIDGING_HEADER = "TaskManager-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
@@ -696,10 +696,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = 88E2VGYD46;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = TaskManager/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = cz.test.anwhr.TaskManager.kop;
+				PRODUCT_BUNDLE_IDENTIFIER = cz.test.anwhr.TaskManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "TaskManager-Bridging-Header.h";
