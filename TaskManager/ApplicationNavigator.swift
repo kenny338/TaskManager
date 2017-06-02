@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import Fabric
+import Crashlytics
 
 enum NavigatorPath {
     case home
@@ -21,6 +23,7 @@ class ApplicationNavigator {
     
     func initApplication(withLaunchOptions:[UIApplicationLaunchOptionsKey: Any]?) {
         createRootController()
+        Fabric.with([Crashlytics.self])
     }
     
     
